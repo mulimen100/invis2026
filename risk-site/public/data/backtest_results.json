@@ -1,0 +1,27 @@
+{
+  "total_signals_analyzed": 3,
+  "gold_signals_found": 2,
+  "total_trades": 2,
+  "wins": 1,
+  "losses": 1,
+  "gold_win_rate": 50.0,
+  "avg_return_24h": 0.74,
+  "cumulative_return_pct": 0.45,
+  "position_size_pct": 30.0,
+  "live_start_date": "2026-04-13",
+  "updated": "2026-04-13T21:31:32.801307",
+  "details": [
+    {
+      "target": "ALLO",
+      "date": "2026-04-13",
+      "return_pct": 1.91,
+      "exit_reason": "TRAILING_STOP:   :     ."
+    },
+    {
+      "target": "USO",
+      "date": "2026-04-13",
+      "return_pct": -0.42,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05d6\u05d9\u05d4\u05d5\u05d9 \u05d4\u05d9\u05e4\u05d5\u05da \u05de\u05d5\u05de\u05e0\u05d8\u05d5\u05dd \u05de\u05e2\u05dc \u05d9\u05e2\u05d3 1.5%."
+    }
+  ]
+}
