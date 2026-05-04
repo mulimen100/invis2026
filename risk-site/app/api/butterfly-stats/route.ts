@@ -18,8 +18,12 @@ export async function GET() {
         // STATS_RESET tag = positions wiped by reset_stats.py — must be ignored even
         //   if entry_date is recent. The reset script tags closed positions with this
         //   sentinel so future stat calls skip them.
+        // current_price for CLOSED rows = actual IBKR fill price (set by exit_engine
+        //   when it confirms the fill). This is far more accurate than estimating
+        //   from peak_price ± a hard-coded slippage assumption.
         const closedResult = await sql`
-            SELECT ticker, entry_price, peak_price, quantity, exit_reason, entry_date, exit_date
+            SELECT ticker, entry_price, peak_price, current_price, quantity,
+                   exit_reason, entry_date, exit_date
             FROM positions
             WHERE status = 'CLOSED'
               AND entry_price > 0
@@ -40,15 +44,16 @@ export async function GET() {
         `;
 
         // ─── Win Rate + Cumulative Return ──────────────────────────────────
-        // We use peak_price as proxy for exit_price (no exit_price column yet).
-        // Apply per-reason correction so the estimated exit reflects how much
-        // we actually slipped from the peak:
-        //   TRAILING_STOP        → peak * 0.97   (3% trail)
-        //   DYNAMIC_TAKE_PROFIT  → peak * 0.995  (0.5% trail in RTH; conservative)
-        //   TAKE_PROFIT (+8%)    → peak as-is    (true take-profit hit)
-        // Then classify W/L by REALISED P&L sign, not by exit reason category.
-        // (A "DYNAMIC_TAKE_PROFIT" that exits below entry due to extended-hours
-        //  slippage is a loss, not a win.)
+        // Source of truth for the realised exit price = current_price column.
+        // exit_engine writes the confirmed IBKR fill price into current_price
+        // at the moment it closes the row (status='CLOSED'). This captures real
+        // slippage — including the wide gap that opens up in extended hours.
+        //
+        // Fallback chain when current_price is missing/zero (older rows from
+        // before this convention): estimate from peak with a per-reason factor.
+        //
+        // W/L is decided by the REALISED return sign, not by the exit-reason
+        // category — so a DPT that closed below entry is correctly a loss.
         let wins = 0;
         let losses = 0;
         let totalReturnPct = 0;
@@ -57,36 +62,37 @@ export async function GET() {
             const reason = (pos.exit_reason || '').toUpperCase();
             const ep = parseFloat(pos.entry_price) || 0;
             const pp = parseFloat(pos.peak_price)  || ep;
+            const cp = parseFloat(pos.current_price) || 0;
             if (ep <= 0) continue;
 
-            const isTrailing = reason.includes('TRAILING_STOP');
-            const isDpt      = reason.includes('DYNAMIC_TAKE_PROFIT');
-            const isTakeProfit = reason.includes('TAKE_PROFIT') && !isDpt;
-            const isRotation = reason.includes('ROTATION');
             const isHardLoss =
                 reason.includes('STOP_LOSS') ||
                 reason.includes('EMERGENCY') ||
                 reason.includes('HARD_STOP');
+            const isTrailing  = reason.includes('TRAILING_STOP');
+            const isDpt       = reason.includes('DYNAMIC_TAKE_PROFIT');
+            const isTakeProfit = reason.includes('TAKE_PROFIT') && !isDpt;
+            const isRotation  = reason.includes('ROTATION');
+            const isRecognised = isHardLoss || isTrailing || isDpt
+                              || isTakeProfit || isRotation;
+            if (!isRecognised) continue;
 
-            // Decide a slippage-adjusted exit estimate
-            let exitEstimate = pp;
-            if (isTrailing)   exitEstimate = pp * 0.97;
-            else if (isDpt)   exitEstimate = pp * 0.995;
-            // For TAKE_PROFIT and ROTATION we keep peak as-is (close to actual fill)
-
-            // Hard losses keep the legacy "-2%" assumption (no peak data needed)
-            if (isHardLoss) {
-                losses++;
-                totalReturnPct -= 2.0;
-                continue;
+            // Prefer the actual IBKR fill price stored in current_price.
+            // Fall back to peak-based estimates only for legacy rows.
+            let exitPrice: number;
+            if (cp > 0) {
+                exitPrice = cp;
+            } else if (isTrailing) {
+                exitPrice = pp * 0.97;
+            } else if (isDpt) {
+                exitPrice = pp * 0.995;
+            } else if (isHardLoss) {
+                exitPrice = ep * 0.98; // legacy -2% assumption
+            } else {
+                exitPrice = pp;
             }
 
-            // Skip exits we cannot classify (manual/admin/etc)
-            if (!(isTrailing || isDpt || isTakeProfit || isRotation)) {
-                continue;
-            }
-
-            const retPct = ((exitEstimate - ep) / ep) * 100;
+            const retPct = ((exitPrice - ep) / ep) * 100;
             totalReturnPct += retPct;
             if (retPct >= 0) wins++; else losses++;
         }
