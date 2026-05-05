@@ -21,6 +21,14 @@ export async function GET() {
         // current_price for CLOSED rows = actual IBKR fill price (set by exit_engine
         //   when it confirms the fill). This is far more accurate than estimating
         //   from peak_price ± a hard-coded slippage assumption.
+        //
+        // VERIFIED override (added 2026-05-05): when the reconciler / close_position
+        // ghost path manages to recover the real fill price via reqExecutions, the
+        // reason is tagged IBKR_EXECUTED_CLOSE_VERIFIED. Those rows are real trades
+        // with confirmed numbers — the audit trail in the reason text often still
+        // mentions "reconciler" or "ghost" for traceability, so we explicitly let
+        // VERIFIED rows through ahead of the substring filters below. Without this,
+        // a real loss like TSLA #197 silently disappeared from the dashboard.
         const closedResult = await sql`
             SELECT ticker, entry_price, peak_price, current_price, quantity,
                    exit_reason, entry_date, exit_date
@@ -28,10 +36,15 @@ export async function GET() {
             WHERE status = 'CLOSED'
               AND entry_price > 0
               AND entry_date >= '2026-04-09'
-              AND exit_reason NOT ILIKE '%GHOST%'
-              AND exit_reason NOT ILIKE '%ADVISORY%'
-              AND exit_reason NOT ILIKE '%RECONCILER%'
-              AND exit_reason NOT ILIKE '%STATS_RESET%'
+              AND (
+                exit_reason ILIKE '%IBKR_EXECUTED_CLOSE_VERIFIED%'
+                OR (
+                    exit_reason NOT ILIKE '%GHOST%'
+                    AND exit_reason NOT ILIKE '%ADVISORY%'
+                    AND exit_reason NOT ILIKE '%RECONCILER%'
+                    AND exit_reason NOT ILIKE '%STATS_RESET%'
+                )
+              )
             ORDER BY exit_date DESC
         `;
 
@@ -73,8 +86,14 @@ export async function GET() {
             const isDpt       = reason.includes('DYNAMIC_TAKE_PROFIT');
             const isTakeProfit = reason.includes('TAKE_PROFIT') && !isDpt;
             const isRotation  = reason.includes('ROTATION');
+            // IBKR_EXECUTED_CLOSE_VERIFIED: closed by reconciler, but the engine
+            // confirmed the actual SELL fill price via reqExecutions. Numbers
+            // are real, so it counts toward W/L just like a normal DPT/Stop.
+            // The unverified variant (plain IBKR_EXECUTED_CLOSE) is still
+            // skipped further up via the SQL NOT ILIKE filters.
+            const isIbkrVerified = reason.includes('IBKR_EXECUTED_CLOSE_VERIFIED');
             const isRecognised = isHardLoss || isTrailing || isDpt
-                              || isTakeProfit || isRotation;
+                              || isTakeProfit || isRotation || isIbkrVerified;
             if (!isRecognised) continue;
 
             // Prefer the actual IBKR fill price stored in current_price.
