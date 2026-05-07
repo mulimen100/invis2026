@@ -1,0 +1,317 @@
+[
+  {
+    "ticker": "AAPL",
+    "name": "Stock",
+    "price": "258.27",
+    "change": "+1.12%",
+    "flag": "GREEN",
+    "score": 43,
+    "insight": "Bearish"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Stock",
+    "price": "480.58",
+    "change": "+2.19%",
+    "flag": "GREEN",
+    "score": 51,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Stock",
+    "price": "334.55",
+    "change": "+0.39%",
+    "flag": "YELLOW",
+    "score": 68,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Stock",
+    "price": "244.68",
+    "change": "+2.63%",
+    "flag": "GREEN",
+    "score": 54,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "Stock",
+    "price": "188.52",
+    "change": "+1.10%",
+    "flag": "GREEN",
+    "score": 51,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Stock",
+    "price": "430.90",
+    "change": "-0.99%",
+    "flag": "GREEN",
+    "score": 48,
+    "insight": "Bearish"
+  },
+  {
+    "ticker": "META",
+    "name": "Stock",
+    "price": "N/A",
+    "change": "-",
+    "flag": "GREEN",
+    "score": 50,
+    "insight": "Data Pending"
+  },
+  {
+    "ticker": "AMD",
+    "name": "Stock",
+    "price": "236.73",
+    "change": "-6.13%",
+    "flag": "ORANGE",
+    "score": 70,
+    "insight": "Overbought"
+  },
+  {
+    "ticker": "INTC",
+    "name": "Stock",
+    "price": "46.47",
+    "change": "-4.50%",
+    "flag": "GREEN",
+    "score": 51,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Stock",
+    "price": "83.49",
+    "change": "+0.40%",
+    "flag": "RED",
+    "score": 28,
+    "insight": "Oversold"
+  },
+  {
+    "ticker": "JPM",
+    "name": "Stock",
+    "price": "305.89",
+    "change": "-0.17%",
+    "flag": "RED",
+    "score": 28,
+    "insight": "Oversold"
+  },
+  {
+    "ticker": "BA",
+    "name": "Stock",
+    "price": "233.72",
+    "change": "-0.14%",
+    "flag": "GREEN",
+    "score": 48,
+    "insight": "Bearish"
+  },
+  {
+    "ticker": "DIS",
+    "name": "Stock",
+    "price": "112.80",
+    "change": "+1.09%",
+    "flag": "GREEN",
+    "score": 41,
+    "insight": "Bearish"
+  },
+  {
+    "ticker": "KO",
+    "name": "Stock",
+    "price": "74.81",
+    "change": "+1.88%",
+    "flag": "ORANGE",
+    "score": 76,
+    "insight": "Overbought"
+  },
+  {
+    "ticker": "WMT",
+    "name": "Stock",
+    "price": "119.14",
+    "change": "+1.47%",
+    "flag": "YELLOW",
+    "score": 65,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "HII",
+    "name": "Stock",
+    "price": "420.51",
+    "change": "-1.71%",
+    "flag": "YELLOW",
+    "score": 68,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "KTOS",
+    "name": "Stock",
+    "price": "103.01",
+    "change": "-4.76%",
+    "flag": "GREEN",
+    "score": 41,
+    "insight": "Bearish"
+  },
+  {
+    "ticker": "ONDS",
+    "name": "Stock",
+    "price": "10.36",
+    "change": "-8.07%",
+    "flag": "YELLOW",
+    "score": 31,
+    "insight": "Bearish"
+  },
+  {
+    "ticker": "LMT",
+    "name": "Stock",
+    "price": "634.22",
+    "change": "+1.88%",
+    "flag": "ORANGE",
+    "score": 85,
+    "insight": "Overbought"
+  },
+  {
+    "ticker": "NOC",
+    "name": "Stock",
+    "price": "692.26",
+    "change": "-0.44%",
+    "flag": "ORANGE",
+    "score": 78,
+    "insight": "Overbought"
+  },
+  {
+    "ticker": "RTX",
+    "name": "Stock",
+    "price": "200.93",
+    "change": "+0.53%",
+    "flag": "YELLOW",
+    "score": 68,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "AVAV",
+    "name": "Stock",
+    "price": "278.39",
+    "change": "-5.06%",
+    "flag": "RED",
+    "score": 25,
+    "insight": "Oversold"
+  },
+  {
+    "ticker": "LHX",
+    "name": "Stock",
+    "price": "342.85",
+    "change": "-3.70%",
+    "flag": "GREEN",
+    "score": 56,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "ESLT",
+    "name": "Stock",
+    "price": "702.57",
+    "change": "-2.66%",
+    "flag": "GREEN",
+    "score": 55,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "HARL.TA",
+    "name": "Stock",
+    "price": "13,670.00",
+    "change": "-1.23%",
+    "flag": "YELLOW",
+    "score": 61,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "LUMI.TA",
+    "name": "Stock",
+    "price": "7,497.00",
+    "change": "-1.99%",
+    "flag": "YELLOW",
+    "score": 65,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "POALIM.TA",
+    "name": "Stock",
+    "price": "N/A",
+    "change": "-",
+    "flag": "GREEN",
+    "score": 50,
+    "insight": "Data Pending"
+  },
+  {
+    "ticker": "TEVA.TA",
+    "name": "Stock",
+    "price": "10,110.00",
+    "change": "+1.55%",
+    "flag": "YELLOW",
+    "score": 63,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "NICE.TA",
+    "name": "Stock",
+    "price": "34,710.00",
+    "change": "-2.06%",
+    "flag": "GREEN",
+    "score": 40,
+    "insight": "Bearish"
+  },
+  {
+    "ticker": "TATT.TA",
+    "name": "Stock",
+    "price": "16,030.00",
+    "change": "-",
+    "flag": "GREEN",
+    "score": 50,
+    "insight": "Data Pending"
+  },
+  {
+    "ticker": "FBRT.TA",
+    "name": "Stock",
+    "price": "25,260.00",
+    "change": "-",
+    "flag": "GREEN",
+    "score": 50,
+    "insight": "Data Pending"
+  },
+  {
+    "ticker": "ASHO.TA",
+    "name": "Stock",
+    "price": "11,010.00",
+    "change": "-",
+    "flag": "GREEN",
+    "score": 50,
+    "insight": "Data Pending"
+  },
+  {
+    "ticker": "ZIM",
+    "name": "Stock",
+    "price": "22.72",
+    "change": "-1.05%",
+    "flag": "GREEN",
+    "score": 52,
+    "insight": "Bullish"
+  },
+  {
+    "ticker": "PLTR",
+    "name": "Stock",
+    "price": "165.70",
+    "change": "-1.06%",
+    "flag": "RED",
+    "score": 27,
+    "insight": "Oversold"
+  },
+  {
+    "ticker": "COIN",
+    "name": "Stock",
+    "price": "210.83",
+    "change": "-1.24%",
+    "flag": "RED",
+    "score": 23,
+    "insight": "Oversold"
+  }
+]

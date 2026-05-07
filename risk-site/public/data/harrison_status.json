@@ -1,0 +1,13 @@
+{
+  "cycle_score": 1.0,
+  "phase": "Winner's Curse",
+  "risk_level": "High",
+  "years_since_bottom": 18.1,
+  "estimated_crash_window": "2025-2027",
+  "signals": {
+    "parabolic_deviation_ratio": 0.97,
+    "interest_rate_signal": "Neutral",
+    "credit_signal": "Normal"
+  },
+  "timestamp": "2026-02-14T07:57:02.486915"
+}

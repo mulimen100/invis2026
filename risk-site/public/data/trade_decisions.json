@@ -1,0 +1,2570 @@
+[
+  {
+    "ticker": "AAPL",
+    "decision": "AVOID",
+    "confidence": "Low",
+    "reason": "Stock is structurally weak despite neutral market.",
+    "action_color": "orange",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 2,
+      "is_fractional_allowed": false
+    },
+    "score": 30,
+    "details": "Downtrend. Price < SMA50.",
+    "context": "\u05e9\u05d5\u05e7 \u05d4\u05e1\u05de\u05d0\u05e8\u05d8\u05e4\u05d5\u05e0\u05d9\u05dd: \u05e6\u05de\u05d9\u05d7\u05d4 \u05de\u05ea\u05d5\u05e0\u05d4 \u05d1\u05e8\u05d1\u05e2\u05d5\u05df \u05d4\u05e8\u05d0\u05e9\u05d5\u05df \u05d0\u05da \u05e2\u05e8\u05e4\u05dc \u05d1\u05d7\u05e6\u05d9\u05d5\u05df \u05d4\u05e9\u05e0\u05d9",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "AAPL",
+      "regime": "WEAK",
+      "score": 30,
+      "perf_5d": 4.69,
+      "thesis": "Downtrend. Price < SMA50.",
+      "last_price": 258.27
+    },
+    "news_context": {
+      "id": 14381,
+      "target": "AAPL",
+      "type": "NEWS",
+      "severity": "MEDIUM",
+      "source": "DB",
+      "message": "\u05e9\u05d5\u05e7 \u05d4\u05e1\u05de\u05d0\u05e8\u05d8\u05e4\u05d5\u05e0\u05d9\u05dd: \u05e6\u05de\u05d9\u05d7\u05d4 \u05de\u05ea\u05d5\u05e0\u05d4 \u05d1\u05e8\u05d1\u05e2\u05d5\u05df \u05d4\u05e8\u05d0\u05e9\u05d5\u05df \u05d0\u05da \u05e2\u05e8\u05e4\u05dc \u05d1\u05d7\u05e6\u05d9\u05d5\u05df \u05d4\u05e9\u05e0\u05d9",
+      "time_offset": "06:09",
+      "date_display": "30/04",
+      "timestamp": 1777518549.255712,
+      "alert_sent": false,
+      "strategic_rule": "None",
+      "opportunity": {
+        "score": 68,
+        "action": "NEUTRAL",
+        "thesis": "\u05d9\u05e6\u05e8\u05e0\u05d9 \u05d4\u05de\u05db\u05e9\u05d9\u05e8\u05d9\u05dd (\u05db\u05d2\u05d5\u05df Apple, Samsung) \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05db\u05e0\u05e1\u05d5\u05ea \u05e7\u05e6\u05e8\u05d5\u05ea \u05d8\u05d5\u05d5\u05d7, \u05d0\u05da \u05e1\u05e4\u05e7\u05d9 \u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05d5\u05d9\u05e6\u05e8\u05e0\u05d9 \u05d7\u05e6\u05d0\u05d9 \u05de\u05d5\u05dc\u05d9\u05db\u05d9\u05dd \u05e2\u05dc\u05d5\u05dc\u05d9\u05dd \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05dc\u05d7\u05e5 \u05e2\u05ea\u05d9\u05d3\u05d9 \u05e2\u05e7\u05d1 \u05d0\u05d9-\u05d4\u05d5\u05d5\u05d3\u05d0\u05d5\u05ea. \u05d4\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d9\u05d9\u05e9\u05d0\u05e8 \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9 \u05dc\u05dc\u05d0 \u05db\u05d9\u05d5\u05d5\u05df \u05d1\u05e8\u05d5\u05e8."
+      },
+      "ai_insight": "\u05d9\u05e6\u05e8\u05e0\u05d9 \u05d4\u05de\u05db\u05e9\u05d9\u05e8\u05d9\u05dd (\u05db\u05d2\u05d5\u05df Apple, Samsung) \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05db\u05e0\u05e1\u05d5\u05ea \u05e7\u05e6\u05e8\u05d5\u05ea \u05d8\u05d5\u05d5\u05d7, \u05d0\u05da \u05e1\u05e4\u05e7\u05d9 \u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05d5\u05d9\u05e6\u05e8\u05e0\u05d9 \u05d7\u05e6\u05d0\u05d9 \u05de\u05d5\u05dc\u05d9\u05db\u05d9\u05dd \u05e2\u05dc\u05d5\u05dc\u05d9\u05dd \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05dc\u05d7\u05e5 \u05e2\u05ea\u05d9\u05d3\u05d9 \u05e2\u05e7\u05d1 \u05d0\u05d9-\u05d4\u05d5\u05d5\u05d3\u05d0\u05d5\u05ea. \u05d4\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d9\u05d9\u05e9\u05d0\u05e8 \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9 \u05dc\u05dc\u05d0 \u05db\u05d9\u05d5\u05d5\u05df \u05d1\u05e8\u05d5\u05e8.",
+      "predicted_impact": "\u05d9\u05e6\u05e8\u05e0\u05d9 \u05d4\u05de\u05db\u05e9\u05d9\u05e8\u05d9\u05dd (\u05db\u05d2\u05d5\u05df Apple, Samsung) \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05db\u05e0\u05e1\u05d5\u05ea \u05e7\u05e6\u05e8\u05d5\u05ea \u05d8\u05d5\u05d5\u05d7, \u05d0\u05da \u05e1\u05e4\u05e7\u05d9 \u05e8\u05db\u05d9\u05d1\u05d9\u05dd \u05d5\u05d9\u05e6\u05e8\u05e0\u05d9 \u05d7\u05e6\u05d0\u05d9 \u05de\u05d5\u05dc\u05d9\u05db\u05d9\u05dd \u05e2\u05dc\u05d5\u05dc\u05d9\u05dd \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05dc\u05d7\u05e5 \u05e2\u05ea\u05d9\u05d3\u05d9 \u05e2\u05e7\u05d1 \u05d0\u05d9-\u05d4\u05d5\u05d5\u05d3\u05d0\u05d5\u05ea. \u05d4\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d9\u05d9\u05e9\u05d0\u05e8 \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9 \u05dc\u05dc\u05d0 \u05db\u05d9\u05d5\u05d5\u05df \u05d1\u05e8\u05d5\u05e8."
+    }
+  },
+  {
+    "ticker": "MSFT",
+    "decision": "HOLD",
+    "confidence": "Low",
+    "reason": "Waiting for setup.",
+    "action_color": "gray",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 1,
+      "is_fractional_allowed": false
+    },
+    "score": 50,
+    "details": "Choppy / Consolidation.",
+    "context": "\u05de\u05d9\u05e7\u05e8\u05d5\u05e1\u05d5\u05e4\u05d8 \u05de\u05e6\u05d9\u05d2\u05d4 \u05e9\u05d9\u05d0 \u05d1\u05d4\u05db\u05e0\u05e1\u05d5\u05ea \u05e2\u05e0\u05df \u05d5\u05e6\u05de\u05d9\u05d7\u05d4 \u05d1-AI: \u05d6\u05d9\u05e0\u05d5\u05e7 \u05d1\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9 \u05d4\u05d3\u05d5\u05e8 \u05d4\u05d1\u05d0",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "MSFT",
+      "regime": "NEUTRAL",
+      "score": 50,
+      "perf_5d": 5.73,
+      "thesis": "Choppy / Consolidation.",
+      "last_price": 480.58
+    },
+    "news_context": {
+      "id": 14401,
+      "target": "MSFT",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05de\u05d9\u05e7\u05e8\u05d5\u05e1\u05d5\u05e4\u05d8 \u05de\u05e6\u05d9\u05d2\u05d4 \u05e9\u05d9\u05d0 \u05d1\u05d4\u05db\u05e0\u05e1\u05d5\u05ea \u05e2\u05e0\u05df \u05d5\u05e6\u05de\u05d9\u05d7\u05d4 \u05d1-AI: \u05d6\u05d9\u05e0\u05d5\u05e7 \u05d1\u05d1\u05d9\u05e6\u05d5\u05e2\u05d9 \u05d4\u05d3\u05d5\u05e8 \u05d4\u05d1\u05d0",
+      "time_offset": "07:35",
+      "date_display": "30/04",
+      "timestamp": 1777523719.949812,
+      "alert_sent": false,
+      "strategic_rule": "AI Breakthrough",
+      "opportunity": {
+        "score": 87,
+        "action": "POSITIVE",
+        "thesis": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05e2\u05e0\u05df \u05d5\u05e9\u05e8\u05ea\u05d9\u05dd \u05d9\u05e8\u05d5\u05d5\u05d7\u05d5 \u05de\u05d4\u05d1\u05d9\u05e7\u05d5\u05e9 \u05d4\u05de\u05ea\u05d2\u05d1\u05e8; \u05de\u05e9\u05e7\u05d9\u05e2\u05d9\u05dd \u05d9\u05e2\u05d3\u05d9\u05e4\u05d5 \u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05e2\u05dc \u05e4\u05e0\u05d9 \u05e0\u05db\u05e1\u05d9\u05dd \u05de\u05e1\u05d5\u05e8\u05ea\u05d9\u05d9\u05dd."
+      },
+      "ai_insight": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05e2\u05e0\u05df \u05d5\u05e9\u05e8\u05ea\u05d9\u05dd \u05d9\u05e8\u05d5\u05d5\u05d7\u05d5 \u05de\u05d4\u05d1\u05d9\u05e7\u05d5\u05e9 \u05d4\u05de\u05ea\u05d2\u05d1\u05e8; \u05de\u05e9\u05e7\u05d9\u05e2\u05d9\u05dd \u05d9\u05e2\u05d3\u05d9\u05e4\u05d5 \u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05e2\u05dc \u05e4\u05e0\u05d9 \u05e0\u05db\u05e1\u05d9\u05dd \u05de\u05e1\u05d5\u05e8\u05ea\u05d9\u05d9\u05dd.",
+      "predicted_impact": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05e2\u05e0\u05df \u05d5\u05e9\u05e8\u05ea\u05d9\u05dd \u05d9\u05e8\u05d5\u05d5\u05d7\u05d5 \u05de\u05d4\u05d1\u05d9\u05e7\u05d5\u05e9 \u05d4\u05de\u05ea\u05d2\u05d1\u05e8; \u05de\u05e9\u05e7\u05d9\u05e2\u05d9\u05dd \u05d9\u05e2\u05d3\u05d9\u05e4\u05d5 \u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05e2\u05dc \u05e4\u05e0\u05d9 \u05e0\u05db\u05e1\u05d9\u05dd \u05de\u05e1\u05d5\u05e8\u05ea\u05d9\u05d9\u05dd."
+    }
+  },
+  {
+    "ticker": "GOOGL",
+    "decision": "BUY (CAUTION)",
+    "confidence": "Low",
+    "reason": "Downgraded: High impact news event (DB). Monitor closely.",
+    "action_color": "yellow",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 1,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "\u05d0\u05dc\u05e4\u05d1\u05d9\u05ea: \u05d4\u05db\u05e0\u05e1\u05d5\u05ea \u05e9\u05d9\u05d0 \u05d5\u05e6\u05de\u05d9\u05d7\u05d4 \u05de\u05d5\u05e0\u05e2\u05ea \u05d1\u05d9\u05e0\u05d4 \u05de\u05dc\u05d0\u05db\u05d5\u05ea\u05d9\u05ea",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "GOOGL",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 3.9,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 334.55
+    },
+    "news_context": {
+      "id": 14402,
+      "target": "GOOGL",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05d0\u05dc\u05e4\u05d1\u05d9\u05ea: \u05d4\u05db\u05e0\u05e1\u05d5\u05ea \u05e9\u05d9\u05d0 \u05d5\u05e6\u05de\u05d9\u05d7\u05d4 \u05de\u05d5\u05e0\u05e2\u05ea \u05d1\u05d9\u05e0\u05d4 \u05de\u05dc\u05d0\u05db\u05d5\u05ea\u05d9\u05ea",
+      "time_offset": "07:37",
+      "date_display": "30/04",
+      "timestamp": 1777523848.310519,
+      "alert_sent": false,
+      "strategic_rule": "AI Breakthrough",
+      "opportunity": {
+        "score": 87,
+        "action": "POSITIVE",
+        "thesis": "\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d5\u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05d4\u05e2\u05e0\u05df \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05e6\u05de\u05d9\u05d7\u05d4, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05de\u05ea\u05d7\u05e8\u05d9\u05dd \u05dc\u05dc\u05d0 \u05d7\u05e9\u05d9\u05e4\u05d4 \u05dc-AI \u05e2\u05dc\u05d5\u05dc\u05d9\u05dd \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05e0\u05e1\u05d9\u05d2\u05d4 \u05d9\u05d7\u05e1\u05d9\u05ea."
+      },
+      "ai_insight": "\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d5\u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05d4\u05e2\u05e0\u05df \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05e6\u05de\u05d9\u05d7\u05d4, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05de\u05ea\u05d7\u05e8\u05d9\u05dd \u05dc\u05dc\u05d0 \u05d7\u05e9\u05d9\u05e4\u05d4 \u05dc-AI \u05e2\u05dc\u05d5\u05dc\u05d9\u05dd \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05e0\u05e1\u05d9\u05d2\u05d4 \u05d9\u05d7\u05e1\u05d9\u05ea.",
+      "predicted_impact": "\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d5\u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05d4\u05e2\u05e0\u05df \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05e6\u05de\u05d9\u05d7\u05d4, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05de\u05ea\u05d7\u05e8\u05d9\u05dd \u05dc\u05dc\u05d0 \u05d7\u05e9\u05d9\u05e4\u05d4 \u05dc-AI \u05e2\u05dc\u05d5\u05dc\u05d9\u05dd \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05e0\u05e1\u05d9\u05d2\u05d4 \u05d9\u05d7\u05e1\u05d9\u05ea."
+    }
+  },
+  {
+    "ticker": "AMZN",
+    "decision": "BUY (CAUTION)",
+    "confidence": "Low",
+    "reason": "Downgraded: High impact news event (DB). Monitor closely.",
+    "action_color": "yellow",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 2,
+      "is_fractional_allowed": false
+    },
+    "score": 85,
+    "details": "Uptrend. Price > SMA50. Strong weekly momentum.",
+    "context": "\u05de\u05dc\u05d7\u05de\u05ea \u05e2\u05e0\u05e7\u05d9\u05dd \u05d1\u05d3\u05e8\u05d5\u05dd \u05d0\u05de\u05e8\u05d9\u05e7\u05d4: \u05d0\u05de\u05d6\u05d5\u05df \u05de\u05d5\u05dc \u05e8\u05e4\u05e4\u05d9 \u05d5-iFood \u05d1\u05e9\u05d5\u05e7 \u05d4\u05e7\u05d5\u05de\u05d5\u05d5\u05e8\u05e1 \u05d4\u05e6\u05d5\u05de\u05d7",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "AMZN",
+      "regime": "BULL",
+      "score": 85,
+      "perf_5d": 5.92,
+      "thesis": "Uptrend. Price > SMA50. Strong weekly momentum.",
+      "last_price": 244.68
+    },
+    "news_context": {
+      "id": 14418,
+      "target": "AMZN",
+      "type": "NEWS",
+      "severity": "MEDIUM",
+      "source": "DB",
+      "message": "\u05de\u05dc\u05d7\u05de\u05ea \u05e2\u05e0\u05e7\u05d9\u05dd \u05d1\u05d3\u05e8\u05d5\u05dd \u05d0\u05de\u05e8\u05d9\u05e7\u05d4: \u05d0\u05de\u05d6\u05d5\u05df \u05de\u05d5\u05dc \u05e8\u05e4\u05e4\u05d9 \u05d5-iFood \u05d1\u05e9\u05d5\u05e7 \u05d4\u05e7\u05d5\u05de\u05d5\u05d5\u05e8\u05e1 \u05d4\u05e6\u05d5\u05de\u05d7",
+      "time_offset": "09:00",
+      "date_display": "30/04",
+      "timestamp": 1777528805.741717,
+      "alert_sent": true,
+      "strategic_rule": "None",
+      "opportunity": {
+        "score": 68,
+        "action": "NEUTRAL",
+        "thesis": "\u05e9\u05d7\u05e7\u05e0\u05d9\u05dd \u05d7\u05d3\u05e9\u05d9\u05dd \u05d5\u05e7\u05d8\u05e0\u05d9\u05dd \u05d9\u05e1\u05e4\u05d2\u05d5 \u05dc\u05d7\u05e5 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9 (\u05e9\u05dc\u05d9\u05dc\u05d9), \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d0\u05de\u05d6\u05d5\u05df \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05e8\u05d0\u05d5\u05ea \u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05d4\u05d5\u05e6\u05d0\u05d5\u05ea \u05ea\u05e4\u05e2\u05d5\u05dc \u05dc\u05d8\u05d5\u05d5\u05d7 \u05d4\u05e7\u05e6\u05e8. \u05d4\u05e9\u05d7\u05e7\u05e0\u05d9\u05dd \u05d4\u05de\u05e7\u05d5\u05de\u05d9\u05d9\u05dd \u05d4\u05d2\u05d3\u05d5\u05dc\u05d9\u05dd \u05d9\u05e6\u05d8\u05e8\u05db\u05d5 \u05dc\u05d4\u05d5\u05db\u05d9\u05d7 \u05d9\u05e2\u05d9\u05dc\u05d5\u05ea \u05dc\u05d5\u05d2\u05d9\u05e1\u05d8\u05d9\u05ea \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05e9\u05d0\u05e8 \u05e8\u05dc\u05d5\u05d5\u05e0\u05d8\u05d9\u05d9\u05dd."
+      },
+      "ai_insight": "\u05e9\u05d7\u05e7\u05e0\u05d9\u05dd \u05d7\u05d3\u05e9\u05d9\u05dd \u05d5\u05e7\u05d8\u05e0\u05d9\u05dd \u05d9\u05e1\u05e4\u05d2\u05d5 \u05dc\u05d7\u05e5 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9 (\u05e9\u05dc\u05d9\u05dc\u05d9), \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d0\u05de\u05d6\u05d5\u05df \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05e8\u05d0\u05d5\u05ea \u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05d4\u05d5\u05e6\u05d0\u05d5\u05ea \u05ea\u05e4\u05e2\u05d5\u05dc \u05dc\u05d8\u05d5\u05d5\u05d7 \u05d4\u05e7\u05e6\u05e8. \u05d4\u05e9\u05d7\u05e7\u05e0\u05d9\u05dd \u05d4\u05de\u05e7\u05d5\u05de\u05d9\u05d9\u05dd \u05d4\u05d2\u05d3\u05d5\u05dc\u05d9\u05dd \u05d9\u05e6\u05d8\u05e8\u05db\u05d5 \u05dc\u05d4\u05d5\u05db\u05d9\u05d7 \u05d9\u05e2\u05d9\u05dc\u05d5\u05ea \u05dc\u05d5\u05d2\u05d9\u05e1\u05d8\u05d9\u05ea \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05e9\u05d0\u05e8 \u05e8\u05dc\u05d5\u05d5\u05e0\u05d8\u05d9\u05d9\u05dd.",
+      "predicted_impact": "\u05e9\u05d7\u05e7\u05e0\u05d9\u05dd \u05d7\u05d3\u05e9\u05d9\u05dd \u05d5\u05e7\u05d8\u05e0\u05d9\u05dd \u05d9\u05e1\u05e4\u05d2\u05d5 \u05dc\u05d7\u05e5 \u05ea\u05d7\u05e8\u05d5\u05ea\u05d9 (\u05e9\u05dc\u05d9\u05dc\u05d9), \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d0\u05de\u05d6\u05d5\u05df \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05e8\u05d0\u05d5\u05ea \u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05d4\u05d5\u05e6\u05d0\u05d5\u05ea \u05ea\u05e4\u05e2\u05d5\u05dc \u05dc\u05d8\u05d5\u05d5\u05d7 \u05d4\u05e7\u05e6\u05e8. \u05d4\u05e9\u05d7\u05e7\u05e0\u05d9\u05dd \u05d4\u05de\u05e7\u05d5\u05de\u05d9\u05d9\u05dd \u05d4\u05d2\u05d3\u05d5\u05dc\u05d9\u05dd \u05d9\u05e6\u05d8\u05e8\u05db\u05d5 \u05dc\u05d4\u05d5\u05db\u05d9\u05d7 \u05d9\u05e2\u05d9\u05dc\u05d5\u05ea \u05dc\u05d5\u05d2\u05d9\u05e1\u05d8\u05d9\u05ea \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05e9\u05d0\u05e8 \u05e8\u05dc\u05d5\u05d5\u05e0\u05d8\u05d9\u05d9\u05dd."
+    }
+  },
+  {
+    "ticker": "NVDA",
+    "decision": "BUY (CAUTION)",
+    "confidence": "Low",
+    "reason": "Downgraded: High impact news event (DB). Monitor closely.",
+    "action_color": "yellow",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 3,
+      "is_fractional_allowed": false
+    },
+    "score": 85,
+    "details": "Uptrend. Price > SMA50. Strong weekly momentum.",
+    "context": "\u05de\u05d7\u05d9\u05e8\u05d9 \u05e9\u05e8\u05ea\u05d9 Nvidia B300 \u05d1\u05e1\u05d9\u05df \u05e2\u05d5\u05dc\u05d9\u05dd \u05dc\u05de\u05d9\u05dc\u05d9\u05d5\u05df \u05d3\u05d5\u05dc\u05e8 \u05e2\u05e7\u05d1 \u05d4\u05d2\u05d1\u05dc\u05d5\u05ea \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05d5\u05ea",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "NVDA",
+      "regime": "BULL",
+      "score": 85,
+      "perf_5d": 5.87,
+      "thesis": "Uptrend. Price > SMA50. Strong weekly momentum.",
+      "last_price": 188.52
+    },
+    "news_context": {
+      "id": 14384,
+      "target": "NVDA",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05de\u05d7\u05d9\u05e8\u05d9 \u05e9\u05e8\u05ea\u05d9 Nvidia B300 \u05d1\u05e1\u05d9\u05df \u05e2\u05d5\u05dc\u05d9\u05dd \u05dc\u05de\u05d9\u05dc\u05d9\u05d5\u05df \u05d3\u05d5\u05dc\u05e8 \u05e2\u05e7\u05d1 \u05d4\u05d2\u05d1\u05dc\u05d5\u05ea \u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05d5\u05ea",
+      "time_offset": "07:01",
+      "date_display": "30/04",
+      "timestamp": 1777521671.021346,
+      "alert_sent": false,
+      "strategic_rule": "IF News matches 'Trade Tariffs (China/Trump)' THEN Impact '['Semiconductors', 'Global Retail']' (NEGATIVE)",
+      "opportunity": {
+        "score": 80,
+        "action": "NEGATIVE",
+        "thesis": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05db\u05de\u05d5 Nvidia \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2 \u05de\u05d4\u05de\u05d7\u05d9\u05e8\u05d9\u05dd \u05d4\u05d2\u05d1\u05d5\u05d4\u05d9\u05dd, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d7\u05d1\u05e8\u05d5\u05ea \u05d0\u05d7\u05e8\u05d5\u05ea \u05d1\u05e2\u05e0\u05e3 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d9\u05d4\u05e0\u05d5\u05ea \u05de\u05d4\u05d1\u05d9\u05e7\u05d5\u05e9 \u05d4\u05d2\u05d5\u05d1\u05e8 \u05dc\u05de\u05d5\u05e6\u05e8\u05d9\u05dd \u05de\u05ea\u05d7\u05e8\u05d9\u05dd"
+      },
+      "ai_insight": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05db\u05de\u05d5 Nvidia \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2 \u05de\u05d4\u05de\u05d7\u05d9\u05e8\u05d9\u05dd \u05d4\u05d2\u05d1\u05d5\u05d4\u05d9\u05dd, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d7\u05d1\u05e8\u05d5\u05ea \u05d0\u05d7\u05e8\u05d5\u05ea \u05d1\u05e2\u05e0\u05e3 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d9\u05d4\u05e0\u05d5\u05ea \u05de\u05d4\u05d1\u05d9\u05e7\u05d5\u05e9 \u05d4\u05d2\u05d5\u05d1\u05e8 \u05dc\u05de\u05d5\u05e6\u05e8\u05d9\u05dd \u05de\u05ea\u05d7\u05e8\u05d9\u05dd",
+      "predicted_impact": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05db\u05de\u05d5 Nvidia \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2 \u05de\u05d4\u05de\u05d7\u05d9\u05e8\u05d9\u05dd \u05d4\u05d2\u05d1\u05d5\u05d4\u05d9\u05dd, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d7\u05d1\u05e8\u05d5\u05ea \u05d0\u05d7\u05e8\u05d5\u05ea \u05d1\u05e2\u05e0\u05e3 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d9\u05d4\u05e0\u05d5\u05ea \u05de\u05d4\u05d1\u05d9\u05e7\u05d5\u05e9 \u05d4\u05d2\u05d5\u05d1\u05e8 \u05dc\u05de\u05d5\u05e6\u05e8\u05d9\u05dd \u05de\u05ea\u05d7\u05e8\u05d9\u05dd"
+    }
+  },
+  {
+    "ticker": "TSLA",
+    "decision": "AVOID",
+    "confidence": "Low",
+    "reason": "Stock is structurally weak despite neutral market.",
+    "action_color": "orange",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 1,
+      "is_fractional_allowed": false
+    },
+    "score": 30,
+    "details": "Downtrend. Price < SMA50.",
+    "context": "\u05d0\u05d9\u05dc\u05d5\u05df \u05de\u05d0\u05e1\u05e7 \u05de\u05d5\u05e2\u05de\u05d3 \u05dc\u05d7\u05e7\u05d9\u05e8\u05d4 \u05de\u05d5\u05dc \u05e2\u05d5\u05e8\u05da \u05d3\u05d9\u05df \u05e9\u05dc OpenAI",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "TSLA",
+      "regime": "WEAK",
+      "score": 30,
+      "perf_5d": 2.78,
+      "thesis": "Downtrend. Price < SMA50.",
+      "last_price": 430.9
+    },
+    "news_context": {
+      "id": 14658,
+      "target": "TSLA",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05d0\u05d9\u05dc\u05d5\u05df \u05de\u05d0\u05e1\u05e7 \u05de\u05d5\u05e2\u05de\u05d3 \u05dc\u05d7\u05e7\u05d9\u05e8\u05d4 \u05de\u05d5\u05dc \u05e2\u05d5\u05e8\u05da \u05d3\u05d9\u05df \u05e9\u05dc OpenAI",
+      "time_offset": "17:01",
+      "date_display": "30/04",
+      "timestamp": 1777557661.745209,
+      "alert_sent": true,
+      "strategic_rule": "None",
+      "opportunity": {
+        "score": 80,
+        "action": "NEGATIVE",
+        "thesis": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05d4\u05e7\u05e9\u05d5\u05e8\u05d5\u05ea \u05dc\u05d0\u05d9\u05dc\u05d5\u05df \u05de\u05d0\u05e1\u05e7, \u05db\u05d2\u05d5\u05df \u05d8\u05e1\u05dc\u05d4, \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2, \u05d1\u05e2\u05d5\u05d3 \u05e9-OpenAI \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05d9\u05d4\u05e0\u05d5\u05ea \u05de\u05d4\u05ea\u05e9\u05d5\u05de\u05ea \u05d4\u05dc\u05d1"
+      },
+      "ai_insight": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05d4\u05e7\u05e9\u05d5\u05e8\u05d5\u05ea \u05dc\u05d0\u05d9\u05dc\u05d5\u05df \u05de\u05d0\u05e1\u05e7, \u05db\u05d2\u05d5\u05df \u05d8\u05e1\u05dc\u05d4, \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2, \u05d1\u05e2\u05d5\u05d3 \u05e9-OpenAI \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05d9\u05d4\u05e0\u05d5\u05ea \u05de\u05d4\u05ea\u05e9\u05d5\u05de\u05ea \u05d4\u05dc\u05d1",
+      "predicted_impact": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05d4\u05e7\u05e9\u05d5\u05e8\u05d5\u05ea \u05dc\u05d0\u05d9\u05dc\u05d5\u05df \u05de\u05d0\u05e1\u05e7, \u05db\u05d2\u05d5\u05df \u05d8\u05e1\u05dc\u05d4, \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2, \u05d1\u05e2\u05d5\u05d3 \u05e9-OpenAI \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05d9\u05d4\u05e0\u05d5\u05ea \u05de\u05d4\u05ea\u05e9\u05d5\u05de\u05ea \u05d4\u05dc\u05d1"
+    }
+  },
+  {
+    "ticker": "META",
+    "decision": "DEFERRED",
+    "confidence": "None",
+    "reason": "Decision deferred \u2013 insufficient technical confirmation.",
+    "action_color": "gray",
+    "score": 50,
+    "details": "Data Unavailable (Insufficient Data (<20d))",
+    "context": "Waiting for valid historical data.",
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "META",
+      "regime": "NEUTRAL",
+      "score": 50,
+      "perf_5d": 0.0,
+      "thesis": "Data Unavailable (Insufficient Data (<20d))",
+      "last_price": 0.0
+    },
+    "news_context": {
+      "id": 14400,
+      "target": "META",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05de\u05d8\u05d4 \u05de\u05d3\u05d5\u05d5\u05d7\u05ea \u05e2\u05dc \u05e9\u05d9\u05d0 \u05d1\u05d4\u05db\u05e0\u05e1\u05d5\u05ea \u05d5\u05e4\u05e8\u05d9\u05e6\u05ea \u05d3\u05e8\u05da \u05d1-AI: \u05d6\u05d9\u05e0\u05d5\u05e7 \u05e6\u05e4\u05d5\u05d9 \u05d1\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4",
+      "time_offset": "07:34",
+      "date_display": "30/04",
+      "timestamp": 1777523681.639355,
+      "alert_sent": false,
+      "strategic_rule": "IF News matches 'AI Breakthrough' THEN Impact '['Servers', 'Cloud Infrastructure']' (POSITIVE)",
+      "opportunity": {
+        "score": 87,
+        "action": "POSITIVE",
+        "thesis": "\u05de\u05e0\u05d9\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05de\u05d5\u05e0\u05e2\u05d5\u05ea AI (\u05db\u05d2\u05d5\u05df META, NVDA, MSFT) \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05de\u05d7\u05d9\u05e8 \u05d4\u05de\u05e0\u05d9\u05d4. \u05e1\u05e4\u05e7\u05d9 \u05ea\u05e9\u05ea\u05d9\u05ea \u05e2\u05e0\u05df \u05d5\u05e9\u05e8\u05ea\u05d9\u05dd \u05d9\u05d6\u05db\u05d5 \u05dc\u05d1\u05d9\u05e7\u05d5\u05e9 \u05de\u05d5\u05d2\u05d1\u05e8."
+      },
+      "ai_insight": "\u05de\u05e0\u05d9\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05de\u05d5\u05e0\u05e2\u05d5\u05ea AI (\u05db\u05d2\u05d5\u05df META, NVDA, MSFT) \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05de\u05d7\u05d9\u05e8 \u05d4\u05de\u05e0\u05d9\u05d4. \u05e1\u05e4\u05e7\u05d9 \u05ea\u05e9\u05ea\u05d9\u05ea \u05e2\u05e0\u05df \u05d5\u05e9\u05e8\u05ea\u05d9\u05dd \u05d9\u05d6\u05db\u05d5 \u05dc\u05d1\u05d9\u05e7\u05d5\u05e9 \u05de\u05d5\u05d2\u05d1\u05e8.",
+      "predicted_impact": "\u05de\u05e0\u05d9\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05de\u05d5\u05e0\u05e2\u05d5\u05ea AI (\u05db\u05d2\u05d5\u05df META, NVDA, MSFT) \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05de\u05d7\u05d9\u05e8 \u05d4\u05de\u05e0\u05d9\u05d4. \u05e1\u05e4\u05e7\u05d9 \u05ea\u05e9\u05ea\u05d9\u05ea \u05e2\u05e0\u05df \u05d5\u05e9\u05e8\u05ea\u05d9\u05dd \u05d9\u05d6\u05db\u05d5 \u05dc\u05d1\u05d9\u05e7\u05d5\u05e9 \u05de\u05d5\u05d2\u05d1\u05e8."
+    }
+  },
+  {
+    "ticker": "AMD",
+    "decision": "BUY (CAUTION)",
+    "confidence": "Low",
+    "reason": "Downgraded: High impact news event (DB). Monitor closely.",
+    "action_color": "yellow",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 2,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "\u05de\u05ea\u05d7\u05e8\u05d4 \u05d0\u05e0\u05d1\u05d9\u05d3\u05d9\u05d4 \u05e6\u05d5\u05d1\u05e8\u05ea \u05ea\u05d0\u05d5\u05e6\u05d4 \u05dc\u05e7\u05e8\u05d0\u05ea \u05e4\u05e8\u05e1\u05d5\u05dd \u05d4\u05d3\u05d5\u05d7\u05d5\u05ea",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "AMD",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": -8.84,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 236.73
+    },
+    "news_context": {
+      "id": 14801,
+      "target": "AMD",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05de\u05ea\u05d7\u05e8\u05d4 \u05d0\u05e0\u05d1\u05d9\u05d3\u05d9\u05d4 \u05e6\u05d5\u05d1\u05e8\u05ea \u05ea\u05d0\u05d5\u05e6\u05d4 \u05dc\u05e7\u05e8\u05d0\u05ea \u05e4\u05e8\u05e1\u05d5\u05dd \u05d4\u05d3\u05d5\u05d7\u05d5\u05ea",
+      "time_offset": "12:44",
+      "date_display": "01/05",
+      "timestamp": 1777628673.923238,
+      "alert_sent": true,
+      "strategic_rule": "None",
+      "opportunity": {
+        "score": 76,
+        "action": "NEUTRAL",
+        "thesis": "\u05de\u05e0\u05d9\u05d5\u05ea \u05de\u05ea\u05d7\u05e8\u05d5\u05ea \u05e9\u05dc \u05d0\u05e0\u05d1\u05d9\u05d3\u05d9\u05d4 \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05d9\u05d4\u05e0\u05d5\u05ea \u05de\u05e2\u05dc\u05d9\u05d9\u05ea \u05d1\u05d9\u05d8\u05d7\u05d5\u05df (Positive), \u05d1\u05e2\u05d5\u05d3 \u05de\u05e0\u05d9\u05d5\u05ea \u05d0\u05e0\u05d1\u05d9\u05d3\u05d9\u05d4 \u05e2\u05e6\u05de\u05d4 \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05dc\u05d7\u05e5 \u05de\u05db\u05d9\u05e8\u05d4 \u05d6\u05de\u05e0\u05d9 \u05d0\u05d5 \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9\u05d5\u05ea \u05d2\u05d1\u05d5\u05d4\u05d4 \u05e2\u05e7\u05d1 \u05d4\u05e9\u05d5\u05d5\u05d0\u05d4 (Negative/Volatile)."
+      },
+      "ai_insight": "\u05de\u05e0\u05d9\u05d5\u05ea \u05de\u05ea\u05d7\u05e8\u05d5\u05ea \u05e9\u05dc \u05d0\u05e0\u05d1\u05d9\u05d3\u05d9\u05d4 \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05d9\u05d4\u05e0\u05d5\u05ea \u05de\u05e2\u05dc\u05d9\u05d9\u05ea \u05d1\u05d9\u05d8\u05d7\u05d5\u05df (Positive), \u05d1\u05e2\u05d5\u05d3 \u05de\u05e0\u05d9\u05d5\u05ea \u05d0\u05e0\u05d1\u05d9\u05d3\u05d9\u05d4 \u05e2\u05e6\u05de\u05d4 \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05dc\u05d7\u05e5 \u05de\u05db\u05d9\u05e8\u05d4 \u05d6\u05de\u05e0\u05d9 \u05d0\u05d5 \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9\u05d5\u05ea \u05d2\u05d1\u05d5\u05d4\u05d4 \u05e2\u05e7\u05d1 \u05d4\u05e9\u05d5\u05d5\u05d0\u05d4 (Negative/Volatile).",
+      "predicted_impact": "\u05de\u05e0\u05d9\u05d5\u05ea \u05de\u05ea\u05d7\u05e8\u05d5\u05ea \u05e9\u05dc \u05d0\u05e0\u05d1\u05d9\u05d3\u05d9\u05d4 \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05d9\u05d4\u05e0\u05d5\u05ea \u05de\u05e2\u05dc\u05d9\u05d9\u05ea \u05d1\u05d9\u05d8\u05d7\u05d5\u05df (Positive), \u05d1\u05e2\u05d5\u05d3 \u05de\u05e0\u05d9\u05d5\u05ea \u05d0\u05e0\u05d1\u05d9\u05d3\u05d9\u05d4 \u05e2\u05e6\u05de\u05d4 \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05dc\u05d7\u05e5 \u05de\u05db\u05d9\u05e8\u05d4 \u05d6\u05de\u05e0\u05d9 \u05d0\u05d5 \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9\u05d5\u05ea \u05d2\u05d1\u05d5\u05d4\u05d4 \u05e2\u05e7\u05d1 \u05d4\u05e9\u05d5\u05d5\u05d0\u05d4 (Negative/Volatile)."
+    }
+  },
+  {
+    "ticker": "INTC",
+    "decision": "BUY (CAUTION)",
+    "confidence": "Low",
+    "reason": "Downgraded: High impact news event (DB). Monitor closely.",
+    "action_color": "yellow",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 12,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "\u05d0\u05d9\u05e0\u05d8\u05dc \u05d6\u05d9\u05e0\u05e7\u05d4 114% \u05d1\u05d7\u05d5\u05d3\u05e9 \u05e9\u05d9\u05d0 \u05e2\u05dc \u05e8\u05e7\u05e2 \u05d1\u05d9\u05e7\u05d5\u05e9 \u05de\u05dc\u05d0\u05db\u05d5\u05ea\u05d9",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "INTC",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 3.11,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 46.47
+    },
+    "news_context": {
+      "id": 14817,
+      "target": "INTC",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05d0\u05d9\u05e0\u05d8\u05dc \u05d6\u05d9\u05e0\u05e7\u05d4 114% \u05d1\u05d7\u05d5\u05d3\u05e9 \u05e9\u05d9\u05d0 \u05e2\u05dc \u05e8\u05e7\u05e2 \u05d1\u05d9\u05e7\u05d5\u05e9 \u05de\u05dc\u05d0\u05db\u05d5\u05ea\u05d9",
+      "time_offset": "13:08",
+      "date_display": "01/05",
+      "timestamp": 1777630108.479963,
+      "alert_sent": true,
+      "strategic_rule": "IF News matches 'AI Breakthrough' THEN Impact '['Servers', 'Cloud Infrastructure']' (POSITIVE)",
+      "opportunity": {
+        "score": 85,
+        "action": "POSITIVE",
+        "thesis": "\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05e9\u05e8\u05ea\u05d9\u05dd \u05d5\u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05d4\u05e2\u05e0\u05df \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05d1\u05d9\u05e7\u05d5\u05e9 \u05d4\u05de\u05d5\u05d2\u05d1\u05e8 (\u05d7\u05d9\u05d5\u05d1\u05d9). \u05de\u05e0\u05d9\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d0\u05d7\u05e8\u05d5\u05ea \u05d4\u05de\u05de\u05d5\u05e7\u05d3\u05d5\u05ea \u05d1-AI \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05e8\u05d0\u05d5\u05ea \u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05d1\u05d9\u05e7\u05d5\u05e9, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05e9\u05d0\u05d9\u05e0\u05df \u05d7\u05e9\u05d5\u05e4\u05d5\u05ea \u05dc-AI \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05e1\u05e4\u05d5\u05d2 \u05d7\u05dc\u05d5\u05e7\u05ea \u05d4\u05d5\u05df \u05dc\u05d8\u05d5\u05d1\u05ea \u05d4\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d7\u05dd."
+      },
+      "ai_insight": "\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05e9\u05e8\u05ea\u05d9\u05dd \u05d5\u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05d4\u05e2\u05e0\u05df \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05d1\u05d9\u05e7\u05d5\u05e9 \u05d4\u05de\u05d5\u05d2\u05d1\u05e8 (\u05d7\u05d9\u05d5\u05d1\u05d9). \u05de\u05e0\u05d9\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d0\u05d7\u05e8\u05d5\u05ea \u05d4\u05de\u05de\u05d5\u05e7\u05d3\u05d5\u05ea \u05d1-AI \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05e8\u05d0\u05d5\u05ea \u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05d1\u05d9\u05e7\u05d5\u05e9, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05e9\u05d0\u05d9\u05e0\u05df \u05d7\u05e9\u05d5\u05e4\u05d5\u05ea \u05dc-AI \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05e1\u05e4\u05d5\u05d2 \u05d7\u05dc\u05d5\u05e7\u05ea \u05d4\u05d5\u05df \u05dc\u05d8\u05d5\u05d1\u05ea \u05d4\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d7\u05dd.",
+      "predicted_impact": "\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05e9\u05e8\u05ea\u05d9\u05dd \u05d5\u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05d4\u05e2\u05e0\u05df \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05d1\u05d9\u05e7\u05d5\u05e9 \u05d4\u05de\u05d5\u05d2\u05d1\u05e8 (\u05d7\u05d9\u05d5\u05d1\u05d9). \u05de\u05e0\u05d9\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d0\u05d7\u05e8\u05d5\u05ea \u05d4\u05de\u05de\u05d5\u05e7\u05d3\u05d5\u05ea \u05d1-AI \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05e8\u05d0\u05d5\u05ea \u05e2\u05dc\u05d9\u05d9\u05d4 \u05d1\u05d1\u05d9\u05e7\u05d5\u05e9, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05e9\u05d0\u05d9\u05e0\u05df \u05d7\u05e9\u05d5\u05e4\u05d5\u05ea \u05dc-AI \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05e1\u05e4\u05d5\u05d2 \u05d7\u05dc\u05d5\u05e7\u05ea \u05d4\u05d5\u05df \u05dc\u05d8\u05d5\u05d1\u05ea \u05d4\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d7\u05dd."
+    }
+  },
+  {
+    "ticker": "NFLX",
+    "decision": "AVOID",
+    "confidence": "Low",
+    "reason": "Stock is structurally weak despite neutral market.",
+    "action_color": "orange",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 7,
+      "is_fractional_allowed": false
+    },
+    "score": 30,
+    "details": "Downtrend. Price < SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "NFLX",
+      "regime": "WEAK",
+      "score": 30,
+      "perf_5d": -3.05,
+      "thesis": "Downtrend. Price < SMA50.",
+      "last_price": 83.49
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "JPM",
+    "decision": "HOLD",
+    "confidence": "Low",
+    "reason": "Waiting for setup.",
+    "action_color": "gray",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 1,
+      "is_fractional_allowed": false
+    },
+    "score": 50,
+    "details": "Choppy / Consolidation.",
+    "context": "\u05e2\u05e1\u05e7\u05ea \u05d4\u05d0\u05d5\u05dc\u05d9\u05de\u05e4\u05d9\u05d0\u05d3\u05d4 \u05e9\u05dc JPMorgan: \u05d4\u05d0\u05dd \u05d4\u05d9\u05d0 \u05de\u05e9\u05e0\u05d4 \u05d0\u05ea \u05e0\u05e8\u05d8\u05d9\u05d1 \u05d4\u05d4\u05ea\u05e8\u05d7\u05d1\u05d5\u05ea \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05ea?",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "JPM",
+      "regime": "NEUTRAL",
+      "score": 50,
+      "perf_5d": 2.74,
+      "thesis": "Choppy / Consolidation.",
+      "last_price": 305.89
+    },
+    "news_context": {
+      "id": 14494,
+      "target": "JPM",
+      "type": "NEWS",
+      "severity": "MEDIUM",
+      "source": "DB",
+      "message": "\u05e2\u05e1\u05e7\u05ea \u05d4\u05d0\u05d5\u05dc\u05d9\u05de\u05e4\u05d9\u05d0\u05d3\u05d4 \u05e9\u05dc JPMorgan: \u05d4\u05d0\u05dd \u05d4\u05d9\u05d0 \u05de\u05e9\u05e0\u05d4 \u05d0\u05ea \u05e0\u05e8\u05d8\u05d9\u05d1 \u05d4\u05d4\u05ea\u05e8\u05d7\u05d1\u05d5\u05ea \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05ea?",
+      "time_offset": "11:32",
+      "date_display": "30/04",
+      "timestamp": 1777537934.446998,
+      "alert_sent": true,
+      "strategic_rule": "None",
+      "opportunity": {
+        "score": 68,
+        "action": "NEUTRAL",
+        "thesis": "\u05d4\u05e9\u05e4\u05e2\u05d4 \u05de\u05d9\u05e0\u05d5\u05e8\u05d9\u05ea \u05e2\u05dc \u05de\u05e0\u05d9\u05d9\u05ea JPMorgan \u05d1\u05dc\u05d1\u05d3. \u05d0\u05d9\u05df \u05d4\u05e9\u05e4\u05e2\u05d4 \u05e2\u05dc \u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4, \u05e9\u05db\u05df \u05de\u05d3\u05d5\u05d1\u05e8 \u05d1\u05e9\u05d5\u05ea\u05e4\u05d5\u05ea \u05e2\u05e1\u05e7\u05d9\u05ea \u05e1\u05e4\u05e6\u05d9\u05e4\u05d9\u05ea \u05d5\u05dc\u05d0 \u05d1\u05e9\u05d9\u05e0\u05d5\u05d9 \u05e8\u05d2\u05d5\u05dc\u05d8\u05d5\u05e8\u05d9 \u05d0\u05d5 \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9 \u05e8\u05d7\u05d1."
+      },
+      "ai_insight": "\u05d4\u05e9\u05e4\u05e2\u05d4 \u05de\u05d9\u05e0\u05d5\u05e8\u05d9\u05ea \u05e2\u05dc \u05de\u05e0\u05d9\u05d9\u05ea JPMorgan \u05d1\u05dc\u05d1\u05d3. \u05d0\u05d9\u05df \u05d4\u05e9\u05e4\u05e2\u05d4 \u05e2\u05dc \u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4, \u05e9\u05db\u05df \u05de\u05d3\u05d5\u05d1\u05e8 \u05d1\u05e9\u05d5\u05ea\u05e4\u05d5\u05ea \u05e2\u05e1\u05e7\u05d9\u05ea \u05e1\u05e4\u05e6\u05d9\u05e4\u05d9\u05ea \u05d5\u05dc\u05d0 \u05d1\u05e9\u05d9\u05e0\u05d5\u05d9 \u05e8\u05d2\u05d5\u05dc\u05d8\u05d5\u05e8\u05d9 \u05d0\u05d5 \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9 \u05e8\u05d7\u05d1.",
+      "predicted_impact": "\u05d4\u05e9\u05e4\u05e2\u05d4 \u05de\u05d9\u05e0\u05d5\u05e8\u05d9\u05ea \u05e2\u05dc \u05de\u05e0\u05d9\u05d9\u05ea JPMorgan \u05d1\u05dc\u05d1\u05d3. \u05d0\u05d9\u05df \u05d4\u05e9\u05e4\u05e2\u05d4 \u05e2\u05dc \u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4, \u05e9\u05db\u05df \u05de\u05d3\u05d5\u05d1\u05e8 \u05d1\u05e9\u05d5\u05ea\u05e4\u05d5\u05ea \u05e2\u05e1\u05e7\u05d9\u05ea \u05e1\u05e4\u05e6\u05d9\u05e4\u05d9\u05ea \u05d5\u05dc\u05d0 \u05d1\u05e9\u05d9\u05e0\u05d5\u05d9 \u05e8\u05d2\u05d5\u05dc\u05d8\u05d5\u05e8\u05d9 \u05d0\u05d5 \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9 \u05e8\u05d7\u05d1."
+    }
+  },
+  {
+    "ticker": "BA",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 2,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "BA",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": -7.31,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 233.72
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "DIS",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 5,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "DIS",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 1.64,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 112.8
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "KO",
+    "decision": "STRONG BUY",
+    "confidence": "High",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "green",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 8,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "KO",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 2.65,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 74.81
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "WMT",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 5,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "WMT",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 1.2,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 119.14
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "HARL.TA",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "HARL.TA",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 1.26,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 13670.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "LUMI.TA",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "LUMI.TA",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": -1.79,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 7497.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "POLI.TA",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "POLI.TA",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": -0.91,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 7716.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "TEVA.TA",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "TEVA.TA",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 1.49,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 10110.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "NICE.TA",
+    "decision": "HOLD",
+    "confidence": "Low",
+    "reason": "Waiting for setup.",
+    "action_color": "gray",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 50,
+    "details": "Choppy / Consolidation.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "NICE.TA",
+      "regime": "NEUTRAL",
+      "score": 50,
+      "perf_5d": -1.56,
+      "thesis": "Choppy / Consolidation.",
+      "last_price": 34710.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "ZIM",
+    "decision": "STRONG BUY",
+    "confidence": "High",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "green",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 26,
+      "is_fractional_allowed": false
+    },
+    "score": 85,
+    "details": "Uptrend. Price > SMA50. Strong weekly momentum.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "ZIM",
+      "regime": "BULL",
+      "score": 85,
+      "perf_5d": 5.53,
+      "thesis": "Uptrend. Price > SMA50. Strong weekly momentum.",
+      "last_price": 22.72
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "PLTR",
+    "decision": "AVOID",
+    "confidence": "Low",
+    "reason": "Stock is structurally weak despite neutral market.",
+    "action_color": "orange",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 3,
+      "is_fractional_allowed": false
+    },
+    "score": 30,
+    "details": "Downtrend. Price < SMA50.",
+    "context": "\u05e4\u05d0\u05dc\u05e0\u05d8\u05d9\u05e8 \u05de\u05e7\u05d1\u05dc\u05ea \u05d4\u05de\u05dc\u05e6\u05d4 \u05dc\u05e7\u05e0\u05d9\u05d9\u05d4: \u05d4\u05d3\u05d5\u05d7\u05d5\u05ea \u05d9\u05db\u05e8\u05d9\u05e2\u05d5 \u05e2\u05dc \u05de\u05d4\u05d5\u05ea\u05d9\u05d5\u05ea \u05e6\u05de\u05d9\u05d7\u05ea \u05d4-AI",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "PLTR",
+      "regime": "WEAK",
+      "score": 30,
+      "perf_5d": -1.68,
+      "thesis": "Downtrend. Price < SMA50.",
+      "last_price": 165.7
+    },
+    "news_context": {
+      "id": 14613,
+      "target": "PLTR",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05e4\u05d0\u05dc\u05e0\u05d8\u05d9\u05e8 \u05de\u05e7\u05d1\u05dc\u05ea \u05d4\u05de\u05dc\u05e6\u05d4 \u05dc\u05e7\u05e0\u05d9\u05d9\u05d4: \u05d4\u05d3\u05d5\u05d7\u05d5\u05ea \u05d9\u05db\u05e8\u05d9\u05e2\u05d5 \u05e2\u05dc \u05de\u05d4\u05d5\u05ea\u05d9\u05d5\u05ea \u05e6\u05de\u05d9\u05d7\u05ea \u05d4-AI",
+      "time_offset": "15:05",
+      "date_display": "30/04",
+      "timestamp": 1777550705.168405,
+      "alert_sent": false,
+      "strategic_rule": "AI Breakthrough",
+      "opportunity": {
+        "score": 78,
+        "action": "POSITIVE",
+        "thesis": "\u05d4\u05d7\u05d1\u05e8\u05d4 (PLTR) \u05e0\u05d4\u05e0\u05d9\u05ea \u05de\u05d4\u05d3\u05d9\u05e8\u05d5\u05d2 \u05d5\u05d4\u05ea\u05e9\u05d5\u05de\u05ea \u05dc\u05d1, \u05d0\u05da \u05d0\u05dd \u05d4\u05d3\u05d5\u05d7\u05d5\u05ea \u05dc\u05d0 \u05d9\u05d0\u05de\u05ea\u05d5 \u05d0\u05ea \u05e6\u05de\u05d9\u05d7\u05ea \u05d4-AI, \u05d4\u05de\u05e0\u05d9\u05d4 \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05d9\u05e8\u05d9\u05d3\u05d4 \u05d7\u05d3\u05d4. \u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4-AI \u05d5\u05d4\u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05d4\u05e2\u05e0\u05df \u05e2\u05e9\u05d5\u05d9\u05d9\u05dd \u05dc\u05e8\u05d0\u05d5\u05ea \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9\u05d5\u05ea \u05e2\u05e7\u05d1 \u05d1\u05d3\u05d9\u05e7\u05ea '\u05d4\u05d0\u05dd \u05d4\u05e1\u05d9\u05e4\u05d5\u05e8 \u05d4\u05d0\u05de\u05d9\u05ea\u05d9'."
+      },
+      "ai_insight": "\u05d4\u05d7\u05d1\u05e8\u05d4 (PLTR) \u05e0\u05d4\u05e0\u05d9\u05ea \u05de\u05d4\u05d3\u05d9\u05e8\u05d5\u05d2 \u05d5\u05d4\u05ea\u05e9\u05d5\u05de\u05ea \u05dc\u05d1, \u05d0\u05da \u05d0\u05dd \u05d4\u05d3\u05d5\u05d7\u05d5\u05ea \u05dc\u05d0 \u05d9\u05d0\u05de\u05ea\u05d5 \u05d0\u05ea \u05e6\u05de\u05d9\u05d7\u05ea \u05d4-AI, \u05d4\u05de\u05e0\u05d9\u05d4 \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05d9\u05e8\u05d9\u05d3\u05d4 \u05d7\u05d3\u05d4. \u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4-AI \u05d5\u05d4\u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05d4\u05e2\u05e0\u05df \u05e2\u05e9\u05d5\u05d9\u05d9\u05dd \u05dc\u05e8\u05d0\u05d5\u05ea \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9\u05d5\u05ea \u05e2\u05e7\u05d1 \u05d1\u05d3\u05d9\u05e7\u05ea '\u05d4\u05d0\u05dd \u05d4\u05e1\u05d9\u05e4\u05d5\u05e8 \u05d4\u05d0\u05de\u05d9\u05ea\u05d9'.",
+      "predicted_impact": "\u05d4\u05d7\u05d1\u05e8\u05d4 (PLTR) \u05e0\u05d4\u05e0\u05d9\u05ea \u05de\u05d4\u05d3\u05d9\u05e8\u05d5\u05d2 \u05d5\u05d4\u05ea\u05e9\u05d5\u05de\u05ea \u05dc\u05d1, \u05d0\u05da \u05d0\u05dd \u05d4\u05d3\u05d5\u05d7\u05d5\u05ea \u05dc\u05d0 \u05d9\u05d0\u05de\u05ea\u05d5 \u05d0\u05ea \u05e6\u05de\u05d9\u05d7\u05ea \u05d4-AI, \u05d4\u05de\u05e0\u05d9\u05d4 \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05d9\u05e8\u05d9\u05d3\u05d4 \u05d7\u05d3\u05d4. \u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4-AI \u05d5\u05d4\u05ea\u05e9\u05ea\u05d9\u05d5\u05ea \u05d4\u05e2\u05e0\u05df \u05e2\u05e9\u05d5\u05d9\u05d9\u05dd \u05dc\u05e8\u05d0\u05d5\u05ea \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9\u05d5\u05ea \u05e2\u05e7\u05d1 \u05d1\u05d3\u05d9\u05e7\u05ea '\u05d4\u05d0\u05dd \u05d4\u05e1\u05d9\u05e4\u05d5\u05e8 \u05d4\u05d0\u05de\u05d9\u05ea\u05d9'."
+    }
+  },
+  {
+    "ticker": "COIN",
+    "decision": "AVOID",
+    "confidence": "Low",
+    "reason": "Stock is structurally weak despite neutral market.",
+    "action_color": "orange",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 2,
+      "is_fractional_allowed": false
+    },
+    "score": 20,
+    "details": "Downtrend. Price < SMA50. Heavy weekly selling.",
+    "context": "\u05d2'\u05de\u05d9\u05e0\u05d9 \u05de\u05e9\u05d9\u05d2\u05d4 \u05e8\u05d9\u05e9\u05d9\u05d5\u05df \u05e7\u05e8\u05d9\u05d8\u05d9 \u05de-CFTC: \u05e6\u05d9\u05d5\u05df \u05d3\u05e8\u05da \u05e8\u05d2\u05d5\u05dc\u05d8\u05d5\u05e8\u05d9 \u05dc\u05d1\u05d5\u05e8\u05e1\u05ea \u05d4\u05e7\u05e8\u05d9\u05e4\u05d8\u05d5 \u05d4\u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05ea",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "COIN",
+      "regime": "WEAK",
+      "score": 20,
+      "perf_5d": -7.42,
+      "thesis": "Downtrend. Price < SMA50. Heavy weekly selling.",
+      "last_price": 210.83
+    },
+    "news_context": {
+      "id": 14645,
+      "target": "COIN",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05d2'\u05de\u05d9\u05e0\u05d9 \u05de\u05e9\u05d9\u05d2\u05d4 \u05e8\u05d9\u05e9\u05d9\u05d5\u05df \u05e7\u05e8\u05d9\u05d8\u05d9 \u05de-CFTC: \u05e6\u05d9\u05d5\u05df \u05d3\u05e8\u05da \u05e8\u05d2\u05d5\u05dc\u05d8\u05d5\u05e8\u05d9 \u05dc\u05d1\u05d5\u05e8\u05e1\u05ea \u05d4\u05e7\u05e8\u05d9\u05e4\u05d8\u05d5 \u05d4\u05d0\u05de\u05e8\u05d9\u05e7\u05d0\u05d9\u05ea",
+      "time_offset": "16:26",
+      "date_display": "30/04",
+      "timestamp": 1777555567.991793,
+      "alert_sent": false,
+      "strategic_rule": "Crypto Regulation",
+      "opportunity": {
+        "score": 78,
+        "action": "POSITIVE",
+        "thesis": "\u05d4\u05ea\u05d7\u05d6\u05e7\u05d5\u05ea \u05de\u05e9\u05de\u05e2\u05d5\u05ea\u05d9\u05ea \u05e9\u05dc \u05e4\u05dc\u05d8\u05e4\u05d5\u05e8\u05de\u05d5\u05ea \u05d4\u05de\u05e1\u05d7\u05e8 \u05d4\u05de\u05e4\u05d5\u05e7\u05d7\u05d5\u05ea (\u05db\u05d2\u05d5\u05df \u05d2'\u05de\u05d9\u05e0\u05d9 \u05e2\u05e6\u05de\u05d4 \u05d5\u05e7\u05d5\u05d0\u05d9\u05e0\u05d1\u05e1) \u05d5\u05e9\u05dc \u05db\u05d5\u05e8\u05d9 \u05e7\u05e8\u05d9\u05e4\u05d8\u05d5 \u05d4\u05de\u05e1\u05e4\u05e7\u05d9\u05dd \u05ea\u05e9\u05ea\u05d9\u05ea \u05dc\u05e9\u05e8\u05e9\u05e8\u05d0\u05d5\u05ea \u05de\u05d0\u05d5\u05e9\u05e8\u05d5\u05ea. \u05de\u05e0\u05d2\u05d3, \u05e4\u05dc\u05d8\u05e4\u05d5\u05e8\u05de\u05d5\u05ea \u05dc\u05d0 \u05de\u05e4\u05d5\u05e7\u05d7\u05d5\u05ea \u05d0\u05d5 \u05db\u05d0\u05dc\u05d5 \u05d4\u05e4\u05d5\u05e2\u05dc\u05d5\u05ea \u05d1\u05d0\u05d6\u05d5\u05e8\u05d9\u05dd \u05d0\u05e4\u05d5\u05e8\u05d9\u05dd \u05d9\u05e1\u05e4\u05d2\u05d5 \u05dc\u05d7\u05e5 \u05de\u05db\u05d9\u05e8\u05d5\u05ea \u05e2\u05e7\u05d1 \u05d7\u05e9\u05e9 \u05de\u05d4\u05d7\u05de\u05e8\u05ea \u05e8\u05d2\u05d5\u05dc\u05e6\u05d9\u05d4 \u05dc\u05e2\u05d5\u05de\u05ea\u05df."
+      },
+      "ai_insight": "\u05d4\u05ea\u05d7\u05d6\u05e7\u05d5\u05ea \u05de\u05e9\u05de\u05e2\u05d5\u05ea\u05d9\u05ea \u05e9\u05dc \u05e4\u05dc\u05d8\u05e4\u05d5\u05e8\u05de\u05d5\u05ea \u05d4\u05de\u05e1\u05d7\u05e8 \u05d4\u05de\u05e4\u05d5\u05e7\u05d7\u05d5\u05ea (\u05db\u05d2\u05d5\u05df \u05d2'\u05de\u05d9\u05e0\u05d9 \u05e2\u05e6\u05de\u05d4 \u05d5\u05e7\u05d5\u05d0\u05d9\u05e0\u05d1\u05e1) \u05d5\u05e9\u05dc \u05db\u05d5\u05e8\u05d9 \u05e7\u05e8\u05d9\u05e4\u05d8\u05d5 \u05d4\u05de\u05e1\u05e4\u05e7\u05d9\u05dd \u05ea\u05e9\u05ea\u05d9\u05ea \u05dc\u05e9\u05e8\u05e9\u05e8\u05d0\u05d5\u05ea \u05de\u05d0\u05d5\u05e9\u05e8\u05d5\u05ea. \u05de\u05e0\u05d2\u05d3, \u05e4\u05dc\u05d8\u05e4\u05d5\u05e8\u05de\u05d5\u05ea \u05dc\u05d0 \u05de\u05e4\u05d5\u05e7\u05d7\u05d5\u05ea \u05d0\u05d5 \u05db\u05d0\u05dc\u05d5 \u05d4\u05e4\u05d5\u05e2\u05dc\u05d5\u05ea \u05d1\u05d0\u05d6\u05d5\u05e8\u05d9\u05dd \u05d0\u05e4\u05d5\u05e8\u05d9\u05dd \u05d9\u05e1\u05e4\u05d2\u05d5 \u05dc\u05d7\u05e5 \u05de\u05db\u05d9\u05e8\u05d5\u05ea \u05e2\u05e7\u05d1 \u05d7\u05e9\u05e9 \u05de\u05d4\u05d7\u05de\u05e8\u05ea \u05e8\u05d2\u05d5\u05dc\u05e6\u05d9\u05d4 \u05dc\u05e2\u05d5\u05de\u05ea\u05df.",
+      "predicted_impact": "\u05d4\u05ea\u05d7\u05d6\u05e7\u05d5\u05ea \u05de\u05e9\u05de\u05e2\u05d5\u05ea\u05d9\u05ea \u05e9\u05dc \u05e4\u05dc\u05d8\u05e4\u05d5\u05e8\u05de\u05d5\u05ea \u05d4\u05de\u05e1\u05d7\u05e8 \u05d4\u05de\u05e4\u05d5\u05e7\u05d7\u05d5\u05ea (\u05db\u05d2\u05d5\u05df \u05d2'\u05de\u05d9\u05e0\u05d9 \u05e2\u05e6\u05de\u05d4 \u05d5\u05e7\u05d5\u05d0\u05d9\u05e0\u05d1\u05e1) \u05d5\u05e9\u05dc \u05db\u05d5\u05e8\u05d9 \u05e7\u05e8\u05d9\u05e4\u05d8\u05d5 \u05d4\u05de\u05e1\u05e4\u05e7\u05d9\u05dd \u05ea\u05e9\u05ea\u05d9\u05ea \u05dc\u05e9\u05e8\u05e9\u05e8\u05d0\u05d5\u05ea \u05de\u05d0\u05d5\u05e9\u05e8\u05d5\u05ea. \u05de\u05e0\u05d2\u05d3, \u05e4\u05dc\u05d8\u05e4\u05d5\u05e8\u05de\u05d5\u05ea \u05dc\u05d0 \u05de\u05e4\u05d5\u05e7\u05d7\u05d5\u05ea \u05d0\u05d5 \u05db\u05d0\u05dc\u05d5 \u05d4\u05e4\u05d5\u05e2\u05dc\u05d5\u05ea \u05d1\u05d0\u05d6\u05d5\u05e8\u05d9\u05dd \u05d0\u05e4\u05d5\u05e8\u05d9\u05dd \u05d9\u05e1\u05e4\u05d2\u05d5 \u05dc\u05d7\u05e5 \u05de\u05db\u05d9\u05e8\u05d5\u05ea \u05e2\u05e7\u05d1 \u05d7\u05e9\u05e9 \u05de\u05d4\u05d7\u05de\u05e8\u05ea \u05e8\u05d2\u05d5\u05dc\u05e6\u05d9\u05d4 \u05dc\u05e2\u05d5\u05de\u05ea\u05df."
+    }
+  },
+  {
+    "ticker": "ESLT.TA",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "ESLT.TA",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": -0.11,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 227290.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "DLEKG.TA",
+    "decision": "AVOID",
+    "confidence": "Low",
+    "reason": "Stock is structurally weak despite neutral market.",
+    "action_color": "orange",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 30,
+    "details": "Downtrend. Price < SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "DLEKG.TA",
+      "regime": "WEAK",
+      "score": 30,
+      "perf_5d": 3.57,
+      "thesis": "Downtrend. Price < SMA50.",
+      "last_price": 84410.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "ENOG.TA",
+    "decision": "AVOID",
+    "confidence": "Low",
+    "reason": "Stock is structurally weak despite neutral market.",
+    "action_color": "orange",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 20,
+    "details": "Downtrend. Price < SMA50. Heavy weekly selling.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "ENOG.TA",
+      "regime": "WEAK",
+      "score": 20,
+      "perf_5d": -6.96,
+      "thesis": "Downtrend. Price < SMA50. Heavy weekly selling.",
+      "last_price": 3687.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "ORL.TA",
+    "decision": "HOLD",
+    "confidence": "Low",
+    "reason": "Waiting for setup.",
+    "action_color": "gray",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 5,
+      "is_fractional_allowed": false
+    },
+    "score": 50,
+    "details": "Choppy / Consolidation.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "ORL.TA",
+      "regime": "NEUTRAL",
+      "score": 50,
+      "perf_5d": -2.02,
+      "thesis": "Choppy / Consolidation.",
+      "last_price": 101.9
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "DSCT.TA",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "DSCT.TA",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 0.85,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 3664.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "PHOE.TA",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "PHOE.TA",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 0.14,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 14560.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "LMT",
+    "decision": "BUY (CAUTION)",
+    "confidence": "Low",
+    "reason": "Downgraded: High impact news event (DB). Monitor closely.",
+    "action_color": "yellow",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 85,
+    "details": "Uptrend. Price > SMA50. Strong weekly momentum.",
+    "context": "\u05e1\u05d0\u05d8\u05dc\u05d5\u05d2'\u05d9\u05e7 \u05de\u05d5\u05db\u05e8\u05ea \u05dc\u05d5\u05d5\u05d9\u05d9\u05df \u05dc\u05dc\u05e7\u05d5\u05d7 \u05de\u05d4\u05d2\u05e0\u05d4 \u05d1-12 \u05de\u05d9\u05dc\u05d9\u05d5\u05df \u05d3\u05d5\u05dc\u05e8",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "LMT",
+      "regime": "BULL",
+      "score": 85,
+      "perf_5d": 7.35,
+      "thesis": "Uptrend. Price > SMA50. Strong weekly momentum.",
+      "last_price": 634.22
+    },
+    "news_context": {
+      "id": 14549,
+      "target": "LMT",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05e1\u05d0\u05d8\u05dc\u05d5\u05d2'\u05d9\u05e7 \u05de\u05d5\u05db\u05e8\u05ea \u05dc\u05d5\u05d5\u05d9\u05d9\u05df \u05dc\u05dc\u05e7\u05d5\u05d7 \u05de\u05d4\u05d2\u05e0\u05d4 \u05d1-12 \u05de\u05d9\u05dc\u05d9\u05d5\u05df \u05d3\u05d5\u05dc\u05e8",
+      "time_offset": "13:30",
+      "date_display": "30/04",
+      "timestamp": 1777545030.32178,
+      "alert_sent": false,
+      "strategic_rule": "SC_ID: Israel Security Escalation",
+      "opportunity": {
+        "score": 80,
+        "action": "POSITIVE",
+        "thesis": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05d4\u05d2\u05e0\u05d4 \u05d5\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05ea\u05d5\u05e2\u05dc\u05e4\u05e0\u05d4, \u05d1\u05e2\u05d5\u05d3 \u05d7\u05d1\u05e8\u05d5\u05ea \u05d0\u05d7\u05e8\u05d5\u05ea \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2"
+      },
+      "ai_insight": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05d4\u05d2\u05e0\u05d4 \u05d5\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05ea\u05d5\u05e2\u05dc\u05e4\u05e0\u05d4, \u05d1\u05e2\u05d5\u05d3 \u05d7\u05d1\u05e8\u05d5\u05ea \u05d0\u05d7\u05e8\u05d5\u05ea \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2",
+      "predicted_impact": "\u05d7\u05d1\u05e8\u05d5\u05ea \u05d4\u05d2\u05e0\u05d4 \u05d5\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05ea\u05d5\u05e2\u05dc\u05e4\u05e0\u05d4, \u05d1\u05e2\u05d5\u05d3 \u05d7\u05d1\u05e8\u05d5\u05ea \u05d0\u05d7\u05e8\u05d5\u05ea \u05e2\u05dc\u05d5\u05dc\u05d5\u05ea \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2"
+    }
+  },
+  {
+    "ticker": "XOM",
+    "decision": "BUY (CAUTION)",
+    "confidence": "Low",
+    "reason": "Downgraded: High impact news event (DB). Monitor closely.",
+    "action_color": "yellow",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 4,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "\u05ea\u05de\u05d9\u05db\u05d4 \u05d1\u05d1\u05d5\u05e8\u05e1\u05d4 \u05de\u05d9\u05e8\u05d9\u05d3\u05ea \u05e0\u05e4\u05d8 \u05d5\u05d3\u05d5\u05d7\u05d5\u05ea \u05de\u05e2\u05d5\u05e8\u05d1\u05d9\u05dd \u05d1\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "XOM",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 4.88,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 136.83
+    },
+    "news_context": {
+      "id": 14667,
+      "target": "XOM",
+      "type": "NEWS",
+      "severity": "MEDIUM",
+      "source": "DB",
+      "message": "\u05ea\u05de\u05d9\u05db\u05d4 \u05d1\u05d1\u05d5\u05e8\u05e1\u05d4 \u05de\u05d9\u05e8\u05d9\u05d3\u05ea \u05e0\u05e4\u05d8 \u05d5\u05d3\u05d5\u05d7\u05d5\u05ea \u05de\u05e2\u05d5\u05e8\u05d1\u05d9\u05dd \u05d1\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4",
+      "time_offset": "17:09",
+      "date_display": "30/04",
+      "timestamp": 1777558185.770196,
+      "alert_sent": false,
+      "strategic_rule": "Oil Price Surge",
+      "opportunity": {
+        "score": 74,
+        "action": "NEUTRAL",
+        "thesis": "\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d0\u05e0\u05e8\u05d2\u05d9\u05d4 \u05d9\u05d9\u05e4\u05d2\u05e2 \u05de\u05d9\u05e8\u05d9\u05d3\u05ea \u05d4\u05de\u05d7\u05d9\u05e8\u05d9\u05dd, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05e1\u05e7\u05d8\u05d5\u05e8\u05d9 \u05d4\u05ea\u05d7\u05d1\u05d5\u05e8\u05d4 \u05d5\u05d4\u05ea\u05e2\u05d5\u05e4\u05d4 \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05e4\u05d7\u05ea\u05ea \u05e2\u05dc\u05d5\u05d9\u05d5\u05ea \u05d4\u05d3\u05dc\u05e7. \u05d7\u05d1\u05e8\u05d5\u05ea \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d9\u05ea\u05de\u05d5\u05d3\u05d3\u05d5 \u05e2\u05dd \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9\u05d5\u05ea \u05e2\u05e7\u05d1 \u05d3\u05d5\u05d7\u05d5\u05ea \u05de\u05e2\u05d5\u05e8\u05d1\u05d9\u05dd."
+      },
+      "ai_insight": "\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d0\u05e0\u05e8\u05d2\u05d9\u05d4 \u05d9\u05d9\u05e4\u05d2\u05e2 \u05de\u05d9\u05e8\u05d9\u05d3\u05ea \u05d4\u05de\u05d7\u05d9\u05e8\u05d9\u05dd, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05e1\u05e7\u05d8\u05d5\u05e8\u05d9 \u05d4\u05ea\u05d7\u05d1\u05d5\u05e8\u05d4 \u05d5\u05d4\u05ea\u05e2\u05d5\u05e4\u05d4 \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05e4\u05d7\u05ea\u05ea \u05e2\u05dc\u05d5\u05d9\u05d5\u05ea \u05d4\u05d3\u05dc\u05e7. \u05d7\u05d1\u05e8\u05d5\u05ea \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d9\u05ea\u05de\u05d5\u05d3\u05d3\u05d5 \u05e2\u05dd \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9\u05d5\u05ea \u05e2\u05e7\u05d1 \u05d3\u05d5\u05d7\u05d5\u05ea \u05de\u05e2\u05d5\u05e8\u05d1\u05d9\u05dd.",
+      "predicted_impact": "\u05e1\u05e7\u05d8\u05d5\u05e8 \u05d4\u05d0\u05e0\u05e8\u05d2\u05d9\u05d4 \u05d9\u05d9\u05e4\u05d2\u05e2 \u05de\u05d9\u05e8\u05d9\u05d3\u05ea \u05d4\u05de\u05d7\u05d9\u05e8\u05d9\u05dd, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05e1\u05e7\u05d8\u05d5\u05e8\u05d9 \u05d4\u05ea\u05d7\u05d1\u05d5\u05e8\u05d4 \u05d5\u05d4\u05ea\u05e2\u05d5\u05e4\u05d4 \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05e4\u05d7\u05ea\u05ea \u05e2\u05dc\u05d5\u05d9\u05d5\u05ea \u05d4\u05d3\u05dc\u05e7. \u05d7\u05d1\u05e8\u05d5\u05ea \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05d9\u05ea\u05de\u05d5\u05d3\u05d3\u05d5 \u05e2\u05dd \u05ea\u05e0\u05d5\u05d3\u05ea\u05d9\u05d5\u05ea \u05e2\u05e7\u05d1 \u05d3\u05d5\u05d7\u05d5\u05ea \u05de\u05e2\u05d5\u05e8\u05d1\u05d9\u05dd."
+    }
+  },
+  {
+    "ticker": "HII",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 1,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "HII",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 0.46,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 420.51
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "KTOS",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 5,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "KTOS",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": -6.69,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 103.01
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "ONDS",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 57,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "ONDS",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": -14.87,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 10.36
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "NOC",
+    "decision": "BUY (CAUTION)",
+    "confidence": "Low",
+    "reason": "Downgraded: High impact news event (DB). Monitor closely.",
+    "action_color": "yellow",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "\u05e4\u05e8\u05de\u05d2 \u05d6\u05d5\u05db\u05d4 \u05d1\u05d4\u05db\u05e8\u05d4 \u05de\u05e0\u05d5\u05e8\u05d8\u05e8\u05d5\u05e4 \u05d2\u05e8\u05d5\u05de\u05df \u05dc\u05d7\u05d9\u05d6\u05d5\u05e7 \u05ea\u05e2\u05e9\u05d9\u05ea \u05d4\u05d1\u05d9\u05d8\u05d7\u05d5\u05df",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "NOC",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 2.87,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 692.26
+    },
+    "news_context": {
+      "id": 14989,
+      "target": "NOC",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05e4\u05e8\u05de\u05d2 \u05d6\u05d5\u05db\u05d4 \u05d1\u05d4\u05db\u05e8\u05d4 \u05de\u05e0\u05d5\u05e8\u05d8\u05e8\u05d5\u05e4 \u05d2\u05e8\u05d5\u05de\u05df \u05dc\u05d7\u05d9\u05d6\u05d5\u05e7 \u05ea\u05e2\u05e9\u05d9\u05ea \u05d4\u05d1\u05d9\u05d8\u05d7\u05d5\u05df",
+      "time_offset": "19:29",
+      "date_display": "01/05",
+      "timestamp": 1777652945.980906,
+      "alert_sent": false,
+      "strategic_rule": "IF News matches 'Israel Security Escalation' THEN Impact '['Defense', 'USD/ILS']' (POSITIVE). Reason: Conflict drives defense spending and flight to safety (Dollar).",
+      "opportunity": {
+        "score": 81,
+        "action": "POSITIVE",
+        "thesis": "\u05ea\u05e2\u05e9\u05d9\u05d5\u05ea \u05d4\u05d4\u05d2\u05e0\u05d4 \u05d5\u05d4\u05d1\u05d9\u05d8\u05d7\u05d5\u05df \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05db\u05e8\u05d4 \u05d6\u05d5 \u05db\u05e1\u05d9\u05de\u05df \u05dc\u05d7\u05d5\u05d6\u05e7 \u05d1\u05d9\u05e7\u05d5\u05e9\u05d9\u05dd \u05d5\u05d9\u05e6\u05d9\u05d1\u05d5\u05ea \u05e4\u05d9\u05e0\u05e0\u05e1\u05d9\u05ea, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05de\u05e1\u05d7\u05e8\u05d9\u05d5\u05ea \u05dc\u05dc\u05d0 \u05d7\u05e9\u05d9\u05e4\u05d4 \u05d1\u05d9\u05d8\u05d7\u05d5\u05e0\u05d9\u05ea \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05de\u05d5\u05d7\u05dc\u05d5\u05e7\u05ea \u05de\u05e9\u05d0\u05d1\u05d9\u05dd."
+      },
+      "ai_insight": "\u05ea\u05e2\u05e9\u05d9\u05d5\u05ea \u05d4\u05d4\u05d2\u05e0\u05d4 \u05d5\u05d4\u05d1\u05d9\u05d8\u05d7\u05d5\u05df \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05db\u05e8\u05d4 \u05d6\u05d5 \u05db\u05e1\u05d9\u05de\u05df \u05dc\u05d7\u05d5\u05d6\u05e7 \u05d1\u05d9\u05e7\u05d5\u05e9\u05d9\u05dd \u05d5\u05d9\u05e6\u05d9\u05d1\u05d5\u05ea \u05e4\u05d9\u05e0\u05e0\u05e1\u05d9\u05ea, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05de\u05e1\u05d7\u05e8\u05d9\u05d5\u05ea \u05dc\u05dc\u05d0 \u05d7\u05e9\u05d9\u05e4\u05d4 \u05d1\u05d9\u05d8\u05d7\u05d5\u05e0\u05d9\u05ea \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05de\u05d5\u05d7\u05dc\u05d5\u05e7\u05ea \u05de\u05e9\u05d0\u05d1\u05d9\u05dd.",
+      "predicted_impact": "\u05ea\u05e2\u05e9\u05d9\u05d5\u05ea \u05d4\u05d4\u05d2\u05e0\u05d4 \u05d5\u05d4\u05d1\u05d9\u05d8\u05d7\u05d5\u05df \u05d9\u05d9\u05d4\u05e0\u05d5 \u05de\u05d4\u05db\u05e8\u05d4 \u05d6\u05d5 \u05db\u05e1\u05d9\u05de\u05df \u05dc\u05d7\u05d5\u05d6\u05e7 \u05d1\u05d9\u05e7\u05d5\u05e9\u05d9\u05dd \u05d5\u05d9\u05e6\u05d9\u05d1\u05d5\u05ea \u05e4\u05d9\u05e0\u05e0\u05e1\u05d9\u05ea, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d7\u05d1\u05e8\u05d5\u05ea \u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9\u05d4 \u05de\u05e1\u05d7\u05e8\u05d9\u05d5\u05ea \u05dc\u05dc\u05d0 \u05d7\u05e9\u05d9\u05e4\u05d4 \u05d1\u05d9\u05d8\u05d7\u05d5\u05e0\u05d9\u05ea \u05e2\u05e9\u05d5\u05d9\u05d5\u05ea \u05dc\u05e1\u05d1\u05d5\u05dc \u05de\u05de\u05d5\u05d7\u05dc\u05d5\u05e7\u05ea \u05de\u05e9\u05d0\u05d1\u05d9\u05dd."
+    }
+  },
+  {
+    "ticker": "RTX",
+    "decision": "BUY (CAUTION)",
+    "confidence": "Low",
+    "reason": "Downgraded: High impact news event (DB). Monitor closely.",
+    "action_color": "yellow",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 2,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "\u05d7\u05e1\u05d9\u05de\u05d4 \u05d9\u05de\u05d9\u05ea \u05e2\u05dc \u05d0\u05d9\u05e8\u05d0\u05df: \u05e2\u05dc\u05d9\u05d9\u05ea \u05d0\u05dc\u05d5\u05de\u05d9\u05e0\u05d9\u05d5\u05dd \u05d5\u05d4\u05e9\u05e4\u05e2\u05d4 \u05e2\u05dc \u05e9\u05d5\u05e7\u05d9 \u05d4\u05d4\u05d5\u05df",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "RTX",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 2.55,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 200.93
+    },
+    "news_context": {
+      "id": 14772,
+      "target": "RTX",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05d7\u05e1\u05d9\u05de\u05d4 \u05d9\u05de\u05d9\u05ea \u05e2\u05dc \u05d0\u05d9\u05e8\u05d0\u05df: \u05e2\u05dc\u05d9\u05d9\u05ea \u05d0\u05dc\u05d5\u05de\u05d9\u05e0\u05d9\u05d5\u05dd \u05d5\u05d4\u05e9\u05e4\u05e2\u05d4 \u05e2\u05dc \u05e9\u05d5\u05e7\u05d9 \u05d4\u05d4\u05d5\u05df",
+      "time_offset": "10:42",
+      "date_display": "01/05",
+      "timestamp": 1777621334.840215,
+      "alert_sent": false,
+      "strategic_rule": "IF News matches 'Israel Security Escalation' THEN Impact '['Defense', 'USD/ILS']' (POSITIVE). Reason: Conflict drives defense spending and flight to safety (Dollar).",
+      "opportunity": {
+        "score": 78,
+        "action": "ALERT",
+        "thesis": "\u05e2\u05e0\u05e4\u05d9 \u05d4\u05d4\u05d2\u05e0\u05d4 \u05d5\u05d4\u05d1\u05d9\u05d8\u05d7\u05d5\u05df \u05d9\u05e8\u05d5\u05d5\u05d9\u05d7\u05d5 \u05de\u05e6\u05d9\u05e4\u05d9\u05d5\u05ea \u05dc\u05d4\u05d2\u05d1\u05e8\u05ea \u05d4\u05d5\u05e6\u05d0\u05d5\u05ea \u05d1\u05d9\u05d8\u05d7\u05d5\u05e0\u05d9\u05d5\u05ea, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d4\u05e9\u05d5\u05e7 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9 (Tech) \u05e2\u05dc\u05d5\u05dc \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2 \u05de\u05e9\u05d9\u05d1\u05d5\u05e9\u05d9 \u05e9\u05e8\u05e9\u05e8\u05ea \u05d0\u05e1\u05e4\u05e7\u05d4 \u05e4\u05d5\u05d8\u05e0\u05e6\u05d9\u05d0\u05dc\u05d9\u05d9\u05dd \u05d5\u05de\u05d4\u05d2\u05d1\u05e8\u05ea \u05d0\u05d9-\u05d4\u05d5\u05d5\u05d3\u05d0\u05d5\u05ea \u05d1\u05e9\u05d5\u05d5\u05e7\u05d9\u05dd \u05d4\u05d2\u05dc\u05d5\u05d1\u05dc\u05d9\u05d9\u05dd."
+      },
+      "ai_insight": "\u05e2\u05e0\u05e4\u05d9 \u05d4\u05d4\u05d2\u05e0\u05d4 \u05d5\u05d4\u05d1\u05d9\u05d8\u05d7\u05d5\u05df \u05d9\u05e8\u05d5\u05d5\u05d9\u05d7\u05d5 \u05de\u05e6\u05d9\u05e4\u05d9\u05d5\u05ea \u05dc\u05d4\u05d2\u05d1\u05e8\u05ea \u05d4\u05d5\u05e6\u05d0\u05d5\u05ea \u05d1\u05d9\u05d8\u05d7\u05d5\u05e0\u05d9\u05d5\u05ea, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d4\u05e9\u05d5\u05e7 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9 (Tech) \u05e2\u05dc\u05d5\u05dc \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2 \u05de\u05e9\u05d9\u05d1\u05d5\u05e9\u05d9 \u05e9\u05e8\u05e9\u05e8\u05ea \u05d0\u05e1\u05e4\u05e7\u05d4 \u05e4\u05d5\u05d8\u05e0\u05e6\u05d9\u05d0\u05dc\u05d9\u05d9\u05dd \u05d5\u05de\u05d4\u05d2\u05d1\u05e8\u05ea \u05d0\u05d9-\u05d4\u05d5\u05d5\u05d3\u05d0\u05d5\u05ea \u05d1\u05e9\u05d5\u05d5\u05e7\u05d9\u05dd \u05d4\u05d2\u05dc\u05d5\u05d1\u05dc\u05d9\u05d9\u05dd.",
+      "predicted_impact": "\u05e2\u05e0\u05e4\u05d9 \u05d4\u05d4\u05d2\u05e0\u05d4 \u05d5\u05d4\u05d1\u05d9\u05d8\u05d7\u05d5\u05df \u05d9\u05e8\u05d5\u05d5\u05d9\u05d7\u05d5 \u05de\u05e6\u05d9\u05e4\u05d9\u05d5\u05ea \u05dc\u05d4\u05d2\u05d1\u05e8\u05ea \u05d4\u05d5\u05e6\u05d0\u05d5\u05ea \u05d1\u05d9\u05d8\u05d7\u05d5\u05e0\u05d9\u05d5\u05ea, \u05d1\u05e2\u05d5\u05d3 \u05e9\u05d4\u05e9\u05d5\u05e7 \u05d4\u05d8\u05db\u05e0\u05d5\u05dc\u05d5\u05d2\u05d9 (Tech) \u05e2\u05dc\u05d5\u05dc \u05dc\u05d4\u05d9\u05e4\u05d2\u05e2 \u05de\u05e9\u05d9\u05d1\u05d5\u05e9\u05d9 \u05e9\u05e8\u05e9\u05e8\u05ea \u05d0\u05e1\u05e4\u05e7\u05d4 \u05e4\u05d5\u05d8\u05e0\u05e6\u05d9\u05d0\u05dc\u05d9\u05d9\u05dd \u05d5\u05de\u05d4\u05d2\u05d1\u05e8\u05ea \u05d0\u05d9-\u05d4\u05d5\u05d5\u05d3\u05d0\u05d5\u05ea \u05d1\u05e9\u05d5\u05d5\u05e7\u05d9\u05dd \u05d4\u05d2\u05dc\u05d5\u05d1\u05dc\u05d9\u05d9\u05dd."
+    }
+  },
+  {
+    "ticker": "AVAV",
+    "decision": "HOLD",
+    "confidence": "Low",
+    "reason": "Waiting for setup.",
+    "action_color": "gray",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 2,
+      "is_fractional_allowed": false
+    },
+    "score": 50,
+    "details": "Choppy / Consolidation.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "AVAV",
+      "regime": "NEUTRAL",
+      "score": 50,
+      "perf_5d": -9.54,
+      "thesis": "Choppy / Consolidation.",
+      "last_price": 278.39
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "LHX",
+    "decision": "BUY (CAUTION)",
+    "confidence": "Low",
+    "reason": "Downgraded: High impact news event (DB). Monitor closely.",
+    "action_color": "yellow",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 1,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "\u05d4\u05ea\u05e8\u05d0\u05ea SEC: \u05d7\u05d1\u05e8\u05ea L3HARRIS TECHNOLOGIES \u05d4\u05d2\u05d9\u05e9\u05d4 \u05d3\u05d5\"\u05d7 8-K",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "LHX",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": -3.35,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 342.85
+    },
+    "news_context": {
+      "id": 14480,
+      "target": "LHX",
+      "type": "NEWS",
+      "severity": "HIGH",
+      "source": "DB",
+      "message": "\u05d4\u05ea\u05e8\u05d0\u05ea SEC: \u05d7\u05d1\u05e8\u05ea L3HARRIS TECHNOLOGIES \u05d4\u05d2\u05d9\u05e9\u05d4 \u05d3\u05d5\"\u05d7 8-K",
+      "time_offset": "11:07",
+      "date_display": "30/04",
+      "timestamp": 1777536433.201436,
+      "alert_sent": false,
+      "strategic_rule": "None",
+      "opportunity": {
+        "score": 80,
+        "action": "NEUTRAL",
+        "thesis": "\u05d4\u05d7\u05d1\u05e8\u05d4 \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05d4\u05e8\u05d5\u05d5\u05d9\u05d7 \u05d0\u05d5 \u05dc\u05d4\u05e4\u05e1\u05d9\u05d3 \u05de\u05d4\u05d0\u05d9\u05e8\u05d5\u05e2, \u05ea\u05dc\u05d5\u05d9 \u05d1\u05e4\u05e8\u05d8\u05d9\u05dd"
+      },
+      "ai_insight": "\u05d4\u05d7\u05d1\u05e8\u05d4 \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05d4\u05e8\u05d5\u05d5\u05d9\u05d7 \u05d0\u05d5 \u05dc\u05d4\u05e4\u05e1\u05d9\u05d3 \u05de\u05d4\u05d0\u05d9\u05e8\u05d5\u05e2, \u05ea\u05dc\u05d5\u05d9 \u05d1\u05e4\u05e8\u05d8\u05d9\u05dd",
+      "predicted_impact": "\u05d4\u05d7\u05d1\u05e8\u05d4 \u05e2\u05dc\u05d5\u05dc\u05d4 \u05dc\u05d4\u05e8\u05d5\u05d5\u05d9\u05d7 \u05d0\u05d5 \u05dc\u05d4\u05e4\u05e1\u05d9\u05d3 \u05de\u05d4\u05d0\u05d9\u05e8\u05d5\u05e2, \u05ea\u05dc\u05d5\u05d9 \u05d1\u05e4\u05e8\u05d8\u05d9\u05dd"
+    }
+  },
+  {
+    "ticker": "ESLT",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "ESLT",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": -2.28,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 702.57
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "TATT.TA",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "TATT.TA",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": -0.25,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 16030.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "FBRT.TA",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "FBRT.TA",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": 0.0,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 25260.0
+    },
+    "news_context": null
+  },
+  {
+    "ticker": "ASHO.TA",
+    "decision": "STRONG BUY",
+    "confidence": "Medium",
+    "reason": "Stock is in Bull Regime with Weekly Momentum. Supported by Global Risk-On flows.",
+    "action_color": "emerald",
+    "stop_loss": null,
+    "exit_strategy": {
+      "trailing_stop": {
+        "activation_profit_pct": 0.03,
+        "trail_pct": 0.02
+      },
+      "take_profit": {
+        "condition": "120b_max_target",
+        "sell_amount_pct": 0.5
+      },
+      "end_of_day": {
+        "close_position": true,
+        "condition": "not_in_significant_profit",
+        "min_profit_pct_to_hold": 0.005
+      }
+    },
+    "allocation_multiplier": 1.0,
+    "money_management": {
+      "allocated_amount_usd": 600.0,
+      "shares_to_buy": 0,
+      "is_fractional_allowed": false
+    },
+    "score": 75,
+    "details": "Uptrend. Price > SMA50.",
+    "context": "SPY Bullish Structure (Price > SMAs)",
+    "oracle_metadata": null,
+    "market_context": {
+      "regime": "RISK_ON",
+      "score": 75,
+      "details": "SPY Bullish Structure (Price > SMAs)",
+      "macro_data": {
+        "vix": 16.989999771118164,
+        "tnx": 4.377999782562256,
+        "tnx_5d_chg": 0.9686304711043389
+      },
+      "spy_trend": "BULL",
+      "updated": "2026-05-01T23:30:22.547984"
+    },
+    "stock_data": {
+      "ticker": "ASHO.TA",
+      "regime": "BULL",
+      "score": 75,
+      "perf_5d": -6.54,
+      "thesis": "Uptrend. Price > SMA50.",
+      "last_price": 11010.0
+    },
+    "news_context": null
+  }
+]

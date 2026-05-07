@@ -1,0 +1,318 @@
+{
+    "last_update": "2026-02-18 10:48:49",
+    "lead_indicator_alert": false,
+    "assets": [
+        {
+            "ticker": "UNH",
+            "price": 289.09,
+            "ath_2026": 356.26,
+            "drop_from_ath_pct": -18.85,
+            "zones": {
+                "clearance_price": 249.38,
+                "buffett_price": 178.13,
+                "in_clearance": false,
+                "in_buffett": false
+            },
+            "technicals": {
+                "rsi": 54.41,
+                "bb_lower": 238.19,
+                "at_lower_band": false,
+                "rsi_oversold": false
+            },
+            "confidence": {
+                "score": 1,
+                "label": "Localized Opportunity"
+            },
+            "score": {
+                "total": 0,
+                "price_pts": 0,
+                "rsi_pts": 0,
+                "vix_pts": 0,
+                "bb_pts": 0,
+                "color": "GRAY"
+            },
+            "signal": {
+                "is_buy": false,
+                "reasons": []
+            }
+        },
+        {
+            "ticker": "AMZN",
+            "price": 201.15,
+            "ath_2026": 247.38,
+            "drop_from_ath_pct": -18.69,
+            "zones": {
+                "clearance_price": 173.17,
+                "buffett_price": 123.69,
+                "in_clearance": false,
+                "in_buffett": false
+            },
+            "technicals": {
+                "rsi": 10.83,
+                "bb_lower": 191.6,
+                "at_lower_band": false,
+                "rsi_oversold": true
+            },
+            "confidence": {
+                "score": 1,
+                "label": "Localized Opportunity"
+            },
+            "score": {
+                "total": 30,
+                "price_pts": 0,
+                "rsi_pts": 30,
+                "vix_pts": 0,
+                "bb_pts": 0,
+                "color": "GRAY"
+            },
+            "signal": {
+                "is_buy": false,
+                "reasons": []
+            }
+        },
+        {
+            "ticker": "MSFT",
+            "price": 396.86,
+            "ath_2026": 483.47,
+            "drop_from_ath_pct": -17.91,
+            "zones": {
+                "clearance_price": 338.43,
+                "buffett_price": 241.74,
+                "in_clearance": false,
+                "in_buffett": false
+            },
+            "technicals": {
+                "rsi": 18.2,
+                "bb_lower": 371.11,
+                "at_lower_band": false,
+                "rsi_oversold": true
+            },
+            "confidence": {
+                "score": 1,
+                "label": "Localized Opportunity"
+            },
+            "score": {
+                "total": 30,
+                "price_pts": 0,
+                "rsi_pts": 30,
+                "vix_pts": 0,
+                "bb_pts": 0,
+                "color": "GRAY"
+            },
+            "signal": {
+                "is_buy": false,
+                "reasons": []
+            }
+        },
+        {
+            "ticker": "GOOGL",
+            "price": 302.02,
+            "ath_2026": 343.69,
+            "drop_from_ath_pct": -12.12,
+            "zones": {
+                "clearance_price": 240.58,
+                "buffett_price": 171.85,
+                "in_clearance": false,
+                "in_buffett": false
+            },
+            "technicals": {
+                "rsi": 20.01,
+                "bb_lower": 302.63,
+                "at_lower_band": true,
+                "rsi_oversold": true
+            },
+            "confidence": {
+                "score": 1,
+                "label": "Localized Opportunity"
+            },
+            "score": {
+                "total": 40,
+                "price_pts": 0,
+                "rsi_pts": 30,
+                "vix_pts": 0,
+                "bb_pts": 10,
+                "color": "GRAY"
+            },
+            "signal": {
+                "is_buy": false,
+                "reasons": []
+            }
+        },
+        {
+            "ticker": "JPM",
+            "price": 307.13,
+            "ath_2026": 334.61,
+            "drop_from_ath_pct": -8.21,
+            "zones": {
+                "clearance_price": 234.23,
+                "buffett_price": 167.3,
+                "in_clearance": false,
+                "in_buffett": false
+            },
+            "technicals": {
+                "rsi": 55.52,
+                "bb_lower": 292.83,
+                "at_lower_band": false,
+                "rsi_oversold": false
+            },
+            "confidence": {
+                "score": 1,
+                "label": "Localized Opportunity"
+            },
+            "score": {
+                "total": 0,
+                "price_pts": 0,
+                "rsi_pts": 0,
+                "vix_pts": 0,
+                "bb_pts": 0,
+                "color": "GRAY"
+            },
+            "signal": {
+                "is_buy": false,
+                "reasons": []
+            }
+        },
+        {
+            "ticker": "AAPL",
+            "price": 263.88,
+            "ath_2026": 277.86,
+            "drop_from_ath_pct": -5.03,
+            "zones": {
+                "clearance_price": 194.5,
+                "buffett_price": 138.93,
+                "in_clearance": false,
+                "in_buffett": false
+            },
+            "technicals": {
+                "rsi": 54.92,
+                "bb_lower": 240.83,
+                "at_lower_band": false,
+                "rsi_oversold": false
+            },
+            "confidence": {
+                "score": 1,
+                "label": "Localized Opportunity"
+            },
+            "score": {
+                "total": 0,
+                "price_pts": 0,
+                "rsi_pts": 0,
+                "vix_pts": 0,
+                "bb_pts": 0,
+                "color": "GRAY"
+            },
+            "signal": {
+                "is_buy": false,
+                "reasons": []
+            }
+        },
+        {
+            "ticker": "NVDA",
+            "price": 184.97,
+            "ath_2026": 192.51,
+            "drop_from_ath_pct": -3.92,
+            "zones": {
+                "clearance_price": 134.76,
+                "buffett_price": 96.25,
+                "in_clearance": false,
+                "in_buffett": false
+            },
+            "technicals": {
+                "rsi": 46.78,
+                "bb_lower": 174.09,
+                "at_lower_band": false,
+                "rsi_oversold": false
+            },
+            "confidence": {
+                "score": 1,
+                "label": "Localized Opportunity"
+            },
+            "score": {
+                "total": 0,
+                "price_pts": 0,
+                "rsi_pts": 0,
+                "vix_pts": 0,
+                "bb_pts": 0,
+                "color": "GRAY"
+            },
+            "signal": {
+                "is_buy": false,
+                "reasons": []
+            }
+        },
+        {
+            "ticker": "TSM",
+            "price": 364.2,
+            "ath_2026": 374.09,
+            "drop_from_ath_pct": -2.64,
+            "zones": {
+                "clearance_price": 261.86,
+                "buffett_price": 187.04,
+                "in_clearance": false,
+                "in_buffett": false
+            },
+            "technicals": {
+                "rsi": 62.88,
+                "bb_lower": 311.87,
+                "at_lower_band": false,
+                "rsi_oversold": false
+            },
+            "confidence": {
+                "score": 1,
+                "label": "Localized Opportunity"
+            },
+            "score": {
+                "total": 0,
+                "price_pts": 0,
+                "rsi_pts": 0,
+                "vix_pts": 0,
+                "bb_pts": 0,
+                "color": "GRAY"
+            },
+            "signal": {
+                "is_buy": false,
+                "reasons": []
+            }
+        },
+        {
+            "ticker": "SPY",
+            "price": 682.85,
+            "ath_2026": 695.49,
+            "drop_from_ath_pct": -1.82,
+            "zones": {
+                "clearance_price": 486.84,
+                "buffett_price": 347.74,
+                "in_clearance": false,
+                "in_buffett": false
+            },
+            "technicals": {
+                "rsi": 38.58,
+                "bb_lower": 677.03,
+                "at_lower_band": false,
+                "rsi_oversold": false
+            },
+            "confidence": {
+                "score": 1,
+                "label": "Localized Opportunity"
+            },
+            "score": {
+                "total": 0,
+                "price_pts": 0,
+                "rsi_pts": 0,
+                "vix_pts": 0,
+                "bb_pts": 0,
+                "color": "GRAY"
+            },
+            "signal": {
+                "is_buy": false,
+                "reasons": []
+            }
+        }
+    ],
+    "market_status": {
+        "vix_value": 19.56,
+        "vix_label": "Localized Opportunity",
+        "vix_confidence_score": 1,
+        "vix_confidence_pct": 20
+    }
+}

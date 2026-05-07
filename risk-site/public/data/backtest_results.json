@@ -1,14 +1,57 @@
 {
-  "total_signals_analyzed": 0,
-  "gold_signals_found": 0,
-  "total_trades": 0,
-  "wins": 0,
-  "losses": 0,
-  "gold_win_rate": 0.0,
-  "avg_return_24h": 0.0,
-  "cumulative_return_pct": 0.0,
-  "position_size_pct": 20.0,
-  "live_start_date": "2026-04-22",
-  "updated": "2026-04-22T13:16:47",
-  "details": []
+  "total_signals_analyzed": 168,
+  "gold_signals_found": 7,
+  "total_trades": 7,
+  "wins": 4,
+  "losses": 3,
+  "gold_win_rate": 57.1,
+  "avg_return_24h": 0.64,
+  "cumulative_return_pct": 1.34,
+  "position_size_pct": 30.0,
+  "live_start_date": "2026-04-10",
+  "updated": "2026-04-13T21:25:38.578723",
+  "details": [
+    {
+      "target": "PDM",
+      "date": "2026-04-10",
+      "return_pct": 3.56,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05d6\u05d9\u05d4\u05d5\u05d9 \u05d4\u05d9\u05e4\u05d5\u05da \u05de\u05d5\u05de\u05e0\u05d8\u05d5\u05dd \u05de\u05e2\u05dc \u05d9\u05e2\u05d3 1.5%."
+    },
+    {
+      "target": "DIA",
+      "date": "2026-04-10",
+      "return_pct": 0.18,
+      "exit_reason": "FRIDAY_FLAT_LIQUIDATION: \ud83c\udfd6\ufe0f \u05e1\u05d5\u05e3 \u05d4\u05de\u05e1\u05d7\u05e8 \u05e9\u05dc \u05d9\u05d5\u05dd \u05e9\u05d9\u05e9\u05d9: \u05d7\u05d9\u05e1\u05d5\u05dc \u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4 \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05d5\u05ea 100% \u05de\u05d6\u05d5\u05de\u05df \u05d5\u05dc\u05d4\u05d9\u05de\u05e0\u05e2 \u05de\u05e1\u05d9\u05db\u05d5\u05df \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05d1\u05e1\u05d5\u05e3 \u05d4\u05e9\u05d1\u05d5\u05e2."
+    },
+    {
+      "target": "GOOGL",
+      "date": "2026-04-10",
+      "return_pct": -0.69,
+      "exit_reason": "FRIDAY_FLAT_LIQUIDATION: \ud83c\udfd6\ufe0f \u05e1\u05d5\u05e3 \u05d4\u05de\u05e1\u05d7\u05e8 \u05e9\u05dc \u05d9\u05d5\u05dd \u05e9\u05d9\u05e9\u05d9: \u05d7\u05d9\u05e1\u05d5\u05dc \u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4 \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05d5\u05ea 100% \u05de\u05d6\u05d5\u05de\u05df \u05d5\u05dc\u05d4\u05d9\u05de\u05e0\u05e2 \u05de\u05e1\u05d9\u05db\u05d5\u05df \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05d1\u05e1\u05d5\u05e3 \u05d4\u05e9\u05d1\u05d5\u05e2."
+    },
+    {
+      "target": "XLF",
+      "date": "2026-04-10",
+      "return_pct": 0.12,
+      "exit_reason": "FRIDAY_FLAT_LIQUIDATION: \ud83c\udfd6\ufe0f \u05e1\u05d5\u05e3 \u05d4\u05de\u05e1\u05d7\u05e8 \u05e9\u05dc \u05d9\u05d5\u05dd \u05e9\u05d9\u05e9\u05d9: \u05d7\u05d9\u05e1\u05d5\u05dc \u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4 \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05d5\u05ea 100% \u05de\u05d6\u05d5\u05de\u05df \u05d5\u05dc\u05d4\u05d9\u05de\u05e0\u05e2 \u05de\u05e1\u05d9\u05db\u05d5\u05df \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05d1\u05e1\u05d5\u05e3 \u05d4\u05e9\u05d1\u05d5\u05e2."
+    },
+    {
+      "target": "ADBE",
+      "date": "2026-04-10",
+      "return_pct": -0.17,
+      "exit_reason": "FRIDAY_FLAT_LIQUIDATION: \ud83c\udfd6\ufe0f \u05e1\u05d5\u05e3 \u05d4\u05de\u05e1\u05d7\u05e8 \u05e9\u05dc \u05d9\u05d5\u05dd \u05e9\u05d9\u05e9\u05d9: \u05d7\u05d9\u05e1\u05d5\u05dc \u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4 \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05d5\u05ea 100% \u05de\u05d6\u05d5\u05de\u05df \u05d5\u05dc\u05d4\u05d9\u05de\u05e0\u05e2 \u05de\u05e1\u05d9\u05db\u05d5\u05df \u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05d1\u05e1\u05d5\u05e3 \u05d4\u05e9\u05d1\u05d5\u05e2."
+    },
+    {
+      "target": "ALLO",
+      "date": "2026-04-13",
+      "return_pct": 1.91,
+      "exit_reason": "TRAILING_STOP:   :     ."
+    },
+    {
+      "target": "USO",
+      "date": "2026-04-13",
+      "return_pct": -0.42,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05d6\u05d9\u05d4\u05d5\u05d9 \u05d4\u05d9\u05e4\u05d5\u05da \u05de\u05d5\u05de\u05e0\u05d8\u05d5\u05dd \u05de\u05e2\u05dc \u05d9\u05e2\u05d3 1.5%."
+    }
+  ]
 }

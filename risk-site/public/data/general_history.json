@@ -1,0 +1,4187 @@
+{
+  "SPY": {
+    "ticker": "SPY",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 73.15,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 64.84,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 55.35,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 39.33,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 41.38,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 52.7,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 55.77,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 56.5,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 58.22,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 56.99,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 56.51,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 56.21,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 46.28,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 45.9,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 58.75,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 63.46,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 62.97,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 74.14,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 73.83,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 70.19,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 63.45,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 53.58,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 52.82,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 52.02,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 38.62,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 48.45,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 56.98,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 56.11,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 55.16,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 53.9,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "S&P 500": {
+    "ticker": "S&P 500",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 73.15,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 64.84,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 55.35,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 39.33,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 41.38,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 52.7,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 55.77,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 56.5,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 58.22,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 56.99,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 56.51,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 56.21,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 46.28,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 45.9,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 58.75,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 63.46,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 62.97,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 74.14,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 73.83,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 70.19,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 63.45,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 53.58,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 52.82,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 52.02,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 38.62,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 48.45,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 56.98,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 56.11,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 55.16,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 53.9,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "QQQ": {
+    "ticker": "QQQ",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 69.87,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 55.69,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 53.2,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 36.33,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 40.68,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 49.9,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 48.29,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 49.49,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 51.47,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 49.33,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 47.84,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 46.05,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 40.16,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 40.7,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 54.64,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 61.79,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 61.39,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 71.02,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 69.48,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 63.77,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 59.35,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 46.91,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 47.43,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 46.89,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 37.79,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 47.34,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 55.5,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 58.08,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 56.52,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 56.71,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "NASDAQ 100": {
+    "ticker": "NASDAQ 100",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 69.87,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 55.69,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 53.2,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 36.33,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 40.68,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 49.9,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 48.29,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 49.49,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 51.47,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 49.33,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 47.84,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 46.05,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 40.16,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 40.7,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 54.64,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 61.79,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 61.39,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 71.02,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 69.48,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 63.77,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 59.35,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 46.91,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 47.43,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 46.89,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 37.79,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 47.34,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 55.5,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 58.08,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 56.52,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 56.71,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "DIA": {
+    "ticker": "DIA",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 76.31,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 74.83,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 64.14,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 57.32,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 54.74,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 63.48,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 63.9,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 59.82,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 63.91,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 62.83,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 61.72,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 63.15,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 50.45,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 43.85,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 59.19,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 65.37,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 62.68,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 69.13,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 70.59,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 69.95,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 60.98,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 59.62,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 59.74,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 58.38,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 50.51,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 57.36,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 63.28,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 57.51,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 54.78,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 45.24,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "DOW JONES": {
+    "ticker": "DOW JONES",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 76.31,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 74.83,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 64.14,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 57.32,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 54.74,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 63.48,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 63.9,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 59.82,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 63.91,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 62.83,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 61.72,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 63.15,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 50.45,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 43.85,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 59.19,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 65.37,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 62.68,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 69.13,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 70.59,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 69.95,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 60.98,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 59.62,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 59.74,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 58.38,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 50.51,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 57.36,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 63.28,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 57.51,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 54.78,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 45.24,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "IWM": {
+    "ticker": "IWM",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 75.77,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 68.21,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 59.67,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 51.3,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 51.35,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 60.56,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 65.02,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 55.91,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 53.3,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 52.81,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 49.73,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 45.69,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 35.92,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 35.08,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 49.5,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 58.67,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 59.89,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 69.47,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 69.99,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 69.12,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 65.31,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 71.61,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 73.36,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 77.2,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 72.68,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 81.51,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 87.52,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 73.68,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 68.3,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 65.38,
+        "flag": "YELLOW"
+      }
+    ]
+  },
+  "RUSSELL 2000": {
+    "ticker": "RUSSELL 2000",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 75.77,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 68.21,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 59.67,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 51.3,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 51.35,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 60.56,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 65.02,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 55.91,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 53.3,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 52.81,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 49.73,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 45.69,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 35.92,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 35.08,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 49.5,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 58.67,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 59.89,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 69.47,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 69.99,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 69.12,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 65.31,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 71.61,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 73.36,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 77.2,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 72.68,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 81.51,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 87.52,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 73.68,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 68.3,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 65.38,
+        "flag": "YELLOW"
+      }
+    ]
+  },
+  "GLD": {
+    "ticker": "GLD",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 84.63,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 81.2,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 81.66,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 81.92,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 75.11,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 73.33,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 89.5,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 92.32,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 87.48,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 90.73,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 62.13,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 60.92,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 56.78,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 54.91,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 61.17,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 63.65,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 59.88,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 59.19,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 61.58,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 65.28,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 59.95,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 59.28,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 58.49,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 53.53,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 81.06,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 82.74,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 87.55,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 88.22,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 87.62,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 88.69,
+        "flag": "ORANGE"
+      }
+    ]
+  },
+  "GOLD": {
+    "ticker": "GOLD",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 84.63,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 81.2,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 81.66,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 81.92,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 75.11,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 73.33,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 89.5,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 92.32,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 87.48,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 90.73,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 62.13,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 60.92,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 56.78,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 54.91,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 61.17,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 63.65,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 59.88,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 59.19,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 61.58,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 65.28,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 59.95,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 59.28,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 58.49,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 53.53,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 81.06,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 82.74,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 87.55,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 88.22,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 87.62,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 88.69,
+        "flag": "ORANGE"
+      }
+    ]
+  },
+  "USO": {
+    "ticker": "USO",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 47.81,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 38.47,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 36.63,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 41.79,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 34.23,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 38.46,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 48.32,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 48.72,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 45.58,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 38.25,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 46.93,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 49.57,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 44.98,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 48.85,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 55.23,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 52.17,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 56.11,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 59.01,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 63.15,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 63.23,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 63.58,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 58.19,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 53.0,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 61.09,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 58.41,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 62.23,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 58.49,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 64.18,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 59.7,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 70.7,
+        "flag": "ORANGE"
+      }
+    ]
+  },
+  "OIL": {
+    "ticker": "OIL",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 47.81,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 38.47,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 36.63,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 41.79,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 34.23,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 38.46,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 48.32,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 48.72,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 45.58,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 38.25,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 46.93,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 49.57,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 44.98,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 48.85,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 55.23,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 52.17,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 56.11,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 59.01,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 63.15,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 63.23,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 63.58,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 58.19,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 53.0,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 61.09,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 58.41,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 62.23,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 58.49,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 64.18,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 59.7,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 70.7,
+        "flag": "ORANGE"
+      }
+    ]
+  },
+  "BTC": {
+    "ticker": "BTC",
+    "history": [
+      {
+        "date": "2025-12-30",
+        "score": 52.96,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 57.47,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-01",
+        "score": 66.89,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 61.16,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-03",
+        "score": 63.03,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-04",
+        "score": 65.17,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 73.37,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 79.75,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 64.4,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 64.88,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 62.18,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-10",
+        "score": 60.08,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-11",
+        "score": 61.31,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 65.73,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 71.91,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 78.7,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 70.58,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 68.14,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-17",
+        "score": 64.84,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-18",
+        "score": 57.03,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-19",
+        "score": 45.39,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 35.36,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 44.37,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 45.39,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 46.94,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-24",
+        "score": 46.19,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-25",
+        "score": 38.71,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 42.75,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 31.58,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-28",
+        "score": 27.15,
+        "flag": "RED"
+      }
+    ]
+  },
+  "BITCOIN": {
+    "ticker": "BITCOIN",
+    "history": [
+      {
+        "date": "2025-12-30",
+        "score": 52.96,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 57.47,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-01",
+        "score": 66.89,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 61.16,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-03",
+        "score": 63.03,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-04",
+        "score": 65.17,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 73.37,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 79.75,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 64.4,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 64.88,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 62.18,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-10",
+        "score": 60.08,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-11",
+        "score": 61.31,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 65.73,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 71.91,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 78.7,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 70.58,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 68.14,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-17",
+        "score": 64.84,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-18",
+        "score": 57.03,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-19",
+        "score": 45.39,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 35.36,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 44.37,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 45.39,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 46.94,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-24",
+        "score": 46.19,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-25",
+        "score": 38.71,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 42.75,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 31.58,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-28",
+        "score": 27.15,
+        "flag": "RED"
+      }
+    ]
+  },
+  "TA35": {
+    "ticker": "TA35",
+    "history": [
+      {
+        "date": "2025-12-14",
+        "score": 81.36,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 83.08,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 82.24,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 82.78,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 82.38,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-21",
+        "score": 83.13,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 81.24,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 88.56,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 87.32,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-25",
+        "score": 58.55,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-28",
+        "score": 59.37,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 57.61,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 57.29,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 48.24,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-01",
+        "score": 59.51,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 65.82,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 71.79,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 70.3,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 66.63,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 68.7,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 64.88,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 68.39,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 69.75,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-19",
+        "score": 86.1,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 82.24,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 79.52,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 79.83,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 86.59,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 84.62,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-28",
+        "score": 84.26,
+        "flag": "ORANGE"
+      }
+    ]
+  },
+  "TA-35": {
+    "ticker": "TA-35",
+    "history": [
+      {
+        "date": "2025-12-14",
+        "score": 81.36,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 83.08,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 82.24,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 82.78,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 82.38,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-21",
+        "score": 83.13,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 81.24,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 88.56,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 87.32,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-25",
+        "score": 58.55,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-28",
+        "score": 59.37,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 57.61,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 57.29,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 48.24,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-01",
+        "score": 59.51,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 65.82,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 71.79,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 70.3,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 66.63,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 68.7,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 64.88,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 68.39,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 69.75,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-19",
+        "score": 86.1,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 82.24,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 79.52,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 79.83,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 86.59,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 84.62,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-28",
+        "score": 84.26,
+        "flag": "ORANGE"
+      }
+    ]
+  },
+  "USD_ILS": {
+    "ticker": "USD_ILS",
+    "history": [
+      {
+        "date": "2025-12-16",
+        "score": 25.39,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 35.5,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 37.55,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 34.97,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 33.37,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 32.93,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 33.96,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 28.94,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 35.95,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 36.06,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 35.21,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 33.76,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 40.93,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 26.78,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 35.79,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 29.27,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 27.87,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 27.8,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 26.45,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 31.06,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 38.94,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 37.7,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-19",
+        "score": 32.63,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 40.46,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 44.88,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 37.56,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 33.77,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 42.47,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 29.1,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-28",
+        "score": 23.89,
+        "flag": "RED"
+      }
+    ]
+  },
+  "USD/ILS": {
+    "ticker": "USD/ILS",
+    "history": [
+      {
+        "date": "2025-12-16",
+        "score": 25.39,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 35.5,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 37.55,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 34.97,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 33.37,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 32.93,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 33.96,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 28.94,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 35.95,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 36.06,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 35.21,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 33.76,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 40.93,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 26.78,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 35.79,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 29.27,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 27.87,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 27.8,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 26.45,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 31.06,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 38.94,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 37.7,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-19",
+        "score": 32.63,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 40.46,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 44.88,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 37.56,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 33.77,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 42.47,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 29.1,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-28",
+        "score": 23.89,
+        "flag": "RED"
+      }
+    ]
+  },
+  "AAPL": {
+    "ticker": "AAPL",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 62.9,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 46.53,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 45.37,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 39.69,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 37.55,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 30.33,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 17.73,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 24.29,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 33.54,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 36.15,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 39.07,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 39.13,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 31.28,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 31.11,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 25.05,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 24.24,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 20.67,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 22.0,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 21.94,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 19.83,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 25.61,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 19.06,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 11.65,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 10.48,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 6.47,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 9.44,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 11.87,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 12.08,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 32.53,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 43.58,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "MSFT": {
+    "ticker": "MSFT",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 54.09,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 50.51,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 49.62,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 43.34,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 44.41,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 49.4,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 46.16,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 58.16,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 56.66,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 54.38,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 45.61,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 44.85,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 57.34,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 36.91,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 41.97,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 54.94,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 58.69,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 52.17,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 43.99,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 38.87,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 34.09,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 24.64,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 21.85,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 26.23,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 24.27,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 20.44,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 28.78,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 45.67,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 48.49,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 51.16,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "GOOGL": {
+    "ticker": "GOOGL",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 57.23,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 39.86,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 32.23,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 28.38,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 35.09,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 43.53,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 45.14,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 45.82,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 47.18,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 43.23,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 49.84,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 46.45,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 41.65,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 53.62,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 60.13,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 58.29,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 67.96,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 89.34,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 88.52,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 88.02,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 88.55,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 86.39,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 78.91,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 73.88,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 59.93,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 64.96,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 67.58,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 62.69,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 65.4,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 68.93,
+        "flag": "YELLOW"
+      }
+    ]
+  },
+  "AMZN": {
+    "ticker": "AMZN",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 58.18,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 44.09,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 37.43,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 36.43,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 39.41,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 39.27,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 40.33,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 49.63,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 55.52,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 55.1,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 59.54,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 58.68,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 48.03,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 43.06,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 61.56,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 77.1,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 77.5,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 82.94,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 80.7,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 78.2,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 69.31,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 55.79,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 57.21,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 58.04,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 48.9,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 48.74,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 53.53,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 62.57,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 56.02,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 54.37,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "NVDA": {
+    "ticker": "NVDA",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 45.05,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 41.43,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 49.86,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 37.59,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 46.19,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 51.31,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 52.63,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 60.42,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 56.08,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 59.24,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 53.1,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 52.97,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 53.16,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 59.3,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 67.52,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 64.8,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 65.22,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 70.31,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 66.91,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 57.92,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 54.59,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 35.01,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 46.69,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 40.43,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 32.07,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 43.58,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 47.51,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 48.26,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 47.6,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 51.8,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "TSLA": {
+    "ticker": "TSLA",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 80.94,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 78.95,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 81.38,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 65.92,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 68.96,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 67.93,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 69.96,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 64.41,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 62.15,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 57.38,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 57.32,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 53.39,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 49.36,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 46.9,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 47.46,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 35.49,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 28.01,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 36.29,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 32.21,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 35.29,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 30.0,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 28.67,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 28.54,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 31.15,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 30.33,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 39.52,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 49.85,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 54.93,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 42.63,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 48.94,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "ZIM": {
+    "ticker": "ZIM",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 62.47,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 68.29,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 53.71,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 49.02,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 41.39,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 49.47,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 52.34,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 58.45,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 55.26,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 60.51,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 58.87,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 58.96,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 60.61,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 64.4,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 65.13,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 63.81,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 67.79,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 73.56,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 76.12,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 79.25,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 60.63,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 60.68,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 60.25,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 50.06,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 51.77,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 57.46,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 54.16,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 51.02,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 61.09,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 52.61,
+        "flag": "GREEN"
+      }
+    ]
+  },
+  "PLTR": {
+    "ticker": "PLTR",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 86.03,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 82.03,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 83.63,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 63.03,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 67.26,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 72.84,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 71.54,
+        "flag": "ORANGE"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 68.48,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 67.28,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 57.14,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 52.54,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 49.11,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 40.4,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 34.24,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 42.63,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 47.47,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 45.5,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 49.65,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 42.42,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 35.54,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 34.4,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 33.8,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 32.85,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 32.42,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 33.83,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 33.93,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 37.04,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 52.2,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 40.74,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 27.83,
+        "flag": "RED"
+      }
+    ]
+  },
+  "COIN": {
+    "ticker": "COIN",
+    "history": [
+      {
+        "date": "2025-12-12",
+        "score": 64.88,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-15",
+        "score": 47.0,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-16",
+        "score": 49.19,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-17",
+        "score": 38.49,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-18",
+        "score": 30.77,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2025-12-19",
+        "score": 40.84,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-22",
+        "score": 40.37,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2025-12-23",
+        "score": 25.84,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-24",
+        "score": 25.95,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-26",
+        "score": 26.51,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-29",
+        "score": 20.5,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-30",
+        "score": 16.12,
+        "flag": "RED"
+      },
+      {
+        "date": "2025-12-31",
+        "score": 15.4,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-02",
+        "score": 28.35,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-05",
+        "score": 43.18,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-06",
+        "score": 50.09,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-07",
+        "score": 45.91,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-08",
+        "score": 50.95,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-09",
+        "score": 51.08,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-12",
+        "score": 48.46,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-13",
+        "score": 53.13,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-14",
+        "score": 59.14,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-15",
+        "score": 49.74,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-16",
+        "score": 52.44,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-20",
+        "score": 46.9,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-21",
+        "score": 47.57,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-22",
+        "score": 48.41,
+        "flag": "GREEN"
+      },
+      {
+        "date": "2026-01-23",
+        "score": 39.15,
+        "flag": "YELLOW"
+      },
+      {
+        "date": "2026-01-26",
+        "score": 22.5,
+        "flag": "RED"
+      },
+      {
+        "date": "2026-01-27",
+        "score": 23.02,
+        "flag": "RED"
+      }
+    ]
+  }
+}

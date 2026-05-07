@@ -1,0 +1,242 @@
+[
+  {
+    "ticker": "NVDA",
+    "name": "NVIDIA Corp",
+    "region": "Americas",
+    "price": "188.52",
+    "change": "+1.10%",
+    "flag": "RED",
+    "score": 40,
+    "insight": "Oversold (RSI < 30)"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "region": "Americas",
+    "price": "480.58",
+    "change": "+2.19%",
+    "flag": "RED",
+    "score": 40,
+    "insight": "Oversold (RSI < 30)"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Apple Inc",
+    "region": "Americas",
+    "price": "258.27",
+    "change": "+1.12%",
+    "flag": "RED",
+    "score": 40,
+    "insight": "Oversold (RSI < 30)"
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Tesla Inc",
+    "region": "Americas",
+    "price": "430.90",
+    "change": "-0.99%",
+    "flag": "RED",
+    "score": 40,
+    "insight": "Oversold (RSI < 30)"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet Inc",
+    "region": "Americas",
+    "price": "334.55",
+    "change": "+0.39%",
+    "flag": "RED",
+    "score": 40,
+    "insight": "Oversold (RSI < 30)"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon.com",
+    "region": "Americas",
+    "price": "244.68",
+    "change": "+2.63%",
+    "flag": "RED",
+    "score": 40,
+    "insight": "Oversold (RSI < 30)"
+  },
+  {
+    "ticker": "AMD",
+    "name": "Adv. Micro Devices",
+    "region": "Americas",
+    "price": "252.74",
+    "change": "+0.28%",
+    "flag": "RED",
+    "score": 20,
+    "insight": "Extreme Volatility"
+  },
+  {
+    "ticker": "PLTR",
+    "name": "Palantir Tech",
+    "region": "Americas",
+    "price": "165.70",
+    "change": "-1.06%",
+    "flag": "RED",
+    "score": 40,
+    "insight": "Oversold (RSI < 30)"
+  },
+  {
+    "ticker": "COIN",
+    "name": "Coinbase Global",
+    "region": "Americas",
+    "price": "210.83",
+    "change": "-1.24%",
+    "flag": "RED",
+    "score": 40,
+    "insight": "Oversold (RSI < 30)"
+  },
+  {
+    "ticker": "LMT",
+    "name": "Lockheed Martin",
+    "region": "Americas",
+    "price": "594.95",
+    "change": "+2.28%",
+    "flag": "RED",
+    "score": 40,
+    "insight": "Oversold (RSI < 30)"
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "region": "Americas",
+    "price": "136.83",
+    "change": "+1.48%",
+    "flag": "RED",
+    "score": 40,
+    "insight": "Oversold (RSI < 30)"
+  },
+  {
+    "ticker": "LUMI",
+    "name": "Bank Leumi",
+    "region": "EMEA",
+    "price": "7,497",
+    "change": "-1.99%",
+    "flag": "ORANGE",
+    "score": 30,
+    "insight": "High Volatility Regime"
+  },
+  {
+    "ticker": "POLI",
+    "name": "Bank Hapoalim",
+    "region": "EMEA",
+    "price": "7,716",
+    "change": "-1.63%",
+    "flag": "ORANGE",
+    "score": 30,
+    "insight": "High Volatility Regime"
+  },
+  {
+    "ticker": "DSCT",
+    "name": "Discount Bank",
+    "region": "EMEA",
+    "price": "3,664",
+    "change": "-1.43%",
+    "flag": "ORANGE",
+    "score": 30,
+    "insight": "High Volatility Regime"
+  },
+  {
+    "ticker": "PHOE",
+    "name": "Phoenix Holdings",
+    "region": "EMEA",
+    "price": "14,560",
+    "change": "-0.27%",
+    "flag": "ORANGE",
+    "score": 30,
+    "insight": "High Volatility Regime"
+  },
+  {
+    "ticker": "HARL",
+    "name": "Harel Insurance",
+    "region": "EMEA",
+    "price": "13,670",
+    "change": "-1.23%",
+    "flag": "ORANGE",
+    "score": 30,
+    "insight": "High Volatility Regime"
+  },
+  {
+    "ticker": "MGDL",
+    "name": "Migdal Insurance",
+    "region": "EMEA",
+    "price": "1,610",
+    "change": "-1.17%",
+    "flag": "RED",
+    "score": 10,
+    "insight": "Extreme Volatility"
+  },
+  {
+    "ticker": "ESLT",
+    "name": "Elbit Systems",
+    "region": "EMEA",
+    "price": "227,290",
+    "change": "+0.58%",
+    "flag": "ORANGE",
+    "score": 50,
+    "insight": "High Volatility Regime"
+  },
+  {
+    "ticker": "NICE",
+    "name": "NICE Ltd",
+    "region": "EMEA",
+    "price": "34,710",
+    "change": "-2.06%",
+    "flag": "ORANGE",
+    "score": 30,
+    "insight": "High Volatility Regime"
+  },
+  {
+    "ticker": "TEVA",
+    "name": "Teva Pharma",
+    "region": "EMEA",
+    "price": "10,110",
+    "change": "+1.55%",
+    "flag": "ORANGE",
+    "score": 30,
+    "insight": "High Volatility Regime"
+  },
+  {
+    "ticker": "Enog",
+    "name": "Energean",
+    "region": "EMEA",
+    "price": "3,687",
+    "change": "-2.18%",
+    "flag": "ORANGE",
+    "score": 15,
+    "insight": "High Volatility Regime + Momentum Negative"
+  },
+  {
+    "ticker": "Delek",
+    "name": "Delek Group",
+    "region": "EMEA",
+    "price": "84,410",
+    "change": "+1.28%",
+    "flag": "GREEN",
+    "score": 75,
+    "insight": "Neutral Regime"
+  },
+  {
+    "ticker": "ORL",
+    "name": "Bazan Group",
+    "region": "EMEA",
+    "price": "101.90",
+    "change": "-1.55%",
+    "flag": "ORANGE",
+    "score": 30,
+    "insight": "High Volatility Regime"
+  },
+  {
+    "ticker": "ZIM",
+    "name": "ZIM Shipping",
+    "region": "EMEA",
+    "price": "22.72",
+    "change": "-1.05%",
+    "flag": "RED",
+    "score": 40,
+    "insight": "Oversold (RSI < 30)"
+  }
+]

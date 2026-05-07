@@ -1,0 +1,122 @@
+[
+  {
+    "ticker": "SPY",
+    "name": "S&P 500",
+    "region": "Americas",
+    "price": "695.42",
+    "change": "-0.01%",
+    "flag": "GREEN",
+    "score": 75,
+    "insight": "Neutral Regime"
+  },
+  {
+    "ticker": "QQQ",
+    "name": "Nasdaq 100",
+    "region": "Americas",
+    "price": "633.22",
+    "change": "+0.33%",
+    "flag": "GREEN",
+    "score": 75,
+    "insight": "Neutral Regime"
+  },
+  {
+    "ticker": "DIA",
+    "name": "Dow Jones",
+    "region": "Americas",
+    "price": "490.13",
+    "change": "+0.01%",
+    "flag": "GREEN",
+    "score": 75,
+    "insight": "Neutral Regime"
+  },
+  {
+    "ticker": "IWM",
+    "name": "Russell 2000",
+    "region": "Americas",
+    "price": "263.30",
+    "change": "-0.54%",
+    "flag": "GREEN",
+    "score": 75,
+    "insight": "Neutral Regime"
+  },
+  {
+    "ticker": "IEUR",
+    "name": "Europe Core (DAX Proxy)",
+    "region": "EMEA",
+    "price": "74.50",
+    "change": "-1.17%",
+    "flag": "GREEN",
+    "score": 75,
+    "insight": "Neutral Regime"
+  },
+  {
+    "ticker": "EIS",
+    "name": "MSCI Israel (TA-35 Proxy)",
+    "region": "EMEA",
+    "price": "120.73",
+    "change": "-0.57%",
+    "flag": "GREEN",
+    "score": 75,
+    "insight": "Neutral Regime"
+  },
+  {
+    "ticker": "EWJ",
+    "name": "MSCI Japan (Nikkei Proxy)",
+    "region": "APAC",
+    "price": "85.21",
+    "change": "-0.73%",
+    "flag": "GREEN",
+    "score": 75,
+    "insight": "Neutral Regime"
+  },
+  {
+    "ticker": "FXI",
+    "name": "China Large-Cap (HSI Proxy)",
+    "region": "APAC",
+    "price": "40.50",
+    "change": "+1.40%",
+    "flag": "GREEN",
+    "score": 75,
+    "insight": "Neutral Regime"
+  },
+  {
+    "ticker": "BTC",
+    "name": "Bitcoin",
+    "region": "Crypto",
+    "price": "89,062",
+    "change": "-0.05%",
+    "flag": "ORANGE",
+    "score": 20,
+    "insight": "High Volatility Regime"
+  },
+  {
+    "ticker": "GLD",
+    "name": "Gold",
+    "region": "Commodities",
+    "price": "494.56",
+    "change": "+3.88%",
+    "flag": "YELLOW",
+    "score": 70,
+    "insight": "Overbought (RSI > 70)"
+  },
+  {
+    "ticker": "USO",
+    "name": "Crude Oil",
+    "region": "Commodities",
+    "price": "76.62",
+    "change": "+1.27%",
+    "flag": "ORANGE",
+    "score": 50,
+    "insight": "High Volatility Regime"
+  },
+  {
+    "ticker": "CPER",
+    "name": "Copper",
+    "region": "Commodities",
+    "price": "36.78",
+    "change": "+0.55%",
+    "flag": "ORANGE",
+    "score": 30,
+    "insight": "High Volatility Regime"
+  }
+]

@@ -1,0 +1,186 @@
+{
+  "regime": {
+    "regime": "RISK_ON",
+    "score": 75,
+    "details": "SPY Bullish Structure (Price > SMAs)",
+    "macro_data": {
+      "vix": 20.0,
+      "tnx": 4.0,
+      "tnx_5d_chg": 0.0
+    },
+    "spy_trend": "BULL",
+    "updated": "2026-05-02T21:30:05.153491"
+  },
+  "items": [
+    {
+      "ticker": "SPY",
+      "name": "S&P 500",
+      "region": "Americas",
+      "price": "691.97",
+      "change": "-0.30%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "QQQ",
+      "name": "Nasdaq 100",
+      "region": "Americas",
+      "price": "621.87",
+      "change": "-1.20%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "DIA",
+      "name": "Dow Jones",
+      "region": "Americas",
+      "price": "489.03",
+      "change": "-0.24%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "IWM",
+      "name": "Russell 2000",
+      "region": "Americas",
+      "price": "259.65",
+      "change": "-1.41%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "XLK",
+      "name": "Technology",
+      "region": "Americas",
+      "price": "143.88",
+      "change": "-2.04%",
+      "flag": "YELLOW",
+      "score": 50,
+      "insight": "Neutral / Transition"
+    },
+    {
+      "ticker": "SMH",
+      "name": "Semiconductors",
+      "region": "Americas",
+      "price": "403.46",
+      "change": "-3.37%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "IEUR",
+      "name": "Europe Core",
+      "region": "EMEA",
+      "price": "74.23",
+      "change": "-0.91%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "TA35",
+      "name": "Tel Aviv 35",
+      "region": "EMEA",
+      "price": "4,222.36",
+      "change": "+0.83%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "EIS",
+      "name": "MSCI Israel",
+      "region": "EMEA",
+      "price": "118.99",
+      "change": "-0.58%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "EWJ",
+      "name": "MSCI Japan",
+      "region": "APAC",
+      "price": "85.72",
+      "change": "-0.43%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "FXI",
+      "name": "China Large-Cap",
+      "region": "APAC",
+      "price": "39.61",
+      "change": "-2.87%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "BTC",
+      "name": "Bitcoin",
+      "region": "Crypto",
+      "price": "82,927.16",
+      "change": "-1.43%",
+      "flag": "RED",
+      "score": 20,
+      "insight": "Bearish Trend"
+    },
+    {
+      "ticker": "ETH",
+      "name": "Ethereum",
+      "region": "Crypto",
+      "price": "2,638.56",
+      "change": "-2.36%",
+      "flag": "RED",
+      "score": 20,
+      "insight": "Bearish Trend"
+    },
+    {
+      "ticker": "SOL",
+      "name": "Solana",
+      "region": "Crypto",
+      "price": "115.71",
+      "change": "-1.41%",
+      "flag": "RED",
+      "score": 20,
+      "insight": "Bearish Trend"
+    },
+    {
+      "ticker": "GLD",
+      "name": "Gold",
+      "region": "Commodities",
+      "price": "444.95",
+      "change": "-10.27%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "CPER",
+      "name": "Copper",
+      "region": "Commodities",
+      "price": "36.43",
+      "change": "-5.89%",
+      "flag": "GREEN",
+      "score": 80,
+      "insight": "Bullish Trend"
+    },
+    {
+      "ticker": "USO",
+      "name": "Crude Oil",
+      "region": "Commodities",
+      "price": "79.52",
+      "change": "+0.48%",
+      "flag": "YELLOW",
+      "score": 50,
+      "insight": "Neutral / Transition"
+    }
+  ]
+}

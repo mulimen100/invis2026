@@ -1,0 +1,288 @@
+{
+  "nodes": [
+    {
+      "id": "NVDA",
+      "group": "AI & Semi",
+      "color": "#ef4444",
+      "val": 25,
+      "desc": "DRIVER: Nvidia (AI Demand) | Influence Source"
+    },
+    {
+      "id": "CAMT",
+      "group": "AI & Semi",
+      "color": "#ef4444",
+      "val": 10,
+      "desc": "Affected by NVDA"
+    },
+    {
+      "id": "NOVA",
+      "group": "AI & Semi",
+      "color": "#ef4444",
+      "val": 10,
+      "desc": "Affected by NVDA"
+    },
+    {
+      "id": "TOWER",
+      "group": "AI & Semi",
+      "color": "#ef4444",
+      "val": 10,
+      "desc": "Affected by NVDA"
+    },
+    {
+      "id": "NICE",
+      "group": "AI & Semi",
+      "color": "#ef4444",
+      "val": 10,
+      "desc": "Affected by NVDA"
+    },
+    {
+      "id": "LMT",
+      "group": "Defense",
+      "color": "#3b82f6",
+      "val": 25,
+      "desc": "DRIVER: Lockheed Martin (Global Defense) | Influence Source"
+    },
+    {
+      "id": "ESLT",
+      "group": "Defense",
+      "color": "#3b82f6",
+      "val": 10,
+      "desc": "Affected by LMT"
+    },
+    {
+      "id": "RAFAEL",
+      "group": "Defense",
+      "color": "#3b82f6",
+      "val": 10,
+      "desc": "Affected by LMT"
+    },
+    {
+      "id": "IAT",
+      "group": "Defense",
+      "color": "#3b82f6",
+      "val": 10,
+      "desc": "Affected by LMT"
+    },
+    {
+      "id": "RADA",
+      "group": "Defense",
+      "color": "#3b82f6",
+      "val": 10,
+      "desc": "Affected by LMT"
+    },
+    {
+      "id": "TNX",
+      "group": "Macro / Rates",
+      "color": "#a855f7",
+      "val": 25,
+      "desc": "DRIVER: US 10Y Treasury (Rates) | Influence Source"
+    },
+    {
+      "id": "LEUMI",
+      "group": "Macro / Rates",
+      "color": "#a855f7",
+      "val": 10,
+      "desc": "Affected by TNX"
+    },
+    {
+      "id": "POALIM",
+      "group": "Macro / Rates",
+      "color": "#a855f7",
+      "val": 10,
+      "desc": "Affected by TNX"
+    },
+    {
+      "id": "MZTF",
+      "group": "Macro / Rates",
+      "color": "#a855f7",
+      "val": 10,
+      "desc": "Affected by TNX"
+    },
+    {
+      "id": "DISC",
+      "group": "Macro / Rates",
+      "color": "#a855f7",
+      "val": 10,
+      "desc": "Affected by TNX"
+    },
+    {
+      "id": "CL=F",
+      "group": "Energy",
+      "color": "#22c55e",
+      "val": 25,
+      "desc": "DRIVER: Crude Oil WTI | Influence Source"
+    },
+    {
+      "id": "DLEKG",
+      "group": "Energy",
+      "color": "#22c55e",
+      "val": 10,
+      "desc": "Affected by CL=F"
+    },
+    {
+      "id": "ORL",
+      "group": "Energy",
+      "color": "#22c55e",
+      "val": 10,
+      "desc": "Affected by CL=F"
+    },
+    {
+      "id": "ENOG",
+      "group": "Energy",
+      "color": "#22c55e",
+      "val": 10,
+      "desc": "Affected by CL=F"
+    },
+    {
+      "id": "AMZN",
+      "group": "Consumer / Export",
+      "color": "#f97316",
+      "val": 25,
+      "desc": "DRIVER: Amazon (US Consumer) | Influence Source"
+    },
+    {
+      "id": "DELT",
+      "group": "Consumer / Export",
+      "color": "#f97316",
+      "val": 10,
+      "desc": "Affected by AMZN"
+    },
+    {
+      "id": "TEFRON",
+      "group": "Consumer / Export",
+      "color": "#f97316",
+      "val": 10,
+      "desc": "Affected by AMZN"
+    },
+    {
+      "id": "FOX",
+      "group": "Consumer / Export",
+      "color": "#f97316",
+      "val": 10,
+      "desc": "Affected by AMZN"
+    },
+    {
+      "id": "ZIM",
+      "group": "Logistics / Export",
+      "color": "#eab308",
+      "val": 25,
+      "desc": "DRIVER: ZIM Integrated Shipping | Influence Source"
+    },
+    {
+      "id": "ICL",
+      "group": "Logistics / Export",
+      "color": "#eab308",
+      "val": 10,
+      "desc": "Affected by ZIM"
+    },
+    {
+      "id": "ADAMA",
+      "group": "Logistics / Export",
+      "color": "#eab308",
+      "val": 10,
+      "desc": "Affected by ZIM"
+    }
+  ],
+  "links": [
+    {
+      "source": "NVDA",
+      "target": "CAMT",
+      "value": 0.8
+    },
+    {
+      "source": "NVDA",
+      "target": "NOVA",
+      "value": 0.8
+    },
+    {
+      "source": "NVDA",
+      "target": "TOWER",
+      "value": 0.8
+    },
+    {
+      "source": "NVDA",
+      "target": "NICE",
+      "value": 0.8
+    },
+    {
+      "source": "LMT",
+      "target": "ESLT",
+      "value": 0.8
+    },
+    {
+      "source": "LMT",
+      "target": "RAFAEL",
+      "value": 0.8
+    },
+    {
+      "source": "LMT",
+      "target": "IAT",
+      "value": 0.8
+    },
+    {
+      "source": "LMT",
+      "target": "RADA",
+      "value": 0.8
+    },
+    {
+      "source": "TNX",
+      "target": "LEUMI",
+      "value": 0.8
+    },
+    {
+      "source": "TNX",
+      "target": "POALIM",
+      "value": 0.8
+    },
+    {
+      "source": "TNX",
+      "target": "MZTF",
+      "value": 0.8
+    },
+    {
+      "source": "TNX",
+      "target": "DISC",
+      "value": 0.8
+    },
+    {
+      "source": "CL=F",
+      "target": "DLEKG",
+      "value": 0.8
+    },
+    {
+      "source": "CL=F",
+      "target": "ORL",
+      "value": 0.8
+    },
+    {
+      "source": "CL=F",
+      "target": "ENOG",
+      "value": 0.8
+    },
+    {
+      "source": "AMZN",
+      "target": "DELT",
+      "value": 0.8
+    },
+    {
+      "source": "AMZN",
+      "target": "TEFRON",
+      "value": 0.8
+    },
+    {
+      "source": "AMZN",
+      "target": "FOX",
+      "value": 0.8
+    },
+    {
+      "source": "ZIM",
+      "target": "ICL",
+      "value": 0.8
+    },
+    {
+      "source": "ZIM",
+      "target": "ADAMA",
+      "value": 0.8
+    }
+  ]
+}

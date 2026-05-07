@@ -1,0 +1,56 @@
+{
+    "2008_GFC": {
+        "baseline": {
+            "strategy": "BASELINE",
+            "final_value": 9678.4,
+            "total_return_pct": -3.22,
+            "max_drawdown_pct": 55.19,
+            "days_in_cash": 0
+        },
+        "reson": {
+            "strategy": "RESON",
+            "final_value": 11169.47,
+            "total_return_pct": 11.69,
+            "max_drawdown_pct": 20.68,
+            "days_in_cash": 436
+        },
+        "sniper": {
+            "strategy": "SNIPER",
+            "final_value": 14810.07,
+            "total_return_pct": 48.1,
+            "max_drawdown_pct": 32.25,
+            "days_in_cash": 317
+        },
+        "analysis": {
+            "alpha_sniper_vs_reson": 36.41,
+            "winner": "SNIPER"
+        }
+    },
+    "2020_COVID": {
+        "baseline": {
+            "strategy": "BASELINE",
+            "final_value": 15861.03,
+            "total_return_pct": 58.61,
+            "max_drawdown_pct": 33.72,
+            "days_in_cash": 0
+        },
+        "reson": {
+            "strategy": "RESON",
+            "final_value": 14416.99,
+            "total_return_pct": 44.17,
+            "max_drawdown_pct": 17.42,
+            "days_in_cash": 60
+        },
+        "sniper": {
+            "strategy": "SNIPER",
+            "final_value": 11468.64,
+            "total_return_pct": 14.69,
+            "max_drawdown_pct": 6.02,
+            "days_in_cash": 384
+        },
+        "analysis": {
+            "alpha_sniper_vs_reson": -29.48,
+            "winner": "RESON"
+        }
+    }
+}
