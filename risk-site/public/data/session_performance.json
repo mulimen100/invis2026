@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T20:02:04.409520Z",
+  "generated_at": "2026-05-10T20:01:25.614358Z",
   "lookback_days": 30,
   "from_utc": "2026-05-04T00:00:00Z",
   "windows": {
@@ -9,7 +9,7 @@
     },
     "night": {
       "from_et": 4.0,
-      "to_et": 20.0,
+      "to_et": 16.0,
       "note": "outside day window"
     }
   },
