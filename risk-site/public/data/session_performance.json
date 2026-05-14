@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T20:20:38.630013Z",
+  "generated_at": "2026-05-14T20:01:27.391155Z",
   "lookback_days": 30,
   "from_utc": "2026-05-04T00:00:00Z",
   "windows": {
@@ -15,40 +15,256 @@
   },
   "summary": {
     "all": {
-      "trades": 270,
-      "wins": 132,
-      "losses": 138,
-      "win_rate_pct": 48.888888888888886,
-      "avg_return_pct": -0.0888155888243521,
+      "trades": 294,
+      "wins": 144,
+      "losses": 150,
+      "win_rate_pct": 48.97959183673469,
+      "avg_return_pct": -0.1093164366288504,
       "median_return_pct": -0.0009712698381855616,
-      "total_pnl_usd": 2030.8301042777384,
-      "profit_factor": 0.8341341827047233
+      "total_pnl_usd": 1836.729624327867,
+      "profit_factor": 0.8028447872648601
     },
     "day": {
-      "trades": 179,
-      "wins": 88,
-      "losses": 91,
-      "win_rate_pct": 49.162011173184354,
-      "avg_return_pct": -0.05243791423039808,
-      "median_return_pct": 0.0,
-      "total_pnl_usd": 3010.664869177735,
-      "profit_factor": 0.8989435358198651
+      "trades": 195,
+      "wins": 95,
+      "losses": 100,
+      "win_rate_pct": 48.717948717948715,
+      "avg_return_pct": -0.08454569415623528,
+      "median_return_pct": -0.0019425396763711232,
+      "total_pnl_usd": 2848.8518892278607,
+      "profit_factor": 0.8426056794777489
     },
     "night": {
-      "trades": 91,
-      "wins": 44,
-      "losses": 47,
-      "win_rate_pct": 48.35164835164835,
-      "avg_return_pct": -0.16037167401465724,
-      "median_return_pct": -0.0991817505579058,
-      "total_pnl_usd": -979.8347648999961,
-      "profit_factor": 0.7176847801402266
+      "trades": 99,
+      "wins": 49,
+      "losses": 50,
+      "win_rate_pct": 49.494949494949495,
+      "avg_return_pct": -0.15810729301430448,
+      "median_return_pct": 0.0,
+      "total_pnl_usd": -1012.1222648999942,
+      "profit_factor": 0.7313682704745453
     },
     "other": {
       "trades": 0
     }
   },
   "recent_trades": [
+    {
+      "ticker": "AMAT",
+      "entry_date_et": "2026-05-14T13:18:25.079346-04:00",
+      "exit_date_utc": "2026-05-14T18:04:54.632957",
+      "session": "DAY",
+      "return_pct": 0.6977531895675679,
+      "pnl_usd": 3.089999999999975,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "KHC",
+      "entry_date_et": "2026-05-14T10:26:40.740934-04:00",
+      "exit_date_utc": "2026-05-14T17:46:34.312184",
+      "session": "DAY",
+      "return_pct": -1.5189873417721496,
+      "pnl_usd": -37.79999999999994,
+      "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
+    },
+    {
+      "ticker": "WIX",
+      "entry_date_et": "2026-05-14T10:37:42.376120-04:00",
+      "exit_date_utc": "2026-05-14T16:32:48.304834",
+      "session": "DAY",
+      "return_pct": -0.7138423339540648,
+      "pnl_usd": -17.63333333333331,
+      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: \u05e1\u05d2\u05d9\u05e8\u05d4 \u05d6\u05d5\u05d4\u05ea\u05d4 \u05d1-IBKR \u05d5\u05de\u05d7\u05d9\u05e8 \u05d4\u05e4\u05d9\u05dc \u05d0\u05d5\u05de\u05ea \u05d1-reqExecutions."
+    },
+    {
+      "ticker": "JBHT",
+      "entry_date_et": "2026-05-14T11:44:07.500092-04:00",
+      "exit_date_utc": "2026-05-14T16:21:28.698547",
+      "session": "DAY",
+      "return_pct": 0.15191492764053086,
+      "pnl_usd": 0.3800000000000239,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "MSFT",
+      "entry_date_et": "2026-05-13T04:52:15.652370-04:00",
+      "exit_date_utc": "2026-05-14T16:03:35.736016",
+      "session": "NIGHT",
+      "return_pct": 0.46153090784112843,
+      "pnl_usd": 22.560000000000628,
+      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: broker had 0 shares at exit time; real SELL fill recovered from reqExecutions (12@$409.2200, t=2026-05-14 16:01:10+00:00)."
+    },
+    {
+      "ticker": "BA",
+      "entry_date_et": "2026-05-14T09:57:15.181131-04:00",
+      "exit_date_utc": "2026-05-14T15:39:35.669653",
+      "session": "DAY",
+      "return_pct": -0.5716496174675424,
+      "pnl_usd": -27.929999999999666,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date_et": "2026-05-14T09:50:32.143868-04:00",
+      "exit_date_utc": "2026-05-14T15:33:41.968409",
+      "session": "DAY",
+      "return_pct": 0.9254465441366858,
+      "pnl_usd": 45.045000000000215,
+      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: \u05e1\u05d2\u05d9\u05e8\u05d4 \u05d6\u05d5\u05d4\u05ea\u05d4 \u05d1-IBKR \u05d5\u05de\u05d7\u05d9\u05e8 \u05d4\u05e4\u05d9\u05dc \u05d0\u05d5\u05de\u05ea \u05d1-reqExecutions."
+    },
+    {
+      "ticker": "PRVA",
+      "entry_date_et": "2026-05-14T10:15:41.610785-04:00",
+      "exit_date_utc": "2026-05-14T15:07:13.459384",
+      "session": "DAY",
+      "return_pct": 1.2570437798006031,
+      "pnl_usd": 2.8999999999999915,
+      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: broker had 0 shares at exit time; real SELL fill recovered from reqExecutions (10@$23.3600, t=2026-05-14 15:02:46+00:00)."
+    },
+    {
+      "ticker": "CVX",
+      "entry_date_et": "2026-05-13T05:29:34.348893-04:00",
+      "exit_date_utc": "2026-05-14T14:47:44.458711",
+      "session": "NIGHT",
+      "return_pct": 0.3459459459459386,
+      "pnl_usd": 17.27999999999963,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "WIX",
+      "entry_date_et": "2026-05-14T10:26:30.812495-04:00",
+      "exit_date_utc": "2026-05-14T14:36:15.655665",
+      "session": "DAY",
+      "return_pct": -1.3952634477694106,
+      "pnl_usd": -34.19999999999991,
+      "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
+    },
+    {
+      "ticker": "COST",
+      "entry_date_et": "2026-05-13T12:28:51.401003-04:00",
+      "exit_date_utc": "2026-05-14T14:26:09.592382",
+      "session": "DAY",
+      "return_pct": 0.533674156316773,
+      "pnl_usd": 21.88000000000011,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "YETI",
+      "entry_date_et": "2026-05-14T10:08:18.613911-04:00",
+      "exit_date_utc": "2026-05-14T14:15:28.530421",
+      "session": "DAY",
+      "return_pct": -2.1158932435681717,
+      "pnl_usd": -8.800000000000026,
+      "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
+    },
+    {
+      "ticker": "ALGT",
+      "entry_date_et": "2026-05-14T10:05:49.470957-04:00",
+      "exit_date_utc": "2026-05-14T14:11:04.998511",
+      "session": "DAY",
+      "return_pct": -1.9014693171996444,
+      "pnl_usd": -7.69999999999996,
+      "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
+    },
+    {
+      "ticker": "CSCO",
+      "entry_date_et": "2026-05-14T09:59:11.470766-04:00",
+      "exit_date_utc": "2026-05-14T14:10:36.525929",
+      "session": "DAY",
+      "return_pct": 0.8640251352766584,
+      "pnl_usd": 42.56999999999978,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "CSCO",
+      "entry_date_et": "2026-05-14T09:56:11.104339-04:00",
+      "exit_date_utc": "2026-05-14T13:57:45.138623",
+      "session": "DAY",
+      "return_pct": -0.4426274125870543,
+      "pnl_usd": -22.188646616541476,
+      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: \u05e1\u05d2\u05d9\u05e8\u05d4 \u05d6\u05d5\u05d4\u05ea\u05d4 \u05d1-IBKR \u05d5\u05de\u05d7\u05d9\u05e8 \u05d4\u05e4\u05d9\u05dc \u05d0\u05d5\u05de\u05ea \u05d1-reqExecutions."
+    },
+    {
+      "ticker": "ALGT",
+      "entry_date_et": "2026-05-14T09:50:06.247462-04:00",
+      "exit_date_utc": "2026-05-14T13:56:19.323674",
+      "session": "DAY",
+      "return_pct": -0.4836909338955731,
+      "pnl_usd": -1.9500000000000028,
+      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: \u05e1\u05d2\u05d9\u05e8\u05d4 \u05d6\u05d5\u05d4\u05ea\u05d4 \u05d1-IBKR \u05d5\u05de\u05d7\u05d9\u05e8 \u05d4\u05e4\u05d9\u05dc \u05d0\u05d5\u05de\u05ea \u05d1-reqExecutions."
+    },
+    {
+      "ticker": "BA",
+      "entry_date_et": "2026-05-14T09:45:27.567050-04:00",
+      "exit_date_utc": "2026-05-14T13:55:55.451089",
+      "session": "DAY",
+      "return_pct": 0.3334272565041927,
+      "pnl_usd": 16.566666666667317,
+      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: broker had 0 shares at exit time; real SELL fill recovered from reqExecutions (81@$237.3889, t=2026-05-14 13:53:56+00:00)."
+    },
+    {
+      "ticker": "CSCO",
+      "entry_date_et": "2026-05-14T09:37:56.458243-04:00",
+      "exit_date_utc": "2026-05-14T13:55:09.432051",
+      "session": "DAY",
+      "return_pct": -2.719885054254022,
+      "pnl_usd": -136.0426666666668,
+      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: broker had 0 shares at exit time; real SELL fill recovered from reqExecutions (90@$115.8509, t=2026-05-14 13:55:02+00:00)."
+    },
+    {
+      "ticker": "NVDA",
+      "entry_date_et": "2026-05-14T07:53:16.069688-04:00",
+      "exit_date_utc": "2026-05-14T13:46:48.244492",
+      "session": "NIGHT",
+      "return_pct": 1.003213758360128,
+      "pnl_usd": 48.510000000000645,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "BA",
+      "entry_date_et": "2026-05-14T09:25:46.846852-04:00",
+      "exit_date_utc": "2026-05-14T13:42:31.942758",
+      "session": "NIGHT",
+      "return_pct": -2.3058053965658165,
+      "pnl_usd": -112.79999999999973,
+      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: broker had 0 shares at exit time; real SELL fill recovered from reqExecutions (60@$238.9600, t=2026-05-14 13:38:12+00:00)."
+    },
+    {
+      "ticker": "AVGO",
+      "entry_date_et": "2026-05-14T07:53:37.563991-04:00",
+      "exit_date_utc": "2026-05-14T13:41:44.320609",
+      "session": "NIGHT",
+      "return_pct": 3.1868395773295144,
+      "pnl_usd": 159.24000000000115,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "CSCO",
+      "entry_date_et": "2026-05-14T09:25:36.262162-04:00",
+      "exit_date_utc": "2026-05-14T13:34:35.252109",
+      "session": "NIGHT",
+      "return_pct": -2.5683579985905642,
+      "pnl_usd": -127.55750000000037,
+      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: broker had 0 shares at exit time; real SELL fill recovered from reqExecutions (48@$115.2129, t=2026-05-14 13:30:35+00:00)."
+    },
+    {
+      "ticker": "MU",
+      "entry_date_et": "2026-05-14T07:53:04.583513-04:00",
+      "exit_date_utc": "2026-05-14T13:33:01.043051",
+      "session": "NIGHT",
+      "return_pct": -1.7004332473516868,
+      "pnl_usd": -40.74000000000012,
+      "exit_reason": "BROKER_SIGN_MISMATCH: broker side was SHORT; flattened by safety repair"
+    },
+    {
+      "ticker": "CSCO",
+      "entry_date_et": "2026-05-14T07:37:25.386458-04:00",
+      "exit_date_utc": "2026-05-14T13:19:25.310915",
+      "session": "NIGHT",
+      "return_pct": 0.5182667799490224,
+      "pnl_usd": 1.2199999999999989,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
     {
       "ticker": "BABA",
       "entry_date_et": "2026-05-13T11:57:05.898931-04:00",
@@ -57,222 +273,6 @@
       "return_pct": 1.9901189896318874,
       "pnl_usd": 14.299999999999926,
       "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "MRVL",
-      "entry_date_et": "2026-05-13T14:02:23.102865-04:00",
-      "exit_date_utc": "2026-05-13T19:39:01.319637",
-      "session": "DAY",
-      "return_pct": -0.15704037873739887,
-      "pnl_usd": -0.5600059999999871,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "S",
-      "entry_date_et": "2026-05-13T13:56:48.198493-04:00",
-      "exit_date_utc": "2026-05-13T19:39:01.319637",
-      "session": "DAY",
-      "return_pct": 1.9595448798988655,
-      "pnl_usd": 14.570000000000023,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "NEE",
-      "entry_date_et": "2026-05-13T12:11:23.138411-04:00",
-      "exit_date_utc": "2026-05-13T19:39:01.319637",
-      "session": "DAY",
-      "return_pct": 0.28430030535958306,
-      "pnl_usd": 1.8899999999999721,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "EQNR",
-      "entry_date_et": "2026-05-13T12:08:04.573725-04:00",
-      "exit_date_utc": "2026-05-13T19:39:01.319637",
-      "session": "DAY",
-      "return_pct": -0.02621919244886736,
-      "pnl_usd": -0.1899999999999622,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "TGT",
-      "entry_date_et": "2026-05-13T08:11:30.001821-04:00",
-      "exit_date_utc": "2026-05-13T19:39:01.319637",
-      "session": "NIGHT",
-      "return_pct": 0.239887501034003,
-      "pnl_usd": 0.8700000000000188,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "BP",
-      "entry_date_et": "2026-05-13T12:00:51.117893-04:00",
-      "exit_date_utc": "2026-05-13T19:39:01.319637",
-      "session": "DAY",
-      "return_pct": -0.09062075215224093,
-      "pnl_usd": -0.6399999999999864,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "TXRH",
-      "entry_date_et": "2026-05-13T11:59:21.803352-04:00",
-      "exit_date_utc": "2026-05-13T19:39:01.319637",
-      "session": "DAY",
-      "return_pct": 0.033588982813638396,
-      "pnl_usd": 0.12000000000000455,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "AKAM",
-      "entry_date_et": "2026-05-13T14:01:38.529627-04:00",
-      "exit_date_utc": "2026-05-13T19:39:01.319637",
-      "session": "DAY",
-      "return_pct": 3.6901532832902255,
-      "pnl_usd": 23.399999999999977,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "AMAT",
-      "entry_date_et": "2026-05-13T12:16:44.724757-04:00",
-      "exit_date_utc": "2026-05-13T19:25:03.064890",
-      "session": "DAY",
-      "return_pct": 1.4809492908130124,
-      "pnl_usd": 6.389999999999986,
-      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: broker had 0 shares at exit time; real SELL fill recovered from reqExecutions (1@$437.8700, t=2026-05-13 19:18:45+00:00)."
-    },
-    {
-      "ticker": "AAPL",
-      "entry_date_et": "2026-05-13T04:01:19.191253-04:00",
-      "exit_date_utc": "2026-05-13T19:22:37.923413",
-      "session": "NIGHT",
-      "return_pct": 1.448931116389562,
-      "pnl_usd": 68.32000000000062,
-      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: broker had 0 shares at exit time; real SELL fill recovered from reqExecutions (16@$298.9700, t=2026-05-13 19:15:26+00:00)."
-    },
-    {
-      "ticker": "ADNT",
-      "entry_date_et": "2026-05-13T12:11:02.821288-04:00",
-      "exit_date_utc": "2026-05-13T18:38:12.118066",
-      "session": "DAY",
-      "return_pct": -1.6143497757847507,
-      "pnl_usd": -11.879999999999981,
-      "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
-    },
-    {
-      "ticker": "TSM",
-      "entry_date_et": "2026-05-13T11:55:51.005688-04:00",
-      "exit_date_utc": "2026-05-13T18:37:45.671050",
-      "session": "DAY",
-      "return_pct": 1.0461724172618512,
-      "pnl_usd": 4.160000000000025,
-      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
-    },
-    {
-      "ticker": "JPM",
-      "entry_date_et": "2026-05-12T13:35:04.305986-04:00",
-      "exit_date_utc": "2026-05-13T18:28:20.063375",
-      "session": "DAY",
-      "return_pct": -1.5533853313233301,
-      "pnl_usd": -75.84000000000015,
-      "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
-    },
-    {
-      "ticker": "QSR",
-      "entry_date_et": "2026-05-13T12:10:17.118582-04:00",
-      "exit_date_utc": "2026-05-13T18:24:34.612943",
-      "session": "DAY",
-      "return_pct": -1.580773679475651,
-      "pnl_usd": -11.070000000000036,
-      "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
-    },
-    {
-      "ticker": "META",
-      "entry_date_et": "2026-05-13T04:51:54.857726-04:00",
-      "exit_date_utc": "2026-05-13T17:29:19.933475",
-      "session": "NIGHT",
-      "return_pct": 1.8710019555202146,
-      "pnl_usd": 90.32000000000062,
-      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: broker had 0 shares at exit time; real SELL fill recovered from reqExecutions (8@$614.7100, t=2026-05-13 17:21:59+00:00)."
-    },
-    {
-      "ticker": "NXT",
-      "entry_date_et": "2026-05-13T12:02:30.287781-04:00",
-      "exit_date_utc": "2026-05-13T17:17:37.523944",
-      "session": "DAY",
-      "return_pct": -2.966711811248133,
-      "pnl_usd": -8.324000000000012,
-      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: broker had 0 shares at exit time; real SELL fill recovered from reqExecutions (10@$136.1280, t=2026-05-13 16:54:50+00:00)."
-    },
-    {
-      "ticker": "NBIS",
-      "entry_date_et": "2026-05-13T12:03:11.514418-04:00",
-      "exit_date_utc": "2026-05-13T16:38:23.159975",
-      "session": "DAY",
-      "return_pct": 1.9419826625986687,
-      "pnl_usd": 12.029999999999973,
-      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: \u05e1\u05d2\u05d9\u05e8\u05d4 \u05d6\u05d5\u05d4\u05ea\u05d4 \u05d1-IBKR \u05d5\u05de\u05d7\u05d9\u05e8 \u05d4\u05e4\u05d9\u05dc \u05d0\u05d5\u05de\u05ea \u05d1-reqExecutions."
-    },
-    {
-      "ticker": "ZS",
-      "entry_date_et": "2026-05-13T10:00:33.474822-04:00",
-      "exit_date_utc": "2026-05-13T16:12:13.790083",
-      "session": "DAY",
-      "return_pct": 0.6675383662514616,
-      "pnl_usd": 16.48999999999998,
-      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: \u05e1\u05d2\u05d9\u05e8\u05d4 \u05d6\u05d5\u05d4\u05ea\u05d4 \u05d1-IBKR \u05d5\u05de\u05d7\u05d9\u05e8 \u05d4\u05e4\u05d9\u05dc \u05d0\u05d5\u05de\u05ea \u05d1-reqExecutions."
-    },
-    {
-      "ticker": "PG",
-      "entry_date_et": "2026-05-13T05:16:01.027889-04:00",
-      "exit_date_utc": "2026-05-13T15:46:43.471409",
-      "session": "NIGHT",
-      "return_pct": -1.4831242636357242,
-      "pnl_usd": -2.1399999999999864,
-      "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
-    },
-    {
-      "ticker": "WMT",
-      "entry_date_et": "2026-05-12T13:38:07.040702-04:00",
-      "exit_date_utc": "2026-05-13T15:12:49.645888",
-      "session": "DAY",
-      "return_pct": -0.16108000306819664,
-      "pnl_usd": -7.980000000000302,
-      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: broker had 0 shares at exit time; real SELL fill recovered from reqExecutions (38@$130.1600, t=2026-05-13 14:56:18+00:00)."
-    },
-    {
-      "ticker": "GOOGL",
-      "entry_date_et": "2026-05-13T04:52:05.337178-04:00",
-      "exit_date_utc": "2026-05-13T15:07:32.935103",
-      "session": "NIGHT",
-      "return_pct": 2.1623711340206295,
-      "pnl_usd": 100.68000000000052,
-      "exit_reason": "IBKR_EXECUTED_CLOSE_VERIFIED: \u05e1\u05d2\u05d9\u05e8\u05d4 \u05d6\u05d5\u05d4\u05ea\u05d4 \u05d1-IBKR \u05d5\u05de\u05d7\u05d9\u05e8 \u05d4\u05e4\u05d9\u05dc \u05d0\u05d5\u05de\u05ea \u05d1-reqExecutions."
-    },
-    {
-      "ticker": "PANW",
-      "entry_date_et": "2026-05-12T13:35:54.256998-04:00",
-      "exit_date_utc": "2026-05-13T14:04:08.378109",
-      "session": "DAY",
-      "return_pct": 0.6698920729438025,
-      "pnl_usd": 15.839999999999975,
-      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
-    },
-    {
-      "ticker": "INTC",
-      "entry_date_et": "2026-05-13T08:46:02.247055-04:00",
-      "exit_date_utc": "2026-05-13T13:37:51.187545",
-      "session": "NIGHT",
-      "return_pct": -2.293762575452712,
-      "pnl_usd": -113.99999999999977,
-      "exit_reason": "BROKER_SIGN_MISMATCH: broker side was SHORT; flattened by safety repair"
-    },
-    {
-      "ticker": "MU",
-      "entry_date_et": "2026-05-13T08:39:38.451770-04:00",
-      "exit_date_utc": "2026-05-13T12:57:47.046687",
-      "session": "NIGHT",
-      "return_pct": -0.125,
-      "pnl_usd": -3.0,
-      "exit_reason": "STOP_LOSS: \ud83d\udee1\ufe0f \u05e1\u05d8\u05d5\u05e4 \u05dc\u05d5\u05e1 \u05e7\u05e9\u05d9\u05d7: \u05d4\u05de\u05d7\u05d9\u05e8 \u05d9\u05e8\u05d3 2% \u05de\u05de\u05d7\u05d9\u05e8 \u05d4\u05db\u05e0\u05d9\u05e1\u05d4."
     }
   ]
 }
