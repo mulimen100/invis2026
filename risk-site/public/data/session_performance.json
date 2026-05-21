@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T20:01:30.471412Z",
+  "generated_at": "2026-05-21T20:01:05.822155Z",
   "lookback_days": 30,
   "from_utc": "2026-05-04T00:00:00Z",
   "windows": {
@@ -15,34 +15,34 @@
   },
   "summary": {
     "all": {
-      "trades": 407,
-      "wins": 198,
-      "losses": 209,
-      "win_rate_pct": 48.64864864864865,
-      "avg_return_pct": -0.2612538867276214,
-      "median_return_pct": -0.03224766204450681,
-      "total_pnl_usd": 858.8587785969114,
-      "profit_factor": 0.6316876002631845
+      "trades": 449,
+      "wins": 228,
+      "losses": 221,
+      "win_rate_pct": 50.779510022271715,
+      "avg_return_pct": -0.2164003961601063,
+      "median_return_pct": 0.05054334091484237,
+      "total_pnl_usd": 612.3886795969111,
+      "profit_factor": 0.6870745403159438
     },
     "day": {
-      "trades": 266,
-      "wins": 132,
-      "losses": 134,
-      "win_rate_pct": 49.62406015037594,
-      "avg_return_pct": -0.19685378183557578,
-      "median_return_pct": 0.0,
-      "total_pnl_usd": 2439.252744496909,
-      "profit_factor": 0.6985997887024109
+      "trades": 295,
+      "wins": 154,
+      "losses": 141,
+      "win_rate_pct": 52.20338983050847,
+      "avg_return_pct": -0.1438551901261403,
+      "median_return_pct": 0.09121150338019955,
+      "total_pnl_usd": 2403.002645496908,
+      "profit_factor": 0.7737266453441485
     },
     "night": {
-      "trades": 140,
-      "wins": 66,
-      "losses": 74,
-      "win_rate_pct": 47.14285714285714,
-      "avg_return_pct": -0.3568914301237549,
-      "median_return_pct": -0.11628271781999902,
-      "total_pnl_usd": -1571.1539658999986,
-      "profit_factor": 0.549707662301404
+      "trades": 153,
+      "wins": 74,
+      "losses": 79,
+      "win_rate_pct": 48.36601307189542,
+      "avg_return_pct": -0.3315298763145313,
+      "median_return_pct": -0.07471980074720083,
+      "total_pnl_usd": -1781.373965899998,
+      "profit_factor": 0.5735688150735955
     },
     "other": {
       "trades": 1,
@@ -57,228 +57,228 @@
   },
   "recent_trades": [
     {
-      "ticker": "BABA",
-      "entry_date_et": "2026-05-20T10:38:41.784440-04:00",
-      "exit_date_utc": "2026-05-20T19:31:16.965901",
+      "ticker": "RTX",
+      "entry_date_et": "2026-05-20T13:57:22.907400-04:00",
+      "exit_date_utc": "2026-05-21T19:59:59.241240",
       "session": "DAY",
-      "return_pct": 0.4324163125326269,
-      "pnl_usd": 2.9000000000000625,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "ZTO",
-      "entry_date_et": "2026-05-20T12:51:32.959350-04:00",
-      "exit_date_utc": "2026-05-20T19:31:16.965901",
-      "session": "DAY",
-      "return_pct": 0.08691873098652574,
-      "pnl_usd": 0.6399999999999864,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "JXN",
-      "entry_date_et": "2026-05-20T12:03:02.473570-04:00",
-      "exit_date_utc": "2026-05-20T19:31:16.965901",
-      "session": "DAY",
-      "return_pct": -0.06324539212143783,
-      "pnl_usd": -0.28000000000002956,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "AI",
-      "entry_date_et": "2026-05-20T12:08:30.582232-04:00",
-      "exit_date_utc": "2026-05-20T19:31:16.965901",
-      "session": "DAY",
-      "return_pct": 0.2173913043478408,
-      "pnl_usd": 1.6200000000001094,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "AIG",
-      "entry_date_et": "2026-05-20T12:07:54.563423-04:00",
-      "exit_date_utc": "2026-05-20T19:31:16.965901",
-      "session": "DAY",
-      "return_pct": 0.1534526854219825,
-      "pnl_usd": 1.079999999999913,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "AMAT",
-      "entry_date_et": "2026-05-20T12:07:22.077348-04:00",
-      "exit_date_utc": "2026-05-20T19:31:16.965901",
-      "session": "DAY",
-      "return_pct": -0.5008190966534019,
-      "pnl_usd": -2.1399999999999864,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "MRVL",
-      "entry_date_et": "2026-05-20T13:27:02.992547-04:00",
-      "exit_date_utc": "2026-05-20T19:31:16.965901",
-      "session": "DAY",
-      "return_pct": 1.200564971751401,
-      "pnl_usd": 11.049999999999898,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "OMC",
-      "entry_date_et": "2026-05-20T12:49:08.773398-04:00",
-      "exit_date_utc": "2026-05-20T19:31:16.965901",
-      "session": "DAY",
-      "return_pct": 0.5584252408208931,
-      "pnl_usd": 2.0000000000000284,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "LOW",
-      "entry_date_et": "2026-05-20T12:48:35.931846-04:00",
-      "exit_date_utc": "2026-05-20T19:31:16.965901",
-      "session": "DAY",
-      "return_pct": 0.48313582497721164,
-      "pnl_usd": 1.0600000000000023,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "TTE",
-      "entry_date_et": "2026-05-20T11:59:37.254634-04:00",
-      "exit_date_utc": "2026-05-20T19:31:16.965901",
-      "session": "DAY",
-      "return_pct": 0.08647713760674337,
-      "pnl_usd": 0.3199999999999932,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "DT",
-      "entry_date_et": "2026-05-20T12:09:34.657129-04:00",
-      "exit_date_utc": "2026-05-20T19:31:16.965901",
-      "session": "DAY",
-      "return_pct": 0.05054334091484237,
-      "pnl_usd": 0.2200000000000344,
-      "exit_reason": "DAILY_FLAT_LIQUIDATION: Daily Overnight Risk Defense [PARALLEL]: auto-liquidate 30 min before US close."
-    },
-    {
-      "ticker": "LTM",
-      "entry_date_et": "2026-05-20T12:02:32.723523-04:00",
-      "exit_date_utc": "2026-05-20T19:11:40.988965",
-      "session": "DAY",
-      "return_pct": 0.9076240419524059,
-      "pnl_usd": 6.750000000000043,
+      "return_pct": 0.5772418128822032,
+      "pnl_usd": 28.279999999999745,
       "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
     },
     {
-      "ticker": "CVNA",
-      "entry_date_et": "2026-05-20T12:49:28.439233-04:00",
-      "exit_date_utc": "2026-05-20T19:10:10.632407",
+      "ticker": "STX",
+      "entry_date_et": "2026-05-21T13:14:29.798420-04:00",
+      "exit_date_utc": "2026-05-21T19:46:52.141160",
       "session": "DAY",
-      "return_pct": -1.5377657168701886,
-      "pnl_usd": -11.219999999999956,
-      "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
+      "return_pct": 1.256262430452408,
+      "pnl_usd": 29.940000000000055,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
     },
     {
-      "ticker": "MSFT",
-      "entry_date_et": "2026-05-20T04:51:06.802403-04:00",
-      "exit_date_utc": "2026-05-20T18:12:29.361588",
+      "ticker": "AAPL",
+      "entry_date_et": "2026-05-21T04:09:57.020191-04:00",
+      "exit_date_utc": "2026-05-21T19:31:50.783896",
       "session": "NIGHT",
-      "return_pct": 0.5400216008640346,
-      "pnl_usd": 27.0,
+      "return_pct": 1.478208875896887,
+      "pnl_usd": 4.449999999999989,
+      "exit_reason": "DAILY_FLAT_LIQUIDATION: \ud83c\udf19 \u05e1\u05d5\u05e3 \u05d9\u05d5\u05dd \u05de\u05e1\u05d7\u05e8: \u05d7\u05d9\u05e1\u05d5\u05dc \u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4 30 \u05d3\u05e7\u05d5\u05ea \u05dc\u05e4\u05e0\u05d9 \u05d4\u05e0\u05e2\u05d9\u05dc\u05d4 \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05de\u05e0\u05e2 \u05de\u05d7\u05e9\u05d9\u05e4\u05d4 \u05dc\u05dc\u05d9\u05dc\u05d4."
+    },
+    {
+      "ticker": "GOOGL",
+      "entry_date_et": "2026-05-21T04:07:32.041654-04:00",
+      "exit_date_utc": "2026-05-21T19:31:38.276009",
+      "session": "NIGHT",
+      "return_pct": -0.06427891908569666,
+      "pnl_usd": -0.25,
+      "exit_reason": "DAILY_FLAT_LIQUIDATION: \ud83c\udf19 \u05e1\u05d5\u05e3 \u05d9\u05d5\u05dd \u05de\u05e1\u05d7\u05e8: \u05d7\u05d9\u05e1\u05d5\u05dc \u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4 30 \u05d3\u05e7\u05d5\u05ea \u05dc\u05e4\u05e0\u05d9 \u05d4\u05e0\u05e2\u05d9\u05dc\u05d4 \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05de\u05e0\u05e2 \u05de\u05d7\u05e9\u05d9\u05e4\u05d4 \u05dc\u05dc\u05d9\u05dc\u05d4."
+    },
+    {
+      "ticker": "UNP",
+      "entry_date_et": "2026-05-21T12:59:04.210413-04:00",
+      "exit_date_utc": "2026-05-21T19:31:26.317456",
+      "session": "DAY",
+      "return_pct": 0.09812801932368952,
+      "pnl_usd": 0.26000000000004775,
+      "exit_reason": "DAILY_FLAT_LIQUIDATION: \ud83c\udf19 \u05e1\u05d5\u05e3 \u05d9\u05d5\u05dd \u05de\u05e1\u05d7\u05e8: \u05d7\u05d9\u05e1\u05d5\u05dc \u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4 30 \u05d3\u05e7\u05d5\u05ea \u05dc\u05e4\u05e0\u05d9 \u05d4\u05e0\u05e2\u05d9\u05dc\u05d4 \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05de\u05e0\u05e2 \u05de\u05d7\u05e9\u05d9\u05e4\u05d4 \u05dc\u05dc\u05d9\u05dc\u05d4."
+    },
+    {
+      "ticker": "NEE",
+      "entry_date_et": "2026-05-21T11:23:58.046833-04:00",
+      "exit_date_utc": "2026-05-21T19:30:51.491788",
+      "session": "DAY",
+      "return_pct": 0.35955056179774514,
+      "pnl_usd": 1.599999999999966,
+      "exit_reason": "DAILY_FLAT_LIQUIDATION: \ud83c\udf19 \u05e1\u05d5\u05e3 \u05d9\u05d5\u05dd \u05de\u05e1\u05d7\u05e8: \u05d7\u05d9\u05e1\u05d5\u05dc \u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4 30 \u05d3\u05e7\u05d5\u05ea \u05dc\u05e4\u05e0\u05d9 \u05d4\u05e0\u05e2\u05d9\u05dc\u05d4 \u05db\u05d3\u05d9 \u05dc\u05d4\u05d9\u05de\u05e0\u05e2 \u05de\u05d7\u05e9\u05d9\u05e4\u05d4 \u05dc\u05dc\u05d9\u05dc\u05d4."
+    },
+    {
+      "ticker": "LI",
+      "entry_date_et": "2026-05-21T09:42:23.572978-04:00",
+      "exit_date_utc": "2026-05-21T18:59:14.684219",
+      "session": "DAY",
+      "return_pct": 1.4357053682896406,
+      "pnl_usd": 6.440000000000012,
       "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
     },
     {
-      "ticker": "XOM",
-      "entry_date_et": "2026-05-20T13:04:42.087462-04:00",
-      "exit_date_utc": "2026-05-20T18:06:25.430476",
+      "ticker": "NBIS",
+      "entry_date_et": "2026-05-21T12:49:46.628982-04:00",
+      "exit_date_utc": "2026-05-21T18:50:08.359536",
       "session": "DAY",
-      "return_pct": -0.5366839247379683,
-      "pnl_usd": -26.349999999999824,
-      "exit_reason": "THESIS_BREAK: \u05e9\u05d1\u05d9\u05e8\u05ea \u05ea\u05d6\u05d4: \u05e6\u05d9\u05d5\u05df \u05d4\u05d7\u05d3\u05e9\u05d5\u05ea \u05d9\u05e8\u05d3 \u05de\u05ea\u05d7\u05ea \u05dc-40."
+      "return_pct": -1.4724969789195812,
+      "pnl_usd": -6.580000000000041,
+      "exit_reason": "IBKR_EXECUTED_CLOSE: \u05d6\u05d5\u05d4\u05ea\u05d4 \u05e1\u05d2\u05d9\u05e8\u05d4 \u05e7\u05d9\u05d9\u05de\u05ea \u05d1-IBKR (Stop/Bracket \u05d0\u05d5 \u05d9\u05d3\u05e0\u05d9) \u05d1\u05e9\u05e0\u05d9 \u05de\u05d7\u05d6\u05d5\u05e8\u05d9\u05dd \u05e8\u05e6\u05d5\u05e4\u05d9\u05dd."
     },
     {
-      "ticker": "FANG",
-      "entry_date_et": "2026-05-20T13:40:15.488382-04:00",
-      "exit_date_utc": "2026-05-20T18:00:30.431329",
+      "ticker": "COLD",
+      "entry_date_et": "2026-05-21T10:45:06.500785-04:00",
+      "exit_date_utc": "2026-05-21T18:43:51.478030",
       "session": "DAY",
-      "return_pct": -0.5379762312319628,
-      "pnl_usd": -4.399999999999977,
-      "exit_reason": "THESIS_BREAK: \u05e9\u05d1\u05d9\u05e8\u05ea \u05ea\u05d6\u05d4: \u05e6\u05d9\u05d5\u05df \u05d4\u05d7\u05d3\u05e9\u05d5\u05ea \u05d9\u05e8\u05d3 \u05de\u05ea\u05d7\u05ea \u05dc-40."
-    },
-    {
-      "ticker": "FANG",
-      "entry_date_et": "2026-05-20T12:08:11.162265-04:00",
-      "exit_date_utc": "2026-05-20T17:23:10.467247",
-      "session": "DAY",
-      "return_pct": -0.41912373897361316,
-      "pnl_usd": -2.5799999999998704,
-      "exit_reason": "THESIS_BREAK: \u05e9\u05d1\u05d9\u05e8\u05ea \u05ea\u05d6\u05d4: \u05e6\u05d9\u05d5\u05df \u05d4\u05d7\u05d3\u05e9\u05d5\u05ea \u05d9\u05e8\u05d3 \u05de\u05ea\u05d7\u05ea \u05dc-40."
-    },
-    {
-      "ticker": "C",
-      "entry_date_et": "2026-05-19T13:56:44.420018-04:00",
-      "exit_date_utc": "2026-05-20T16:37:13.245639",
-      "session": "DAY",
-      "return_pct": 2.9601455267074566,
-      "pnl_usd": 71.59999999999997,
+      "return_pct": 0.7660167130919304,
+      "pnl_usd": 3.4100000000000374,
       "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
     },
     {
-      "ticker": "QSR",
-      "entry_date_et": "2026-05-20T10:38:22.505152-04:00",
-      "exit_date_utc": "2026-05-20T16:32:39.411646",
+      "ticker": "TSLA",
+      "entry_date_et": "2026-05-21T11:49:38.622828-04:00",
+      "exit_date_utc": "2026-05-21T18:16:51.144627",
       "session": "DAY",
-      "return_pct": 0.8583124257229519,
-      "pnl_usd": 5.849999999999923,
+      "return_pct": 0.8263670986131377,
+      "pnl_usd": 37.949999999999875,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "UBER",
+      "entry_date_et": "2026-05-21T10:58:42.078740-04:00",
+      "exit_date_utc": "2026-05-21T18:15:44.391851",
+      "session": "DAY",
+      "return_pct": 1.227575676004104,
+      "pnl_usd": 29.689900999999978,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "SMCI",
+      "entry_date_et": "2026-05-21T11:49:48.802836-04:00",
+      "exit_date_utc": "2026-05-21T18:08:16.746836",
+      "session": "DAY",
+      "return_pct": 1.0116492949111142,
+      "pnl_usd": 25.08000000000041,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "GE",
+      "entry_date_et": "2026-05-20T13:57:02.207307-04:00",
+      "exit_date_utc": "2026-05-21T18:07:19.241331",
+      "session": "DAY",
+      "return_pct": 0.6226358249924536,
+      "pnl_usd": 29.75999999999931,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "ORCL",
+      "entry_date_et": "2026-05-21T11:49:27.814119-04:00",
+      "exit_date_utc": "2026-05-21T18:02:49.333579",
+      "session": "DAY",
+      "return_pct": 0.9215376513954712,
+      "pnl_usd": 45.5,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "BMRN",
+      "entry_date_et": "2026-05-21T10:38:21.645313-04:00",
+      "exit_date_utc": "2026-05-21T17:40:52.400044",
+      "session": "DAY",
+      "return_pct": 2.2113022113022147,
+      "pnl_usd": 9.360000000000014,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "DE",
+      "entry_date_et": "2026-05-21T11:49:58.815032-04:00",
+      "exit_date_utc": "2026-05-21T16:58:00.281748",
+      "session": "DAY",
+      "return_pct": 1.6899182981347274,
+      "pnl_usd": 35.07999999999993,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "ALAB",
+      "entry_date_et": "2026-05-21T10:38:55.472056-04:00",
+      "exit_date_utc": "2026-05-21T16:39:38.242209",
+      "session": "DAY",
+      "return_pct": 0.21643534423526023,
+      "pnl_usd": 0.6299999999999955,
       "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
     },
     {
       "ticker": "AMZN",
-      "entry_date_et": "2026-05-20T04:22:44.908878-04:00",
-      "exit_date_utc": "2026-05-20T16:18:22.417072",
+      "entry_date_et": "2026-05-21T06:49:34.447249-04:00",
+      "exit_date_utc": "2026-05-21T15:57:52.894867",
       "session": "NIGHT",
-      "return_pct": 1.7583095550242935,
-      "pnl_usd": 86.64000000000004,
-      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+      "return_pct": 0.1244015531345576,
+      "pnl_usd": 5.940000000000737,
+      "exit_reason": "THESIS_BREAK: \u05e9\u05d1\u05d9\u05e8\u05ea \u05ea\u05d6\u05d4: \u05e6\u05d9\u05d5\u05df \u05d4\u05d7\u05d3\u05e9\u05d5\u05ea \u05d9\u05e8\u05d3 \u05de\u05ea\u05d7\u05ea \u05dc-40."
     },
     {
-      "ticker": "BA",
-      "entry_date_et": "2026-05-20T04:30:26.004072-04:00",
-      "exit_date_utc": "2026-05-20T16:16:23.278019",
-      "session": "NIGHT",
-      "return_pct": 2.662037037037037,
-      "pnl_usd": 11.5,
-      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+      "ticker": "BOOT",
+      "entry_date_et": "2026-05-21T10:46:06.926115-04:00",
+      "exit_date_utc": "2026-05-21T15:36:15.466624",
+      "session": "DAY",
+      "return_pct": -1.7028935345424392,
+      "pnl_usd": -2.460000000000008,
+      "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
     },
     {
-      "ticker": "CVX",
-      "entry_date_et": "2026-05-20T04:29:40.579772-04:00",
-      "exit_date_utc": "2026-05-20T16:07:57.233742",
-      "session": "NIGHT",
-      "return_pct": -1.5470737913485963,
-      "pnl_usd": -6.079999999999984,
+      "ticker": "YOU",
+      "entry_date_et": "2026-05-21T10:43:48.977061-04:00",
+      "exit_date_utc": "2026-05-21T15:27:53.222223",
+      "session": "DAY",
+      "return_pct": -1.6932595245848243,
+      "pnl_usd": -7.279999999999994,
       "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
     },
     {
       "ticker": "AVGO",
-      "entry_date_et": "2026-05-20T04:31:13.199115-04:00",
-      "exit_date_utc": "2026-05-20T15:55:02.841658",
+      "entry_date_et": "2026-05-21T04:29:34.327757-04:00",
+      "exit_date_utc": "2026-05-21T15:05:15.736755",
       "session": "NIGHT",
-      "return_pct": 1.168831168831172,
-      "pnl_usd": 4.860000000000014,
+      "return_pct": -1.5051202667301724,
+      "pnl_usd": -69.51999999999992,
+      "exit_reason": "STOP_LOSS_PRE_DPT_TIGHT: \u05d9\u05e6\u05d9\u05d0\u05d4 \u05de\u05d4\u05e4\u05d5\u05d6\u05d9\u05e6\u05d9\u05d4."
+    },
+    {
+      "ticker": "HLF",
+      "entry_date_et": "2026-05-21T09:44:33.109591-04:00",
+      "exit_date_utc": "2026-05-21T14:16:38.253584",
+      "session": "DAY",
+      "return_pct": 0.3244120032441131,
+      "pnl_usd": 0.799999999999983,
       "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
     },
     {
-      "ticker": "FIS",
-      "entry_date_et": "2026-05-20T09:34:28.830859-04:00",
-      "exit_date_utc": "2026-05-20T15:51:29.341048",
+      "ticker": "RDDT",
+      "entry_date_et": "2026-05-21T09:42:00.896695-04:00",
+      "exit_date_utc": "2026-05-21T14:16:14.877761",
       "session": "DAY",
-      "return_pct": 0.4221388367729824,
-      "pnl_usd": 10.439999999999984,
+      "return_pct": 2.0879120879120827,
+      "pnl_usd": 3.039999999999992,
       "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
     },
     {
-      "ticker": "ARM",
-      "entry_date_et": "2026-05-20T09:47:26.769137-04:00",
-      "exit_date_utc": "2026-05-20T15:49:56.324608",
+      "ticker": "IBM",
+      "entry_date_et": "2026-05-21T09:43:54.794697-04:00",
+      "exit_date_utc": "2026-05-21T14:08:38.235719",
       "session": "DAY",
-      "return_pct": 3.510676800579077,
-      "pnl_usd": 8.72999999999999,
+      "return_pct": 1.5584193175493493,
+      "pnl_usd": 3.640000000000015,
+      "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
+    },
+    {
+      "ticker": "GLW",
+      "entry_date_et": "2026-05-21T09:47:09.481886-04:00",
+      "exit_date_utc": "2026-05-21T14:07:02.607403",
+      "session": "DAY",
+      "return_pct": 2.117033981109546,
+      "pnl_usd": 7.800000000000011,
       "exit_reason": "DYNAMIC_TAKE_PROFIT: \u05de\u05d9\u05de\u05d5\u05e9 \u05e8\u05d5\u05d5\u05d7 \u05d3\u05d9\u05e0\u05de\u05d9: \u05e0\u05e2\u05d9\u05dc\u05d4 \u05d4\u05d5\u05e4\u05e2\u05dc\u05d4 \u05dc\u05d0\u05d7\u05e8 \u05e2\u05dc\u05d9\u05d9\u05d4 \u05e9\u05dc 1.00% \u05d5\u05d9\u05e6\u05d9\u05d0\u05d4 \u05d1\u05d9\u05e8\u05d9\u05d3\u05d4 \u05e9\u05dc 0.50% \u05de\u05d4\u05e9\u05d9\u05d0."
     }
   ]
